@@ -1,0 +1,78 @@
+.paragraph--frete {
+    max-width: 1250px;
+padding-left:123px;
+top: 8px;
+left: 334px;
+width: 440px;
+height: 15px;
+font: normal normal 600 11px/15px arial;
+letter-spacing: 0px;
+color: #b1b3b3;
+opacity: 1;
+}
+.paragraph--representante{
+    max-width: 1250px;
+    padding-left: 275px;
+    top: 8px;
+    left: 334px;
+    height: 10px;
+    font: normal normal 600 11px/15px arial;
+    letter-spacing: 0px;
+    color: #B1B3B3;
+    opacity: 1;
+}
+
+.paragraph--atendimento{
+    max-width: 1250px;
+    text-align: left;
+    text-decoration: underline;
+    color: #25282a;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-right: -37px;
+    padding-right: 80px; ;
+}
+.wrapper--representante{
+    max-width: 1250px;
+    text-transform: uppercase;
+}
+.paragraph--deals-1{
+    margin-left: 10px;
+    font-size: 12px;
+    text-align: left;
+    color: #25282a;
+    text-transform: uppercase;
+}
+.paragraph--deals-2{
+    margin-left: 10px;
+    font-size: 12px;
+    text-align: left;
+    color: #25282a;
+    text-transform: uppercase;
+        }
+        .paragraph--deals-3{
+            margin-top: 14px;
+            margin-left: 10px;
+            font-size: 12px;
+            text-align: left;
+            color: #25282a;
+            text-transform: uppercase;
+            }
+        .paragraph--deals-4{
+            margin-top: 14px;
+            margin-left: 10px;
+            font-size: 12px;
+            text-align: left;
+            color: #25282a;
+            text-transform: uppercase;
+            }
+            .notificacao-bar-mobile{
+                background-color: black;
+                text-align: left;
+                 font: normal normal 600 12px/17px arial;
+                  letter-spacing: 0px;
+                  color: #B1B3B3;
+                      opacity: 1;
+            }

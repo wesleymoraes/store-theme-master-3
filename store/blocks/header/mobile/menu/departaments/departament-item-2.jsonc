@@ -1,0 +1,27 @@
+{
+    "menu-item#departament-2-mobile": {
+        "title":"Item 2 do menu - mobile",
+        "props": {
+            "blockClass": "menu-items-desktop",
+            "id": "departament-2",
+            "type": "custom",
+            "highlight": false,
+            "iconProps": {
+                "id": "nav-caret--down",
+                "size": 12,
+                "activeClassName": "black"
+            },
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Departamento 2",
+                "text": "Departamento 2",
+                "iconPosition": "right"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#submenu-mobile-d1"
+        ]
+    }
+}

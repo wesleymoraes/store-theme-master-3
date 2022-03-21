@@ -1,0 +1,91 @@
+{
+  "header-layout.mobile": {
+    "children": [
+      "flex-layout.row#1-mobile",
+      "flex-layout.row#2-mobile",
+      "flex-layout.row#3-mobile"
+    ]
+  },
+  "flex-layout.row#1-mobile": {
+    "props": {
+      "blockClass": "Top-bar-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true
+    },
+    
+    "children": ["flex-layout.row#wrapper-mobile"]
+  },
+  "flex-layout.row#wrapper-mobile":{
+    "children": ["rich-text#top-bar-mobile"]
+  },
+  "rich-text#top-bar-mobile": {
+    "props": {
+      "text": "Frete Gratis acima de R$299,00 para Região Sudeste.",
+      "blockClass": "frete-mobile"
+    }
+
+  },
+  "flex-layout.row#2-mobile":{
+    "props": {
+      "blockClass": "HeaderMenuMobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true
+    },
+    "children": ["flex-layout.row#2wrapper-mobile"]
+
+    },
+    "flex-layout.row#2wrapper-mobile":{
+      "props": {
+        "blockClass": "HeaderMenuMobile",
+        "preventHorizontalStretch": true,
+        "preserveLayoutOnMobile": true
+      },
+      "children":[
+        "drawer","logo#mobile","minicart.v2"]
+    },
+  
+    "drawer": {
+    "children": ["menu#drawer"]
+  
+  },
+  "menu#drawer": {
+    "children": [
+      "vtex.menu@2.x:menu#menu-mobile-item-1"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass":"menu-drawer-mobile"
+    }
+  },
+  "logo#mobile": {
+    "props": {
+      "blockClass": ["logo-mobile"],
+      "title": "Logo-Mobile",
+      "href": "/",
+      "url": "http://blog.penseavanti.com.br/wp-content/uploads/2019/08/logo_avanti5-1024x173.png",
+      "width": "150"
+    }
+  },
+    "flex-layout.row#3-mobile":{
+      "props": {
+        "blockClass":"search-bar-mobile",
+        "preventHorizontalStretch": true,
+       "preserveLayoutOnMobile": true,
+        "fullWidth": true
+      },
+      "children": ["flex-layout.row#3wrapper-mobile"]
+    },
+    "flex-layout.row#3wrapper-mobile": {
+      "props": {
+        "blockClass": "search-bar-mobile"
+      },
+   "children":["search-bar"]
+  },
+  "search-bar": {
+    "props": {
+      "displayMode": "clear-button",
+      "maxWidth": 315,
+      "placeholder": "O que você procura?"
+    }
+  }
+ }

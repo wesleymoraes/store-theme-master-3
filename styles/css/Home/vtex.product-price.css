@@ -1,0 +1,17 @@
+.currencyContainer--summary {
+    color: #441afa;
+}
+.brandName{
+    text-align: center;
+}
+.installments--summary{
+    text-align: left;
+font: normal normal normal 12px/17px arial;
+letter-spacing: 0px;
+color: #25282A;
+opacity: 1;
+}
+
+
+
+/*class="vtex-button bw1 ba fw5 v-mid relative pa0 lh-solid br2 min-h-regular t-action bg-action-primary b--action-primary c-on-action-primary hover-bg-action-primary hover-b--action-primary hover-c-on-action-primary pointer w-100 

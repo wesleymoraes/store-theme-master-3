@@ -1,0 +1,18 @@
+{
+    "menu-item#departament-3-mobile": {
+        "title":"Item 3 do menu - mobile",
+        "props": {
+            "blockClass": "menu-items-desktop-dep-3",
+            "id": "departament-3",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Departamento 3",
+                "text": "Departamento 3"
+            }
+        }
+    }
+}

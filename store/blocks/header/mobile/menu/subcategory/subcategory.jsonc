@@ -1,0 +1,75 @@
+{
+    "vtex.menu@2.x:submenu.accordion#submenu-category-mobile-d1":{
+        "props": {
+            "blockClass": "submenu-category-mobile-d1"
+        },
+        "children": [
+            "menu-item#submenu-category-1",
+            "menu-item#submenu-category-2",
+            "menu-item#submenu-category-3",
+            "flex-layout.row#link-5"
+        
+        ]
+    },
+    "menu-item#submenu-category-1":{
+        "props": {
+            "blockClass": "subcategory-mobiile-1",
+            "id": "category-1-mobile",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Subcategoria 1",
+                "text": "Subcategoria 1"
+            
+            }
+        }
+    },
+    "menu-item#submenu-category-2":{
+        "props": {
+            "blockClass": "subcategory-mobiile-1",
+            "id": "category-2-mobile",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Subcategoria 2",
+                "text": "Subcategoria 2"
+            
+            }
+        }
+    },
+    "menu-item#submenu-category-3":{
+        "props": {
+            "blockClass": "subcategory-mobiile-1",
+            "id": "category-3-mobile",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Subcategoria 3",
+                "text": "Subcategoria 3"
+            
+            }
+        }
+    },
+    "flex-layout.row#link-5":{
+        "props":{
+            "blockClass":"row-link-5"
+        },
+        "children":[
+            "link#5"
+        ]
+    },
+    "link#5":{
+        "props":{
+            "label":"ver todos"
+        }
+    }
+}

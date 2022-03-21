@@ -1,0 +1,84 @@
+{
+    "flex-layout.row#banners":{
+        "children":["flex-layout.row#titulobanner","flex-layout.row#banners1","flex-layout.row#banners2"],
+         "props": {
+           "preventHorizontalStretch": true,
+            "blockClass": "banners"
+        }
+     },
+     "flex-layout.row#titulobanner":{
+      "children": ["rich-text#titulo"]
+    },
+    "rich-text#titulo": {
+      "props": {
+      "blockClass":"titulo-banners",
+      "text": "**TÍTULO DE BANNERS**"
+      }
+    },
+     "flex-layout.row#banners1":{
+       "children": ["image#eletronicos","image#roupas","image#acessorios"],
+      "props": {
+        "fullWidth": true
+    }
+   },
+
+       "image#eletronicos": {
+        "props": {
+            "blockClass":"img-eletronicos",
+          "src": "https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/desktop/group1-electronics___56fcf71c5dcfd65f5f1ee30acd615967.png",
+          "maxHeight": 390,
+          "text": "Eletronicos"
+        }
+      },
+     
+      "image#roupas": {
+        "props": {
+          "blockClass":"img-eletronicos",
+          "src": "https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/desktop/group1-clothes___f5a5b47c788f48129bba9c147da1333f.png",
+          "maxHeight": 390,
+          "text":"Roupas"
+      }
+    },
+    
+    "image#acessorios": {
+        "props": {
+          "blockClass":"img-eletronicos",
+          "src": "https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/desktop/group1-glasses___0673ff10ddf8b686fee40da9df739ac0.png",
+          "maxHeight": 390,
+          "text":"Acessorios"
+        }   
+      },
+
+      "flex-layout.row#banners2":{
+        "props": {
+        },
+        "children": ["image#perfumes","image#cosmeticos","image#calcados"]
+      },
+    
+    "image#perfumes": {
+        "props": {
+          "blockClass":"img-eletronicos",
+          "src": "https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/desktop/group1-perfume___461b939c13a1881cd661931f7e2f30ee.png",
+          "maxHeight": 390,
+          "text":"Perfumes"
+        }
+    },
+   
+    "image#cosmeticos": {
+        "props": {
+          "blockClass":"img-eletronicos",
+          "src": "https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/desktop/group1-cosmetics___424157b7dbd1d7e4aaf5a069c79ad12e.png",
+          "maxHeight": 390,
+          "text": "Cosmeticos"
+        }
+    },
+ 
+    "image#calcados": {
+        "props": {
+          "blockClass":"img-eletronicos",
+          "src": "https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/desktop/group1-sneakers___8724f5d5e4923cfea3dc5103cdf5b6ce.png",
+          "maxHeight": 390,
+          "text":"Calcados"
+        }
+    }
+}

@@ -1,0 +1,138 @@
+.menuContainerNav--submenuDep{
+    top: 19.5px;
+    height: 389px;
+    width: 298px;
+    margin-left: 0px;
+    padding-left: 0.79rem;
+    padding-top: 12px;    
+    position: absolute;
+    background-color: white;
+    border: 1px solid #eeeeee;
+    font: normal normal normal 14px/19px arial;
+    box-sizing: content-box;
+}
+.menuItem--categoryAllDep{
+    position: absolute;
+    top: -32px;
+    height: 371px;
+    width: 298px;
+    margin-left: 300.1px;
+    padding-left: 0.79rem;
+    padding-top: 30px;
+    position: absolute;
+    background-color: white;
+    border: 1px solid #eeeeee;
+    font: normal normal normal 14px/19px arial;
+    box-sizing: content-box;
+
+}
+.menuItem--allDepartmentItem{
+    padding-top: 20px;
+    height: 48px;
+    width: 333px;
+    background-color: blue;
+    padding-left: 0px;
+}
+.styledLink--allDepartmentItem::before {
+    content: "";
+    background-image: url(https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/desktop/menu-branco___d782ee8….png);
+    height: 14.33px;
+    width: 20px;
+}
+.styledLinkContent--allDepartmentItem{
+    text-align: left;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 60px;
+    padding-right: 40px;
+    line-height: 14px;
+}
+.styledLinkContent--departamento-1{
+top: 120px;
+left: 720px;
+width: 118px;
+height: 17px;
+padding-left: 30px;
+text-align: left;
+font: normal normal normal 12px/17px arial;
+letter-spacing: 1.2px;
+color: #25282A;
+text-transform: uppercase;
+opacity: 1;
+}
+.menuItem--departamento2{
+    padding-left: 5rem;
+}
+.styledLinkContent--departamento-2{
+padding-left: 30px;
+top: 120px;
+left: 720px;
+width: 118px;
+height: 17px;
+text-align: left;
+font: normal normal normal 12px/17px arial;
+letter-spacing: 1.2px;
+color: #25282A;
+text-transform: uppercase;
+opacity: 1;
+}
+.menuItem--novidades{
+    padding-left: 5rem;
+}
+.styledLinkContent--novidades{
+    text-align: left;
+    padding-left: 30px;
+    letter-spacing: 1.2px;
+    color: #000000;
+    font-size: 12px;
+    font-weight: bold;
+
+}
+.menuItem--outlet{
+    padding-left: 5rem;
+}
+.styledLinkContent--outlet{
+    padding-left: 30px; 
+    text-align: left;
+    letter-spacing: 1.2px;
+    color: #441afa;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.menuItem--departamento--1{
+   
+    position:absolute;
+    top: 120px;
+    left: 720px;
+    width: 118px;
+    height: 17px;
+    text-align: left;
+    font: normal normal normal 12px/17px arial;
+    letter-spacing: 1.2px;
+    color: #25282A;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.menuItem--Subcategoria-1{
+    top: -48px;
+    height: 373px;
+    width: 298px;
+    margin-left: 300px;
+    padding-left: 38px;
+    padding-top: 28px;
+    position: absolute;
+    background-color: white;
+    font: normal normal normal 14px/19px arial;
+    box-sizing: content-box;
+
+}
+
+.styledLinkIcon--department{
+padding-left: 122px;
+}
+
+

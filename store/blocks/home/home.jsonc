@@ -1,0 +1,28 @@
+{
+  "store.home": {
+    "blocks": [
+      "flex-layout.row#main-banner#desktop",
+      "flex-layout.row#barra-deals",
+      "flex-layout.row#department-slider-title",
+      "flex-layout.row#department-slider",
+      "flex-layout.row#info-card",
+      "flex-layout.row#card-news",
+      "flex-layout.row#banners",
+      "rich-text#shelf-title",
+      "flex-layout.row#shelf",
+      "flex-layout.row#bannerfrete",
+      "rich-text#shelf-title",
+      "flex-layout.row#shelf"
+    ]
+      
+      //"flex-layout.row#row-product"
+         //"newsletter"
+   
+ // "rich-text#question":{
+
+  }
+}
+
+ 
+  
+ 

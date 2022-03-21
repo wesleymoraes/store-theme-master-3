@@ -1,0 +1,19 @@
+:global(.vtex-minicart-2-x-openIconContainer) :global(.vtex-button__label){
+    background-image: url(https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/mobile/Grupo4794___5f9e35fb2ab6d73637511535c8b482be.png);
+    background-repeat: no-repeat;
+    width: 28px;
+  height: 26px;
+  left: 1541px;
+  top: 57px;
+}
+.minicartQuantityBadgeDefault{
+  top: -22px;
+  left: 0px;
+  width: 19px;
+  height: 19px;
+  background-color: #0000ff;
+}
+.cartIcon{
+    color: transparent;
+    display: none;
+}

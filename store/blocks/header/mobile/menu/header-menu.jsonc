@@ -1,0 +1,148 @@
+{
+    "vtex.menu@2.x:menu#menu-mobile-item-1": {
+        "props": {
+            "blockClass": "menu-item-3"
+        },
+        "children": [
+            "menu-item#mobile-item-1",
+            "menu-item#mobile-item-2",
+            "flex-layout.row#menu-center-1",
+            "flex-layout.row#menu-center-2",
+            "flex-layout.row#menu-bottom"
+        ]
+    },
+    "menu-item#mobile-item-1": {
+        "props": {
+            "blockClass": "menu-novidades",
+            "id": "menu-item-1-mobile",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Novidades",
+                "text": "Novidades"
+            }
+        }
+    },
+    "menu-item#mobile-item-2": {
+        "props": {
+            "blockClass": ["menu-outlet","menu-outlet-2"],
+            "id": "menu-item-2-mobile",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Outlet",
+                "text": "Outlet"
+            }
+        }
+    },
+    "flex-layout.row#menu-center-2": {
+        "props": {
+            "blockClass": "menu-center-2"
+        },
+        "children": [
+            "menu-item#mobile-item-3",
+            "menu-item#mobile-item-4"
+        ]
+    },
+    "flex-layout.row#menu-center-1":{
+        "props":{
+            "blockClass":"menu-center-1"
+        },
+        "children":[
+            "menu-item#departament-1-mobile",
+            "menu-item#departament-2-mobile",
+            "menu-item#departament-3-mobile"
+        ]
+    },
+    "menu-item#mobile-item-3": {
+        "props": {
+            "blockClass": "menu-outlet",
+            "id": "menu-item-3-mobile",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Minha Conta",
+                "text": "Minha Conta"
+            }
+        }
+    },
+    "menu-item#mobile-item-4": {
+        "props": {
+            "blockClass": "menu-outlet",
+            "id": "menu-item-4-mobile",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Atendimento ao Cliente",
+                "text": "Atendimento ao Cliente"
+            }
+        }
+    },
+    "flex-layout.row#menu-bottom": {
+        "props": {
+            "blockClass": "menu-bottom"
+        },
+        "children": [
+            "menu-item#mobile-item-5",
+            "menu-item#mobile-item-6",
+            "menu-item#mobile-item-7"
+        ]
+    },
+    "menu-item#mobile-item-5": {
+        "props": {
+            "blockClass": "menu-novidades",
+            "id": "menu-item-5-mobile",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Lojas Parceiras",
+                "text": "Lojas Parceiras"
+            }
+        }
+    },
+    "menu-item#mobile-item-6": {
+        "props": {
+            "blockClass": "menu-novidades",
+            "id": "menu-item-6-mobile",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Seja um representante",
+                "text": "Seja um representante"
+            }
+        }
+    },
+    "menu-item#mobile-item-7": {
+        "props": {
+            "blockClass": "menu-novidades",
+            "id": "menu-item-7-mobile",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Seja um revendedor",
+                "text": "Seja um revendedor"
+            }
+        }
+    }
+}

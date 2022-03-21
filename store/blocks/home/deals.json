@@ -1,0 +1,110 @@
+{ 
+  "flex-layout.row#barra-deals": {
+  "children":["flex-layout.row#deals"]
+},
+  "flex-layout.row#deals": {
+    "children": [
+      "flex-layout.col#deals1",
+      "flex-layout.col#deals2",
+      "flex-layout.col#deals3",
+      "flex-layout.col#deals4"
+    ],
+    "props": {
+      "blockClass": "deals"
+    }
+  },
+
+  "flex-layout.col#deals1": {
+    "props": {
+      "blockClass":"all-deals"
+      
+    },
+    "children": [
+      "image#deal1",
+      "rich-text#deal1"
+    ]
+  },
+  "image#deal1": {
+    "props": {
+      "blockClass":"deal-1-img",
+      "src": "https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/desktop/box___65d806e224223663fb66f77ab982cae4.png",
+      
+      "maxHeight": "30px"
+    }
+  },
+  "rich-text#deal1": {
+    "props": {
+      "text": "**FRETE GRÁTIS** ACIMA DE R$299",
+      "blockClass": "deals-1"
+    }
+  },
+  "flex-layout.col#deals2": {
+    "props": {
+      "blockClass":"all-deals"
+      
+    },
+    "children": [
+      "image#deal2",
+      "rich-text#deal2"
+    ]
+  },
+  "image#deal2": {
+    "props": {
+      "blockClass":"deal-2-img",
+      "src": "https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/desktop/exchange___a87354332bb2f428bff1e18a2ee77b0b.png",
+      "maxHeight": "30px"
+    }
+  },
+  "rich-text#deal2": {
+    "props": {
+      "text": "**PRIMEIRA TROCA** GRÁTIS",
+      "blockClass": "deals-2"
+    }
+  },
+  "flex-layout.col#deals3": {
+    "props": {
+      "blockClass":"all-deals"
+      
+    },
+    "children": [
+      "image#deal3",
+      "rich-text#deal3"
+    ]
+  },
+  "image#deal3": {
+    "props": {
+      "blockClass":"deal-3-img",
+      "src": "https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/desktop/credit-card___da1c0c2a3c24d8824d8a756e83f2c780.png",
+      "maxHeight": "30px"
+    }
+  },
+  "rich-text#deal3": {
+    "props": {
+      "text": "**ATÉ 12X SEM JUROS** NOS CARTÕES",
+      "blockClass": "deals-3"
+    }
+  },
+  "flex-layout.col#deals4": {
+    "props": {
+      "blockClass":"all-deals"
+      
+    },
+    "children": [
+      "image#deal4",
+      "rich-text#deal4"
+    ]
+  },
+  "image#deal4": {
+    "props": {
+      "blockClass":"deal-4-img",
+      "src": "https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/desktop/shopping___eb04277bb43b9b619034d4c7336056d0.png",
+      "maxHeight": "30px"
+    }
+  },
+  "rich-text#deal4": {
+    "props": {
+      "text": "**encontre um** parceiro vollo",
+      "blockClass": "deals-4"
+    }
+  }
+}

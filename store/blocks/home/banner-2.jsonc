@@ -1,0 +1,21 @@
+{
+"flex-layout.row#bannerfrete": {
+  "children": ["flex-layout.row#banner-frete"],
+  "props": {
+      "preventHorizontalStretch": true,
+      "blockClass":"banner-frete"
+    }
+  },
+  "flex-layout.row#banner-frete":{
+    "children": ["image#frete"],
+   "props": {
+     "fullWidth": true
+ }
+  },
+  "image#frete": {
+    "props": {
+      "blockClass": "banner-frete",
+      "src": "https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/desktop/banner-sale___737ee0385b94b0994a926507afcd71ca.png"
+        }
+    }
+}

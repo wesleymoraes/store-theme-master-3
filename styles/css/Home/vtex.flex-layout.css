@@ -1,0 +1,72 @@
+.flexRow--info-card{
+    background-color: #f6f6f6
+}
+.flexRowContent--deals{
+    background-color: #f6f6f6;
+}
+.flexRow--card-imagens{
+    margin-top: 50px;
+}
+.flexRowContent--banners{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.flexRow--card-imagens{
+    margin: 10px;
+    max-width: 1252px;
+    align-items: center;
+    flex-direction: column;
+}
+.flexRowContent--card-imagens{
+    max-width: 1252px;
+    justify-content: space-around;
+    margin-left: 407px;
+}
+.flexRowContent--row-card-imagens{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.flexRowContent--shelf :global(.vtex-button__label)  {
+    background-color: #441afa;
+    margin-top: -8px;
+    border-radius: 0px;
+    border: 0px;
+    height: 40px!important;
+    width: 110px!important;
+    align-items: center;
+    text-align: center;
+    font: normal normal bold 12px/17px arial;
+    letter-spacing: 1.2px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.flexRowContent--shelf :global(.vtex-button)  {
+    background-color: transparent;
+    border-radius: 0px;
+    border: 0px;
+    height: 40px;
+   
+}
+.flexRow--banner-frete{
+    justify-content: center;
+    display: flex;
+    margin-top: 80px;
+}
+
+.flexRowContent--shelf {
+    margin-top: 80px;
+}
+.buttonDataContainer--Cart-button{
+    width: 177px;
+}
+.quantitySelectorContainer{
+    background-color: #441afa;
+}
+.flexRowContent--Row-addToCart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

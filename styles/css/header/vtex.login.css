@@ -1,0 +1,11 @@
+.profileIcon{
+display: none;
+}
+
+:global(.vtex-login-2-x-container) :global(.vtex-button__label){
+    background-image: url(https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/desktop/user___f311137127224b10917945e6b0a15072.png);
+    background-repeat: no-repeat;
+    height: 31px;
+    width: 26px;
+    padding-left: -3px;
+}

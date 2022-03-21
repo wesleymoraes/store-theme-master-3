@@ -1,0 +1,48 @@
+
+.sliderLayoutContainer--sliderHome{
+    margin-top: 8px;
+
+}
+.paginationDot--carousel--isActive {
+background-color: black;
+background: #25282A 0% 0% no-repeat padding-box;
+border: 1px solid #FFFFFF;
+opacity: 1;
+}
+.sliderLayoutContainer--shelf-carousel{
+    max-width: 1252px;
+    width: 800px;
+}
+
+.sliderLayoutContainer--departmentSlider{
+max-width: 1252px;
+margin: 0 auto;
+margin-top: 30px;
+}
+
+.sliderLeftArrow--departmentSlider{
+    margin-top: -30px;
+    margin-left: -56px;
+}
+
+.sliderRightArrow--departmentSlider
+{
+    margin-right: 0px;
+    margin-top: -30px;
+}
+
+.sliderLayoutContainer--shelf{
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+.sliderLayoutContainer--shelf{
+    max-width: 1252px;
+}
+.stackItem--highlights :nth-child(2n) :first-child{
+    background-color: rgb(11, 7, 7);
+    height: 20px;
+    width: 69px;
+    top: 29px;
+    position: absolute;
+}

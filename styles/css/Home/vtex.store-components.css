@@ -1,0 +1,56 @@
+.infoCardHeadline{
+top: 1224px;
+left: 1112px;
+width: 428px;
+height: 55px;
+text-align: left;
+letter-spacing: NaNpx;
+color: #441AFA;
+text-transform: uppercase;
+opacity: 1;
+
+}
+.infoCardSubhead{
+top: 1319px;
+left: 1112px;
+width: 474px;
+height: 119px;
+
+text-align: left;
+font: normal normal normal 12px/17px arial;
+letter-spacing: 0px;
+color: #B1B3B3;
+opacity: 1;
+}
+.infoCardTextContainer{
+    align-items: flex-start;
+}
+.infoCardCallActionContainer :global(.vtex-button){
+background-color: transparent;
+border: 1px solid #000000;
+letter-spacing: 1.2px;
+width: 251px;
+height: 48px;
+color: #000000;
+font: normal normal bold 12px/17px arial;
+}
+
+.imageElement--img1{
+    margin-top: 50px; 
+    width: 610px;
+    height: 569px;
+}
+
+
+.imageElement--img-eletronicos{
+    margin: 10px;
+}
+.discountInsideContainer{
+    margin-right: 128px;
+    margin-top: 407px;
+    color: #EEEEEE;
+    width: 45px;
+    height: 22px;
+    background: #25282A 0% 0% no-repeat padding-box;
+    opacity: 1;
+}

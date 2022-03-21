@@ -1,0 +1,51 @@
+.paragraph--shelfTitle{
+    margin-top: 90px;
+    left: 832px;
+    width: 269px;
+    height: 22px;
+    text-align: center;
+    font: normal normal bold 16px/22px arial;
+    letter-spacing: 1.6px;
+    color: #25282A;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.paragraph--departmentSliderTitle{
+    text-align: center;
+    letter-spacing: 1.6px;
+    color: #25282a;
+    text-transform: uppercase;
+    justify-content: center;
+    top: 773px;
+}
+.paragraph--shelfTitle{  
+ font-family: Open Sans,sans-serif;   
+ font-weight: 400;   
+ text-transform: none;   
+ letter-spacing: 4px;   
+ color: black; }
+
+ .paragraph--itemText{
+    font: normal normal bold 11px/15px arial;
+    text-align: center;
+    text-transform: uppercase;
+ }
+ .paragraph--titulo-banners{
+     margin-top: 80px;
+ }
+ .strong--titulo-banners{
+    text-align: center;
+    font: normal normal bold 32px/43px arial;
+    letter-spacing: 0px;
+    color: #25282A;
+    text-transform: uppercase;
+    opacity: 1;
+ }
+ .paragraph--shelfTitle{
+    text-align: center;
+    font: normal normal bold 16px/22px arial;
+    letter-spacing: 1.6px;
+    color: #25282A;
+    text-transform: uppercase;
+    opacity: 1;
+ }

@@ -1,0 +1,10 @@
+.brandName{
+    letter-spacing: 0px;
+    color: #25282A;
+    text-transform: uppercase;
+    opacity: 1;
+    font-size: 12px;
+}
+.currencyContainer--summary{
+    color: #b2b2b3!important;
+ }

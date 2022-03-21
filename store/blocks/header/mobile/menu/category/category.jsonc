@@ -1,0 +1,71 @@
+{
+    "vtex.menu@2.x:submenu.accordion#submenu-mobile-d1": {
+        "title":"Submenu - mobile",
+        "props": {
+            "blockClass": "submenu-mobile-d1"
+        },
+        "children": [
+            "menu-item#submenu-d1-1",
+            "menu-item#submenu-d1-2",
+            "flex-layout.row#link-4"
+        ]
+    },
+
+    "menu-item#submenu-d1-1": {
+        "title":"Item 1 do submenu - mobile",
+        "props": {
+            "blockClass": "sub-item-1",
+            "id": "category-1-mobile",
+            "type": "custom",
+            "highlight": false,
+            "iconProps": {
+                "id": "nav-caret--down",
+                "size": 12,
+                "activeClassName": "black"
+            },
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Categoria 1",
+                "text": "Categoria 1",
+                "iconPosition": "right"
+            }
+        },
+        "blocks":["vtex.menu@2.x:submenu.accordion#submenu-category-mobile-d1"]
+    },
+    "menu-item#submenu-d1-2": {
+        "title":"Item 2 do submenu - mobile",
+        "props": {
+            "blockClass": "sub-item-1",
+            "id": "category-2-mobile",
+            "type": "custom",
+            "highlight": false,
+            "iconProps": {
+                "id": "nav-caret--down",
+                "size": 12,
+                "activeClassName": "black"
+            },
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Categoria 2",
+                "text": "Categoria 2",
+                "iconPosition": "right"
+            }
+        },
+        "blocks":["vtex.menu@2.x:submenu.accordion#submenu-category-mobile-d1"]
+    },
+    "flex-layout.row#link-4":{
+        "props":{
+            "blockClass":"row-link-4"
+        },
+        "children":["link#4"]
+    },
+    "link#4":{
+        "props":{
+            "label":"VER TODOS"
+        }
+    }
+}

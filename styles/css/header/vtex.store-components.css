@@ -1,0 +1,36 @@
+
+.autoCompleteOuterContainer :global(.vtex-input-prefix__group) {
+    border: 1px solid #EEEEEE;
+    width: 615px;
+
+}
+.autoCompleteOuterContainer  :global(.vtex-input__suffix){
+background-color: blue;
+width: 15px;
+height: 36px;
+}
+.searchBarIcon--search{
+    padding-top: 0px;
+color: white;
+}
+.searchBarContainer{
+    top: 50px;
+left: 600px;
+width: 592px;
+height: 40px;
+
+
+}
+
+.infoCardImage{
+    background-color: #f6f6f6;
+}
+.infoCardContainer{
+    background-color: #f6f6f6;
+}
+.stretchChildrenWidth{
+    background-color: #f6f6f6;
+}
+.logoLink--logo-mobile{
+    margin-top: 8px;
+}

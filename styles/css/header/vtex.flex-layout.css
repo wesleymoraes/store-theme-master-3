@@ -1,0 +1,81 @@
+.flexRow--MenuBarWrapper{
+   display:flex;
+   justify-content: center;
+    background-color: #EEEEEE;
+}
+.flexRowContent--headerMenu{
+    max-width: 1252px;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+.flexRow--topMenu{
+    background-color: black;
+}
+
+
+.flexRowContent--topMenuWrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.flexRow--BarraMenuSuperior{
+    width: 640px;
+    max-width: 1252px;
+    padding-top: 19px;
+}
+.flexRow--headerMenu{
+    background-color: #EEEEEE;
+    border-top: 1px solid  #ebe5e5;
+}
+.flexCol--logo{
+    display: flex;
+}
+.flexColChild--logo{
+    margin-left: -95px;
+}
+.flexRowContent--MenuBargg{
+    padding-left: 0px;
+}
+.flexRow--deals{
+    max-width: 1252px;
+    background-color: #EEEEEE;
+    margin-top: 20px;
+  
+}
+.flexCol--all-deals{
+    justify-content: center;
+    background-color: transparent;
+    max-width: 1252px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.flexRowContent--deals{
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+    max-width: 1252px;
+    margin-top: -10px;
+    font-size: normal normal bold 12px/17px arial;
+}
+.flexColChild--all-deals{
+    padding-top: 10px;
+    background-color: transparent
+}
+.flexRow--info-card{
+    background-color: #f6f6f6
+}
+.flexRowContent--info-card{
+    background-color: #f6f6f6;
+}
+
+.flexRowContent--card-news-sale{
+    justify-content: space-between;
+    max-width: 1252px;
+    margin-inline-start: auto;
+    margin-top: 30px;
+    
+}
+.flexRow--card-news-sale{
+    margin-left: -100px;
+}
