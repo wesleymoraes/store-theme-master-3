@@ -1,0 +1,220 @@
+{
+    "slider-layout#demo-products": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 7,
+                "tablet": 3,
+                "phone": 3
+            },
+            "infinite": true,
+            "blockClass": "shelf",
+            "showPaginationDots":"never",
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": false
+            }
+        },
+        "children": [
+            "flex-layout.row#slider-1",
+            "flex-layout.row#slider-2",
+            "flex-layout.row#slider-3",
+            "flex-layout.row#slider-4",
+            "flex-layout.row#slider-5",
+            "flex-layout.row#slider-6",
+            "flex-layout.row#slider-7",
+            "flex-layout.row#slider-8"
+        ]
+    },
+    "flex-layout.row#slider-1":{
+        "props":{
+            "blockClass":"slider-1",
+            "preventHorizontalStretch":true,
+            "preventVerticalStretch":true
+        },
+        "children":[
+            "image#img-slider-1",
+            "rich-text#text-slider-1"
+        ]
+    },
+    "image#img-slider-1":{
+        "props":{
+            "maxHeight":80,
+            "maxWidth":80,
+            "src":"https://cdn.discordapp.com/attachments/947865016953110529/947868068221157426/smartwatch.png"
+        }
+    },
+    "rich-text#text-slider-1":{
+        "props":{
+            "blockClass":"text-slider-1",
+            "text":"DEPARTAMENTO 1"
+        }
+    },
+    "flex-layout.row#slider-2":{
+        "props":{
+            "blockClass":"slider-1",
+            "preventHorizontalStretch":true,
+            "preventVerticalStretch":true
+        },
+        "children":[
+            "image#img-slider-2",
+            "rich-text#text-slider-2"
+        ]
+    },
+    "image#img-slider-2":{
+        "props":{
+            "maxHeight":80,
+            "maxWidth":80,
+            "src":"https://cdn.discordapp.com/attachments/947865016953110529/947885607382822992/jackets.png"
+        }
+    },
+    "rich-text#text-slider-2":{
+        "props":{
+            "blockClass":"text-slider-1",
+            "text":"DEPARTAMENTO 2"
+        }
+    },
+    "flex-layout.row#slider-3":{
+        "props":{
+            "blockClass":"slider-1",
+            "preventHorizontalStretch":true,
+            "preventVerticalStretch":true
+        },
+        "children":[
+            "image#img-slider-3",
+            "rich-text#text-slider-3"
+        ]
+    },
+    "image#img-slider-3":{
+        "props":{
+            "maxHeight":80,
+            "maxWidth":80,
+            "src":"https://cdn.discordapp.com/attachments/947865016953110529/947885620490043422/glasses.png"
+        }
+    },
+    "rich-text#text-slider-3":{
+        "props":{
+            "blockClass":"text-slider-1",
+            "text":"DEPARTAMENTO 3"
+        }
+    },
+    "flex-layout.row#slider-4":{
+        "props":{
+            "blockClass":"slider-1",
+            "preventHorizontalStretch":true,
+            "preventVerticalStretch":true
+        },
+        "children":[
+            "image#img-slider-4",
+            "rich-text#text-slider-4"
+        ]
+    },
+    "image#img-slider-4":{
+        "props":{
+            "maxHeight":80,
+            "maxWidth":80,
+            "src":"https://cdn.discordapp.com/attachments/947865016953110529/947888692553470043/clothes.png"
+        }
+    },
+    "rich-text#text-slider-4":{
+        "props":{
+            "blockClass":"text-slider-1",
+            "text":"DEPARTAMENTO 4"
+        }
+    },
+    "flex-layout.row#slider-5":{
+        "props":{
+            "blockClass":"slider-1",
+            "preventHorizontalStretch":true,
+            "preventVerticalStretch":true
+        },
+        "children":[
+            "image#img-slider-5",
+            "rich-text#text-slider-5"
+        ]
+    },
+    "image#img-slider-5":{
+        "props":{
+            "maxHeight":80,
+            "maxWidth":80,
+            "src":"https://cdn.discordapp.com/attachments/947865016953110529/947888786472325160/logo-games.png"
+        }
+    },
+    "rich-text#text-slider-5":{
+        "props":{
+            "blockClass":"text-slider-1",
+            "text":"DEPARTAMENTO 5"
+        }
+    },
+    "flex-layout.row#slider-6":{
+        "props":{
+            "blockClass":"slider-1",
+            "preventHorizontalStretch":true,
+            "preventVerticalStretch":true
+        },
+        "children":[
+            "image#img-slider-6",
+            "rich-text#text-slider-6"
+        ]
+    },
+    "image#img-slider-6":{
+        "props":{
+            "maxHeight":80,
+            "maxWidth":80,
+            "src":"https://cdn.discordapp.com/attachments/947865016953110529/947888808379179068/masks.png"
+        }
+    },
+    "rich-text#text-slider-6":{
+        "props":{
+            "blockClass":"text-slider-1",
+            "text":"DEPARTAMENTO 6"
+        }
+    },
+    "flex-layout.row#slider-7":{
+        "props":{
+            "blockClass":"slider-1",
+            "preventHorizontalStretch":true,
+            "preventVerticalStretch":true
+        },
+        "children":[
+            "image#img-slider-7",
+            "rich-text#text-slider-7"
+        ]
+    },
+    "image#img-slider-7":{
+        "props":{
+            "maxHeight":80,
+            "maxWidth":80,
+            "src":"https://cdn.discordapp.com/attachments/947865016953110529/947888970820362330/electronics.png"
+        }
+    },
+    "rich-text#text-slider-7":{
+        "props":{
+            "blockClass":"text-slider-1",
+            "text":"DEPARTAMENTO 7"
+        }
+    },
+    "flex-layout.row#slider-8":{
+        "props":{
+            "blockClass":"slider-1",
+            "preventHorizontalStretch":true,
+            "preventVerticalStretch":true
+        },
+        "children":[
+            "image#img-slider-8",
+            "rich-text#text-slider-8"
+        ]
+    },
+    "image#img-slider-8":{
+        "props":{
+            "maxHeight":80,
+            "maxWidth":80,
+            "src":"https://cdn.discordapp.com/attachments/947865016953110529/947888828520214538/hoodies.png"
+        }
+    },
+    "rich-text#text-slider-8":{
+        "props":{
+            "blockClass":"text-slider-1",
+            "text":"DEPARTAMENTO 8"
+        }
+    }
+}

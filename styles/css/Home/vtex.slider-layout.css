@@ -1,48 +1,88 @@
-
-.sliderLayoutContainer--sliderHome{
-    margin-top: 8px;
-
-}
-.paginationDot--carousel--isActive {
-background-color: black;
-background: #25282A 0% 0% no-repeat padding-box;
-border: 1px solid #FFFFFF;
-opacity: 1;
-}
-.sliderLayoutContainer--shelf-carousel{
-    max-width: 1252px;
-    width: 800px;
+.slide--shelf {
+    margin-bottom: 0;
 }
 
-.sliderLayoutContainer--departmentSlider{
-max-width: 1252px;
-margin: 0 auto;
-margin-top: 30px;
+.caretIcon--shelf {
+    color: #B1B3B3;
 }
 
-.sliderLeftArrow--departmentSlider{
-    margin-top: -30px;
-    margin-left: -56px;
+.sliderLayoutContainer--shelf {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 30px;
 }
 
-.sliderRightArrow--departmentSlider
-{
-    margin-right: 0px;
-    margin-top: -30px;
+.paginationDotsContainer--deals-mobile {
+    display: none;
 }
 
-.sliderLayoutContainer--shelf{
-    padding-left: 50px;
-    padding-right: 50px;
+.slideChildrenContainer--deals-mobile {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.paginationDotsContainer--slider-banners {
+    display: none;
+}
+
+.caretIcon--slider-banners {
+    color: #B1B3B3;
+}
+
+
+.paginationDotsContainer--shelf-2 {
+    margin-bottom: -40px;
 
 }
-.sliderLayoutContainer--shelf{
-    max-width: 1252px;
+
+.paginationDot--shelf-2--isActive {
+    background-color: #25282A;
 }
-.stackItem--highlights :nth-child(2n) :first-child{
-    background-color: rgb(11, 7, 7);
-    height: 20px;
-    width: 69px;
-    top: 29px;
-    position: absolute;
+
+.paginationDot--home-slider-banner {
+    border: 1px solid #FFFFFF;
+}
+
+.paginationDot--home-slider-banner--isActive {
+    background-color: #25282A;
+
+}
+
+.slideChildrenContainer--shelf-2 :global(.vtex-stack-layout-0-x-stackItem) :nth-child(2n) {
+    position:absolute;
+    top: 25px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 10px;
+    background-color: #441AFA;
+    border-radius: 0;
+    left: 0px;  
+}
+
+@media (min-width: 1024px) {
+    .sliderLayoutContainer--shelf {
+        max-width: 1252px;
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+
+
+    .sliderLeftArrow--shelf-2 {
+        background: #25282A!important;
+        color: white;
+        width: 40px;
+        height: 40px;
+        
+    }
+
+    .sliderRightArrow--shelf-2 {
+        background-color: #25282A!important;
+        color: white;
+        width: 40px;
+        height: 40px;
+       
+    }
+
 }

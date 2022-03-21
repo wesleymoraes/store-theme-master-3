@@ -1,72 +1,128 @@
-.flexRow--info-card{
-    background-color: #f6f6f6
-}
-.flexRowContent--deals{
-    background-color: #f6f6f6;
-}
-.flexRow--card-imagens{
-    margin-top: 50px;
-}
-.flexRowContent--banners{
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-.flexRow--card-imagens{
-    margin: 10px;
-    max-width: 1252px;
-    align-items: center;
-    flex-direction: column;
-}
-.flexRowContent--card-imagens{
-    max-width: 1252px;
-    justify-content: space-around;
-    margin-left: 407px;
-}
-.flexRowContent--row-card-imagens{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-.flexRowContent--shelf :global(.vtex-button__label)  {
-    background-color: #441afa;
-    margin-top: -8px;
-    border-radius: 0px;
-    border: 0px;
-    height: 40px!important;
-    width: 110px!important;
-    align-items: center;
-    text-align: center;
-    font: normal normal bold 12px/17px arial;
-    letter-spacing: 1.2px;
-    color: #FFFFFF;
-    text-transform: uppercase;
-    opacity: 1;
-}
-.flexRowContent--shelf :global(.vtex-button)  {
-    background-color: transparent;
-    border-radius: 0px;
-    border: 0px;
-    height: 40px;
-   
-}
-.flexRow--banner-frete{
-    justify-content: center;
-    display: flex;
-    margin-top: 80px;
+.flexRow--deals {
+    background-color: #EEEEEE;
 }
 
-.flexRowContent--shelf {
-    margin-top: 80px;
-}
-.buttonDataContainer--Cart-button{
-    width: 177px;
-}
-.quantitySelectorContainer{
-    background-color: #441afa;
-}
-.flexRowContent--Row-addToCart{
+.flexRowContent--deals-1 {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.flexRowContent--savings {
+    margin-bottom: 0.3rem;
+}
+
+.flexRowContent--quantity-add-cart-button {
+    display: flex;
+    align-items: center;
+}
+
+.flexRowContent--quantity-add-cart-button :global(.vtex-button) {
+    display: flex;
+    width: 85px;
+    background-color: #441AFA;
+    color: #fff;
+    letter-spacing: 1.2px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 0;
+    border: 0;
+}
+
+.flexRow--row-image-2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.flexRow--row-image-2 :global(.vtex-store-components-3-x-container) {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.flexRowContent--savings {
+    align-items: center;
+}
+
+.flexRow--row-shelf-mobile {
+    padding: 0px 20px;
+}
+
+.flexRow--row-shelf-mobile :global(.vtex-store-components-3-x-container) {
+    padding:0;
+}
+
+
+@media (min-width: 1024px) {
+
+    .flexRow--children-home-desktop {
+        margin-top: 10px;
+        max-width: 1252px;
+    }
+
+    .flexRowContent--children-home-desktop {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .flexRowContent--slider-1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .flexRow--deals-desktop {
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+        max-width: 1252px;
+        height: 64px;
+        background-color: #EEEEEE;
+    }
+
+    .flexRow--children-home-desktop-1 {
+        max-width: 1252px;
+    }
+
+    .flexRow--children-home-desktop-2 {
+        max-width: 1252px;
+    }
+
+    .flexRowContent--children-home-desktop-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .flexRowContent--banner-1-desktop {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .flexRow--shelf-desktop {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .flexRowContent--shelf-desktop {
+        max-width: 1252px;
+    }
+
+    .flexRowContent--quantity-add-cart-button :global(.vtex-button) {
+        width: 90%;
+    }
+
+    .flexRow--image-freight {
+       display: flex;
+       justify-content: center;
+       margin-top: 130px;
+      
+    }
+    .flexRowContent--image-freight {
+        max-width: 1252px;
+    }
+    
+
 }

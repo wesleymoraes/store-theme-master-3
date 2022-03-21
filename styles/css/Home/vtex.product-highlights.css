@@ -1,6 +1,10 @@
-.productHighlightText{
-    border-radius: 0px;
-    background-color: rgb(23, 34, 231);
-    color: white;
-    width: 67px;
+.productHighlightText--text-inovacao {
+    letter-spacing: 1px;
+    position: absolute;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 10px;
+    background-color: #25282A;
+    border-radius: 0;
 }

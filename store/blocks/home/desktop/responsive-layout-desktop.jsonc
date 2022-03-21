@@ -1,0 +1,213 @@
+{
+    "responsive-layout.desktop": {
+        "children": [
+            "flex-layout.row#main-home-desktop",
+            "flex-layout.row#main-home-desktop-1",
+            "rich-text#shelf-title",
+            "flex-layout.row#slider-shelf",
+            "flex-layout.row#main-home-desktop-2",
+            "flex-layout.row#main-home-desktop-3",
+            "rich-text#title-banners",
+            "flex-layout.row#main-home-desktop-4",
+            "rich-text#vitrine-1",
+            "flex-layout.row#shelf-desktop",
+            "flex-layout.row#image-freight",
+            "rich-text#vitrine-2",
+            "flex-layout.row#shelf-desktop"
+            
+        ]
+    },
+    "flex-layout.row#main-home-desktop": {
+        "props": {
+            "blockClass": "main-home-desktop",
+            "fullWidth": true
+        },
+        "children": [
+            "flex-layout.row#children-home-desktop"
+        ]
+    },
+    "flex-layout.row#children-home-desktop": {
+        "props": {
+            "blockClass": "children-home-desktop",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true
+        },
+        "children": [
+            "slider-layout#home-slider-banner"
+        ]
+    },
+    "slider-layout#home-slider-banner": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 3,
+                "phone": 1
+            },
+            "infinite": true,
+            "blockClass": "home-slider-banner",
+            "showNavigationArrows": "never",
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": false
+            }
+        },
+        "children": [
+            "image#desktop-1",
+            "image#desktop-1",
+            "image#desktop-1"
+        ]
+    },
+    "image#desktop-1": {
+        "props": {
+            "blockClass": "image-desktop-1",
+            "src": "https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/desktop/shopnow___ca5adb32114c61df7af1b3e97ac0d5ac.png",
+            "maxHeight": 460
+        }
+    },
+    "flex-layout.row#main-home-desktop-1": {
+        "props": {
+            "blockClass": "main-home-desktop",
+            "fullWidth": true
+        },
+        "children": [
+            "flex-layout.row#deals-desktop"
+        ]
+    },
+    "flex-layout.row#deals-desktop": {
+        "props": {
+            "blockClass": "deals-desktop"
+        },
+        "children": [
+            "flex-layout.row#deals1",
+            "flex-layout.row#deals2",
+            "flex-layout.row#deals3",
+            "flex-layout.row#deals4"
+        ]
+    },
+    "flex-layout.row#main-home-desktop-2": {
+        "props": {
+            "blockClass": "main-home-desktop",
+            "fullWidth": true
+        },
+        "children": [
+            "info-card#home-desktop"
+        ]
+    },
+    "info-card#home-desktop": {
+        "props": {
+            "id": "info-card-home-desktop",
+            "isFullModeStyle": false,
+            "imageUrl": "https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/desktop/SEO___c09ccb96ccd54e7235cd9228dbdfe653.png",
+            "headline": "Lorem Ipsum",
+            "subhead": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea.",
+            "callToActionText": "Lorem Ipsum ➞",
+            "callToActionUrl": "/sale/d",
+            "blockClass": "info-card-home-desktop",
+            "textAlignment": "left",
+            "textPosition": "right"
+        }
+    },
+    "flex-layout.row#main-home-desktop-3": {
+        "props": {
+            "blockClass": "main-home-desktop",
+            "fullWidth": true
+        },
+        "children": [
+            "flex-layout.row#children-home-desktop-1"
+        ]
+    },
+    "flex-layout.row#children-home-desktop-1": {
+        "props": {
+            "blockClass": "children-home-desktop-1"
+        },
+        "children": [
+            "image#new-sale-1",
+            "image#sale-2"
+        ]
+    },
+    "flex-layout.row#main-home-desktop-4": {
+        "props": {
+            "blockClass": "main-home-desktop",
+            "fullWidth": true
+        },
+        "children": [
+            "flex-layout.row#children-home-desktop-2"
+        ]
+    },
+    "flex-layout.row#children-home-desktop-2": {
+        "props": {
+            "blockClass": "children-home-desktop-2",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true
+        },
+        "children": [
+            "flex-layout.row#banner-1-desktop",
+            "flex-layout.row#banner-2-desktop"
+        ]
+    },
+    "flex-layout.row#banner-1-desktop": {
+        "props": {
+            "blockClass": "banner-1-desktop"
+        },
+        "children": [
+            "image#slider-banner-1",
+            "image#slider-banner-2",
+            "image#slider-banner-3"
+        ]
+    },
+    "flex-layout.row#banner-2-desktop": {
+        "props": {
+            "blockClass": "banner-1-desktop"
+        },
+        "children": [
+            "image#slider-banner-4",
+            "image#slider-banner-5",
+            "image#slider-banner-6"
+        ]
+    },
+    "flex-layout.row#shelf-desktop": {
+        "props":{
+            "blockClass":"shelf-desktop"
+        },
+        "children": [
+            "list-context.product-list#home"
+        ]
+    },
+    "list-context.product-list#home": {
+        "blocks": [
+            "product-summary.shelf"
+        ],
+        "children": [
+            "slider-layout#demo-products-desktop"
+        ],
+        "props": {
+            "orderBy": "OrderByTopSaleDESC"
+        }
+    },
+    "slider-layout#demo-products-desktop": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 4,
+                "phone":2
+            },
+            "infinite": true,
+            "fullWidth": true,
+            "blockClass": "shelf-2",
+            "showNavigationArrows": "desktopOnly"
+           
+        }
+    },
+    "flex-layout.row#image-freight":{
+        "props":{
+            "blockClass":"image-freight"
+        },
+        "children":[
+            "image#frete"
+        ]
+    },
+    "image#frete":{
+        "props":{
+            "src":"https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/desktop/banner-sale___737ee0385b94b0994a926507afcd71ca.png"
+        }
+    }
+}

@@ -1,0 +1,62 @@
+{
+    "slider-layout#banners":{
+        "props": {
+            "itemsPerPage": {
+                "desktop": 6,
+                "tablet": 3,
+                "phone": 1
+            },
+            "infinite": true,
+            "blockClass": "slider-banners",
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": false
+            }
+        },
+        "children":[
+            "image#slider-banner-1",
+            "image#slider-banner-2",
+            "image#slider-banner-3",
+            "image#slider-banner-4",
+            "image#slider-banner-5",
+            "image#slider-banner-6"
+        ]
+    },
+   
+    "image#slider-banner-1":{
+        "props":{
+            "blockClass":"img-banner",
+            "src":"https://cdn.discordapp.com/attachments/947865016953110529/948228750267547668/group1-electronics.png"
+        }
+    },
+    "image#slider-banner-2":{
+        "props":{
+            "blockClass":"img-banner",
+            "src":"https://cdn.discordapp.com/attachments/947865016953110529/947888712908435526/group1-clothes.png"
+        }
+    },
+    "image#slider-banner-3":{
+        "props":{
+            "blockClass":"img-banner",
+            "src":"https://cdn.discordapp.com/attachments/947865016953110529/948229824386854952/group1-glasses.png"
+        }
+    },
+    "image#slider-banner-4":{
+        "props":{
+            "blockClass":"img-banner",
+            "src":"https://cdn.discordapp.com/attachments/947865016953110529/948230100695007253/group1-perfume.png"
+        }
+    },
+    "image#slider-banner-5":{
+        "props":{
+            "blockClass":"img-banner",
+            "src":"https://cdn.discordapp.com/attachments/947865016953110529/948230175504625684/group1-cosmetics.png"
+        }
+    },
+    "image#slider-banner-6":{
+        "props":{
+            "blockClass":"img-banner",
+            "src":"https://cdn.discordapp.com/attachments/947865016953110529/948230316357734450/group1-sneakers.png"
+        }
+    }
+}

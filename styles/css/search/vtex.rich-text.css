@@ -12,3 +12,19 @@
   font-size: 1.25rem;
   line-height: 1.15rem;
 }
+
+.container--vitrine-1-notfound {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+.paragraph--vitrine-1-notfound {
+  color: #25282A;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+}

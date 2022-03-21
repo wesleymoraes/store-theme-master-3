@@ -1,56 +1,103 @@
-.infoCardHeadline{
-top: 1224px;
-left: 1112px;
-width: 428px;
-height: 55px;
-text-align: left;
-letter-spacing: NaNpx;
-color: #441AFA;
-text-transform: uppercase;
-opacity: 1;
-
+.infoCardContainer--info-card-home {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 45px;
+    margin-bottom: 60px;
 }
-.infoCardSubhead{
-top: 1319px;
-left: 1112px;
-width: 474px;
-height: 119px;
 
-text-align: left;
-font: normal normal normal 12px/17px arial;
-letter-spacing: 0px;
-color: #B1B3B3;
-opacity: 1;
+.infoCardHeadline--info-card-home {
+    color: #441AFA;
+    letter-spacing: 9.6px;
+    text-transform: uppercase;
+    font-size: 32px;
 }
-.infoCardTextContainer{
+
+.infoCardSubhead--info-card-home {
+    font-size: 16px;
+    font-weight: normal;
+    color: #000000;
+}
+
+.infoCardContainer--info-card-home :global(.vtex-button) {
+    border: 1px solid #000000;
+    border-radius: 0;
+    width: 250px;
+    height: 48px;
+    color: #000000;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: transparent;
+}
+
+.infoCardTextContainer--info-card-home {
     align-items: flex-start;
 }
-.infoCardCallActionContainer :global(.vtex-button){
-background-color: transparent;
-border: 1px solid #000000;
-letter-spacing: 1.2px;
-width: 251px;
-height: 48px;
-color: #000000;
-font: normal normal bold 12px/17px arial;
+
+.imageElement--image-new-sale {
+    margin: 15px;
+    max-width: 360px;
+    max-height: 345px;
 }
 
-.imageElement--img1{
-    margin-top: 50px; 
-    width: 610px;
-    height: 569px;
+.imageElement--img-banner {
+    max-height: 230px;
 }
 
-
-.imageElement--img-eletronicos{
-    margin: 10px;
+.imageElement--image-desktop-1 {
+    width: 1252px;
 }
-.discountInsideContainer{
-    margin-right: 128px;
-    margin-top: 407px;
-    color: #EEEEEE;
-    width: 45px;
-    height: 22px;
-    background: #25282A 0% 0% no-repeat padding-box;
-    opacity: 1;
+
+.imageElement--row-2-image-mobile {
+    margin-top: 70px;
+}
+
+@media (min-width: 1024px) {
+    .infoCardContainer--info-card-home-desktop {
+        background-color: #f5f6f6;
+        margin-top: 80px;
+        margin-bottom: 80px;
+
+    }
+
+    .infoCardHeadline--info-card-home-desktop {
+        color: #441AFA;
+        letter-spacing: 9.6px;
+        text-transform: uppercase;
+        font-size: 32px;
+    }
+
+    .infoCardSubhead--info-card-home-desktop {
+        font-size: 16px;
+        font-weight: normal;
+        color: #000000;
+    }
+
+    .infoCardContainer--info-card-home-desktop :global(.vtex-button) {
+        border: 1px solid #000000;
+        border-radius: 0;
+        width: 250px;
+        height: 48px;
+        color: #000000;
+        font-size: 12px;
+        font-weight: bold;
+        background-color: transparent;
+    }
+
+    .imageElement--image-new-sale {
+        max-width: 600px;
+        max-height: 600px;
+        width: 60vh;
+        height: 60vh;
+        cursor: pointer;
+    }
+
+    .imageElement--img-banner {
+        max-height: 300px;
+        width: 390px;
+        margin-right: 50px;
+        margin-bottom: 20px;
+        margin-left: 50px;
+        cursor: pointer;
+    }
+    
 }

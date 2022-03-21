@@ -1,0 +1,125 @@
+{
+    "vtex.menu@2.x:menu#menu-item-1": {
+        "props": {
+            "blockClass": "menu-item-1"
+        },
+        "children": [
+            "menu-item#1",
+            "menu-item#2",
+            "menu-item#3",
+            "menu-item#4",
+            "menu-item#5"
+        ]
+    },
+
+    "menu-item#1": {
+        "title":"Item 1 menu - desktop",
+        "props": {
+            "blockClass":"sub-menu-item-1",
+            "id": "menu-item-1",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Todos os Departamento",
+                "text": "Todos os Departamento"
+                
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#sub-item-1"
+        ]
+    },
+
+    "vtex.menu@2.x:submenu#sub-item-1": {
+        "props": {
+            "blockClass": "sub-item-1"
+        },
+        "children": [
+            "menu-item#subItem-1",
+            "menu-item#subItem-2"
+        ]
+    },
+   
+    "vtex.menu@2.x:menu#menu-item-2": {
+        "props": {
+            "blockClass": "menu-item-2"
+        },
+        "children": [
+            "menu-item#2",
+            "menu-item#3",
+            "menu-item#4",
+            "menu-item#5"
+        ]
+    },
+
+    "menu-item#2": {
+        "title":"Item-2-menu-desktop",
+        "props": {
+            "blockClass":"menu-items-desktop",
+            "id": "menu-item-2-1",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Departamento 1",
+                "text": "Departamento 1"
+            }
+        }
+    },
+    
+    "menu-item#3": {
+        "title":"Item-3-menu-desktop",
+        "props": {
+            "blockClass":"menu-items-desktop",
+            "id": "menu-item-2-2",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Departamento 2",
+                "text": "Departamento 2"
+            }
+        }
+    },
+
+    "menu-item#4": {
+        "title":"Item-4-menu-desktop",
+        "props": {
+            "blockClass":"menu-novidades",
+            "id": "menu-item-3",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Novidades",
+                "text": "Novidades"
+            }
+        }
+    },
+    
+    "menu-item#5":{
+        "title":"Item-5-menu-desktop",
+        "props":{
+            "blockClass":"menu-outlet",
+            "id": "menu-item-4",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Outlet",
+                "text": "Outlet"
+            }
+        }
+    }
+}

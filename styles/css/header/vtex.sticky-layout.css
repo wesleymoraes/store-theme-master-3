@@ -1,0 +1,18 @@
+.wrapper--sticky-header--stuck :global(.vtex-sticky-layout-0-x-container) {
+    box-shadow: 0 4px 5px rgb(0 0 0 / 10%);
+}
+
+:global(.vtex-sticky-layout-0-x-wrapper--stuck) :global(.vtex-flex-layout-0-x-flexRowContent--main-header) {
+    box-shadow: none;
+}
+
+@media (min-width: 1024px) {
+
+
+    .container--sticky-header {
+        display: flex;
+        justify-content: center;
+    }
+
+
+}

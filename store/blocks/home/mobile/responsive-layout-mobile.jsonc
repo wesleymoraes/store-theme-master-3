@@ -1,0 +1,198 @@
+{
+    "responsive-layout.mobile": {
+        "children": [
+            "slider-layout#home-slider-banner-mobile",
+            "slider-layout#deals-mobile",
+            "rich-text#shelf-title",
+            "flex-layout.row#slider-shelf",
+            "info-card#home",
+            "flex-layout.row#new-sale",
+            "rich-text#title-banners",
+            "slider-layout#banners",
+            "rich-text#vitrine-1",
+            "flex-layout.row#shelf",
+            "flex-layout.row#image-2",
+            "rich-text#vitrine-2",
+            "flex-layout.row#shelf"
+            
+           
+        ]
+    },
+    "slider-layout#home-slider-banner-mobile": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 3,
+                "phone": 1
+            },
+            "infinite": true,
+            "blockClass": "home-slider-banner",
+            "showNavigationArrows": "never",
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": false
+            }
+        },
+        "children": [
+            "image#mobile-1",
+            "image#mobile-1",
+            "image#mobile-1"
+        ]
+    },
+    "image#mobile-1": {
+        "props": {
+            "src": "https://cdn.discordapp.com/attachments/947685081781243904/947695111842717746/shopnow.png",
+            "maxHeight": 250
+        }
+    },
+    "slider-layout#deals-mobile": {
+        "props": {
+            "blockClass": "deals-mobile",
+            "showNavigationArrows": "never",
+            "itemsPerPage": {
+                "phone": 1
+            },
+            "infinite": true,
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": false
+            }
+        },
+        "children": [
+            "flex-layout.row#deals1",
+            "flex-layout.row#deals2",
+            "flex-layout.row#deals3",
+            "flex-layout.row#deals4"
+        ]
+    },
+    "rich-text#shelf-title": {
+        "title":"Título da vitrine",
+        "props": {
+            "text": "Todos os Departamentos",
+            "blockClass": "shelfTitle"
+        }
+    },
+    "flex-layout.row#slider-shelf": {
+        "children": [
+            "slider-layout#demo-products"
+        ]
+    },
+    "info-card#home": {
+        "props": {
+            "id": "info-card-home",
+            "isFullModeStyle": false,
+            "imageUrl": "https://cdn.discordapp.com/attachments/947865016953110529/948057250663104573/people.png",
+            "headline": "Lorem Ipsum",
+            "subhead": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea.",
+            "callToActionText": "Lorem Ipsum ➞",
+            "callToActionUrl": "/sale/d",
+            "blockClass": "info-card-home",
+            "textAlignment": "left"
+        }
+    },
+    "flex-layout.row#new-sale": {
+        "props": {
+            "blockClass": "new-sale"
+        },
+        "children": [
+            "image#new-sale-1",
+            "image#sale-2"
+        ]
+    },
+    "image#new-sale-1": {
+        "props": {
+            "blockClass":"image-new-sale",
+            "src": "https://cdn.discordapp.com/attachments/947865016953110529/948058805470634034/Componente-7281.png"
+           
+        }
+    },
+    "image#sale-2": {
+        "props": {
+            "blockClass":"image-new-sale",
+            "src": "https://cdn.discordapp.com/attachments/947865016953110529/948058824076570624/Componente73-12.png"
+           
+        }
+    },
+    "rich-text#title-banners": {
+        "title":"Título dos banners",
+        "props": {
+            "text": "TITULO DE BANNERS",
+            "textAlignment": "center",
+            "blockClass": "title-banners"
+        }
+    },
+    "flex-layout.row#shelf": {
+        "props":{
+            "blockClass":"row-shelf-mobile",
+            "preventHorizontalStretch":true,
+            "preventVerticalStretch":true
+        },
+        "children": [
+            "list-context.product-list#demo1"
+        ]
+    },
+    "list-context.product-list#demo1": {
+        "blocks": [
+            "product-summary.shelf"
+        ],
+        "children": [
+            "slider-layout#demo-products-1"
+        ],
+        "props": {
+            "orderBy": "OrderByTopSaleDESC"
+        }
+    },
+    "slider-layout#demo-products-1": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 5,
+                "tablet": 3,
+                "phone": 2
+            },
+            "infinite": true,
+            "fullWidth": true,
+            "blockClass": "shelf-2",
+            "showNavigationArrows": "never",
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": false
+            }
+        }
+        
+    },
+    "rich-text#vitrine-1": {
+        "title":"Texto da vitrine 1",
+        "props": {
+            "text": "Vitrine 1",
+            "blockClass": "vitrine-1"
+        }
+    },
+    "rich-text#vitrine-2": {
+        "title":"Texto da vitrine 2",
+        "props": {
+            "text": "Vitrine 2",
+            "blockClass": "vitrine-1"
+        }
+    },
+    "rich-text#link": {
+        "props": {
+            "text": "\n**Reach us at**\nwww.vtex.com.br",
+            "blockClass": "link"
+        }
+    },
+    "flex-layout.row#image-2":{
+        "props":{
+            "blockClass":"row-image-2"
+        },
+        "children":[
+            "image#mobile-2"
+        ]
+    },
+    "image#mobile-2": {
+        "props": {
+            "blockClass":"row-2-image-mobile",
+            "src": "https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/mobile/banner-sale___36d41ef747ee1a91e939958082369d83.png",
+            "maxHeight": 190
+        }
+    }
+}

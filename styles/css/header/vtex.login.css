@@ -1,11 +1,43 @@
-.profileIcon{
-display: none;
-}
+@media (min-width: 1024px) {
 
-:global(.vtex-login-2-x-container) :global(.vtex-button__label){
-    background-image: url(https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/desktop/user___f311137127224b10917945e6b0a15072.png);
-    background-repeat: no-repeat;
-    height: 31px;
-    width: 26px;
-    padding-left: -3px;
+    :global(.vtex-login-2-x-facebookOptionBtn) {
+        display: none;
+    }
+    
+    :global(.vtex-login-2-x-googleOptionBtn) {
+        display: none;
+    }
+    
+    :global(.vtex-login-2-x-formTitle) {
+        color: #25282A;
+        letter-spacing: 1.1px;
+        font-size: 11px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    
+    :global(.vtex-login-2-x-button) :global(.vtex-button) {
+        border-radius: 0;
+        background-color: #fff;
+        border-color: #B1B3B3;
+        
+    }
+    :global(.vtex-login-2-x-button) :global(.vtex-button__label) {
+        font-size: 12px;
+        color: #441AFA;
+        font-weight: 600;
+        text-transform: initial;
+    }
+    :global(.vtex-login-2-x-container) :global(.vtex-button__label) {
+        display: none;
+    }
+
+    :global(.vtex-login-2-x-container) :global(.vtex-button) {
+        background-image: url(https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/desktop/user___f311137….png);
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 50px;
+    }
+        
+    
 }

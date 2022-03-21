@@ -1,0 +1,36 @@
+{
+    "menu-item#sub-category-1": {
+        "title":"Subcategoria-1-do-submenu",
+        "props": {
+            "blockClass": "sub-item-1",
+            "id": "sub-category-1",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Subcategoria 1",
+                "text": "Subcategoria 1"
+                
+            }
+        }
+    },
+    "menu-item#sub-category-2": {
+        "title":"Subcategoria-2-do-submenu",
+        "props": {
+            "blockClass": "sub-item-1",
+            "id": "sub-category-2",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Subcategoria 2",
+                "text": "Subcategoria 2"
+                
+            }
+        }
+    }
+}

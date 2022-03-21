@@ -1,0 +1,123 @@
+{
+    "menu-item#category-1": {
+        "title":"Categoria-1-do-submenu",
+        "props": {
+            "blockClass": "sub-item-1",
+            "id": "category-1",
+            "type": "custom",
+            "highlight": false,
+            "iconProps": {
+                "id": "nav-caret--right",
+                "size": 12,
+                "activeClassName": "black"
+            },
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Categoria 1",
+                "text": "Categoria 1",
+                "iconPosition": "right"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#subcategory-1"
+        ]
+    },
+    "vtex.menu@2.x:submenu#subcategory-1": {
+        "props": {
+            "blockClass": "submenu-item-d2"
+        },
+        "children": [
+            "vtex.menu@2.x:menu#sub-category-1"
+        ]
+    },
+    "vtex.menu@2.x:menu#sub-category-1":{
+        "props": {
+            "blockClass": "menu-item-d1"
+        },
+        "children":[
+            "rich-text#category-text-1",
+            "menu-item#sub-category-1",
+            "menu-item#sub-category-2",
+            "link#2"
+
+        ]
+    },
+    "link#2":{
+        "props":{
+            "label":"Ver todos"
+        }
+    },
+    "rich-text#category-text-1": {
+        "title":"Texto categoria 1 do submenu",
+        "props": {
+            "blockClass": "sub-menu-text",
+            "text": "Categoria 1",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+
+    "menu-item#category-2": {
+        "title":"Categoria 2 do submenu",
+        "props": {
+            "blockClass": "sub-item-1",
+            "id": "category-2",
+            "type": "custom",
+            "highlight": false,
+            "iconProps": {
+                "id": "nav-caret--right",
+                "size": 12,
+                "activeClassName": "black"
+            },
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Categoria 2",
+                "text": "Categoria 2",
+                "iconPosition": "right"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#subcategory-2"
+        ]
+    },
+    "vtex.menu@2.x:submenu#subcategory-2": {
+        "props": {
+            "blockClass": "submenu-item-d4"
+        },
+        "children": [
+            "vtex.menu@2.x:menu#sub-category-2"
+        ]
+    },
+    "vtex.menu@2.x:menu#sub-category-2":{
+        "props": {
+            "blockClass": "menu-item-d1"
+        },
+        "children":[
+            "rich-text#category-text-2",
+            "menu-item#sub-category-1",
+            "menu-item#sub-category-2",
+            "link#2"
+
+        ]
+    },
+    "link#3":{
+        "props":{
+            "label":"Ver todos"
+        }
+    },
+    "rich-text#category-text-2": {
+        "title":"Texto categoria 2 do submenu",
+        "props": {
+            "blockClass": "sub-menu-text",
+            "text": "Categoria 2",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    }
+    
+
+}

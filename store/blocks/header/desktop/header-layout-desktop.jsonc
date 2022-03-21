@@ -1,0 +1,210 @@
+{
+    "header-layout.desktop": {
+        "children": [
+            "flex-layout.row#1-desktop",
+            "sticky-layout#1-desktop",
+            "flex-layout.row#menu-desktop"
+        ]
+    },
+
+    "flex-layout.row#1-desktop": {
+        "children": [
+            "flex-layout.row#1-desktop-children"
+        ],
+        "props": {
+            "blockClass": "row-1-desktop"
+        }
+    },
+    "flex-layout.row#1-desktop-children": {
+        "children": [
+            "flex-layout.col#1-desktop-col",
+            "flex-layout.col#2-desktop-col"
+        ],
+        "props": {
+            "blockClass": "row-1-desktop-children"
+        }
+    },
+    "flex-layout.col#1-desktop-col": {
+        "children": [
+            "rich-text#1-rich-text-col"
+        ],
+        "props": {
+            "blockClass": "1-desktop-col"
+        }
+    },
+    "rich-text#1-rich-text-col": {
+        "title":"Texto 1 da linha 1 cabeçalho",
+        "props": {
+            "blockClass": "1-rich-text-col",
+            "text": "Frete Gratis acima de 299,00 para Região Sudeste",
+            "textAlignment": "CENTER"
+        }
+    },
+    "flex-layout.col#2-desktop-col": {
+        "children": [
+            "flex-layout.row#2-desktop-col-row"
+        ],
+        "props": {
+            "blockClass": "2-desktop-col"
+        }
+    },
+    "flex-layout.row#2-desktop-col-row": {
+        "props": {
+            "blockClass": "2-desktop-col-row",
+            "preventHorizontalStretch": true
+        },
+        "children": [
+            "flex-layout.col#1-desktop-col-children",
+            "rich-text#col2-desktop-col-text"
+        ]
+    },
+    "flex-layout.col#1-desktop-col-children": {
+        "children": [
+            "rich-text#2-rich-text-col"
+        ],
+        "props": {
+            "blockClass": "1-desktop-col-children"
+        }
+    },
+    "rich-text#col2-desktop-col-text": {
+        "title":"Texto 2 da linha 1 cabeçalho",
+        "props": {
+            "blockClass": "col2-desktop-col-text",
+            "text": "seja um representante"
+        }
+    },
+    "rich-text#2-rich-text-col": {
+        "title":"Texto 3 da linha 1 cabeçalho",
+        "props": {
+            "blockClass": "2-rich-text-col",
+            "text": "seja um revendedor",
+            "textPosition": "RIGHT"
+        }
+    },
+ 
+    "flex-layout.row#menu-desktop": {
+        "props": {
+            "blockClass": "menu-desktop"
+        },
+        "children": [
+            "flex-layout.row#3-desktop"
+        ]
+    },
+    "flex-layout.row#3-desktop": {
+        "props": {
+            "blockClass": "menu-link",
+            "horizontalAlign": "center",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "fullWidth": true
+        },
+        "children": [
+            "vtex.menu@2.x:menu#menu-item-1",
+            "flex-layout.col#spacer"
+        ]
+    },
+    "flex-layout.col#spacer": {
+        "props": {
+            "width": "grow"
+        }
+    },
+    
+   
+    "sticky-layout#1-desktop": {
+        "props": {
+            "blockClass": "sticky-header"
+        },
+        "children": [
+            
+            "flex-layout.row#5-desktop"
+            
+        ]
+    },
+    "flex-layout.row#5-desktop":{
+        "props":{
+            "blockClass":"row-5-desktop",
+            "fullWidth":true
+        },
+        "children":[
+            "flex-layout.row#4-desktop"
+        ]
+    },
+    
+    "flex-layout.row#4-desktop": {
+        "props": {
+            "blockClass": "main-header",
+            "horizontalAlign": "center",
+            "verticalAlign": "center"
+          
+        },
+        "children": [
+            "flex-layout.col#logo-desktop",
+            "flex-layout.col#1-main-header",
+            "flex-layout.col#2-main-header",
+            "flex-layout.col#3-main-header"
+        ]
+    },
+    "flex-layout.col#1-main-header":{
+        "props":{
+            "blockClass":"1-main-header",
+            "width":"50%"
+        },
+        "children":[
+            "search-bar"
+        ]
+    },
+    "flex-layout.col#2-main-header":{
+        "props":{
+            "blockClass":"2-main-header",
+            "width":"20%"
+        },
+        "children":[
+            "link#1"
+        ]
+    },
+    "flex-layout.col#3-main-header":{
+        "props":{
+            "blockClass":"3-main-header",
+            "width":"10%"
+        },
+        "children":[
+            "login",
+            "minicart.v2"
+        ]
+    },
+    "flex-layout.col#logo-desktop": {
+        "props": {
+            "blockClass":"col-logo",
+            "verticalAlign": "middle",
+            "horizontalAlign": "left",
+             "width":"20%"
+        },
+        "children": [
+            "logo#desktop"
+        ]
+    },
+    "link#1": {
+        "props": {
+            "label": "Atendimento ao Cliente"
+        }
+    },
+    "logo#desktop": {
+        "props": {
+            "title": "Logo",
+            "href": "/",
+            "url": "https://blog.penseavanti.com.br/wp-content/uploads/2019/08/logo_avanti5-1024x173.png",
+            "width": "200px"
+        }
+    },
+    "login": {
+        "props": {
+            "hideIconLabel": true,
+            "showIconProfile": true
+        }
+    },
+    "search-bar": {
+        "props": {
+            "placeholder": "O que você procura?"
+        }
+    }
+}

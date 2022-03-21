@@ -1,36 +1,20 @@
-
-.autoCompleteOuterContainer :global(.vtex-input-prefix__group) {
-    border: 1px solid #EEEEEE;
-    width: 615px;
-
+.autoCompleteOuterContainer :global(.vtex-store-components-3-x-searchBarIcon) {
+    background-color: blue;
+    color: #fff;
 }
-.autoCompleteOuterContainer  :global(.vtex-input__suffix){
-background-color: blue;
-width: 15px;
-height: 36px;
+.autoCompleteOuterContainer :global(.vtex-store-components-3-x-suffixWrapper) {
+    width: 48px;
 }
-.searchBarIcon--search{
-    padding-top: 0px;
-color: white;
-}
-.searchBarContainer{
-    top: 50px;
-left: 600px;
-width: 592px;
-height: 40px;
-
-
+.autoCompleteOuterContainer :global(.vtex-store-components-3-x-searchBarIcon) {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
 }
 
-.infoCardImage{
-    background-color: #f6f6f6;
-}
-.infoCardContainer{
-    background-color: #f6f6f6;
-}
-.stretchChildrenWidth{
-    background-color: #f6f6f6;
-}
-.logoLink--logo-mobile{
-    margin-top: 8px;
+
+.autoCompleteOuterContainer :global(.vtex-input__suffix) {
+    padding: 0;
 }

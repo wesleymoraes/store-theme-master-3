@@ -1,17 +1,24 @@
-.currencyContainer--summary {
-    color: #441afa;
-}
-.brandName{
-    text-align: center;
-}
-.installments--summary{
-    text-align: left;
-font: normal normal normal 12px/17px arial;
-letter-spacing: 0px;
-color: #25282A;
-opacity: 1;
+.sellingPriceValue--summary-1 {
+    letter-spacing: 0px;
+    color: #441AFA;
+    font-size: 20px;
+    font-weight: bold;
 }
 
+.installments--summary-1 {
+    letter-spacing: 0px;
+    color: #25282A;
+    font-weight: normal;
+    font-size: 14px;
+}
 
-
-/*class="vtex-button bw1 ba fw5 v-mid relative pa0 lh-solid br2 min-h-regular t-action bg-action-primary b--action-primary c-on-action-primary hover-bg-action-primary hover-b--action-primary hover-c-on-action-primary pointer w-100 
+.savings--summary-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #25282A;
+    color: #fff;
+    width: 30px;
+    height: 14px;
+    font-size: 10px;
+}

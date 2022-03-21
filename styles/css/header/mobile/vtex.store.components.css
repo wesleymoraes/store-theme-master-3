@@ -1,9 +1,0 @@
-.logoLink--logo-mobile{
-    margin-top: 8px;
-}
-
-@media (max-width: 640px) {
-    .autoCompleteOuterContainer :global(.vtex-input-prefix__group) {
-        border: 1px solid #EEEEEE;
-        width: 315px; }
-}

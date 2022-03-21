@@ -1,0 +1,53 @@
+{
+    "menu-item#subItem-2": {
+        "title":"Item-2-do-submenu-desktop",
+        "props": {
+            "blockClass": "sub-item-1",
+            "id": "subItem-2",
+            "type": "custom",
+            "highlight": false,
+            "iconProps": {
+                "id": "nav-caret--right",
+                "size": 12,
+                "activeClassName": "black"
+            },
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Departamento 2",
+                "text": "Departamento 2",
+                "iconPosition": "right"
+            }
+        },
+            
+        "blocks":["vtex.menu@2.x:submenu#submenu-item-d2"]
+    },
+    "vtex.menu@2.x:submenu#submenu-item-d2":{
+        "props": {
+            "blockClass": "submenu-item-d3"
+        },
+        "children": [
+            "vtex.menu@2.x:menu#menu-item-d2"
+        ]
+    },
+    "vtex.menu@2.x:menu#menu-item-d2": {
+        "props": {
+            "blockClass": "menu-item-d1"
+        },
+        "children": [
+            "rich-text#sub-menu-text-2",
+            "menu-item#category-1",
+            "menu-item#category-2",
+            "link#2"
+        ]
+    },
+    "rich-text#sub-menu-text-2": {
+        "props": {
+            "blockClass": "sub-menu-text",
+            "text": "Departamento 2",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    }
+}

@@ -1,0 +1,15 @@
+.product-identifier--productReference {
+    font-size: 12px;
+    font-weight: normal;
+    letter-spacing: 0px;
+    color: #B1B3B3;
+}
+
+:global(.vtex-product-identifier-0-x-product-identifier__label) {
+    font-size: 0;
+}
+
+:global(.vtex-product-identifier-0-x-product-identifier__label)::after {
+    font-size: 12px;
+    content: "cód";
+}

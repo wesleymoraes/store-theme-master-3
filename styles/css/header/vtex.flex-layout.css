@@ -1,81 +1,216 @@
-.flexRow--MenuBarWrapper{
-   display:flex;
-   justify-content: center;
-    background-color: #EEEEEE;
-}
-.flexRowContent--headerMenu{
-    max-width: 1252px;
-    align-items: flex-start;
-    justify-content: center;
-
-}
-.flexRow--topMenu{
-    background-color: black;
+.flexRow--row-1-desktop {
+    height: 32px;
+    background-color: #25282A;
 }
 
-
-.flexRowContent--topMenuWrapper {
+.flexRowContent--row-0-mobile {
     display: flex;
+    flex-direction: column;
+}
+
+.flexRowContent--main-header :global(.vtex-minicart-2-x-minicartQuantityBadge) {
+    background-color: #441AFA;
+    top: -1.2rem;
+    right: auto;
+}
+
+.flexRowContent--main-header {
+    display: flex;
+    align-items: center;
     justify-content: space-between;
 }
-.flexRow--BarraMenuSuperior{
-    width: 640px;
-    max-width: 1252px;
-    padding-top: 19px;
+
+.flexRowContent--row-3-mobile :global(.vtex-styleguide-9-x-input) {
+    width: 300px;
+    border: 0;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
 }
-.flexRow--headerMenu{
-    background-color: #EEEEEE;
-    border-top: 1px solid  #ebe5e5;
+
+.flexRowContent--row-3-mobile :global(.vtex-input-prefix__group) {
+    height: 48px;
+    border: 0;
+    border-radius: 0;
 }
-.flexCol--logo{
+
+.flexRowContent--row-3-mobile {
     display: flex;
-}
-.flexColChild--logo{
-    margin-left: -95px;
-}
-.flexRowContent--MenuBargg{
-    padding-left: 0px;
-}
-.flexRow--deals{
-    max-width: 1252px;
+    justify-content: center;
     background-color: #EEEEEE;
+}
+
+::placeholder {
+    letter-spacing: 0px;
+    color: #B1B3B3;
+    font-size: 16px;
+}
+
+.flexRow--menu-bottom {
+    background-color: #EEEEEE;
+    margin-top: 15px;
+}
+
+.flexRow--menu-center-2 {
+    margin-top: 15px;
+}
+
+.flexRowContent--row-link-4 :global(.vtex-store-link-0-x-link) {
+    text-decoration: underline;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 0px;
+    color: #25282A;
+    padding-left: 20px;
     margin-top: 20px;
-  
-}
-.flexCol--all-deals{
-    justify-content: center;
-    background-color: transparent;
-    max-width: 1252px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-.flexRowContent--deals{
-    align-items: center;
-    margin: 0 auto;
-    justify-content: center;
-    max-width: 1252px;
-    margin-top: -10px;
-    font-size: normal normal bold 12px/17px arial;
-}
-.flexColChild--all-deals{
-    padding-top: 10px;
-    background-color: transparent
-}
-.flexRow--info-card{
-    background-color: #f6f6f6
-}
-.flexRowContent--info-card{
-    background-color: #f6f6f6;
+    text-transform: uppercase;
 }
 
-.flexRowContent--card-news-sale{
-    justify-content: space-between;
-    max-width: 1252px;
-    margin-inline-start: auto;
-    margin-top: 30px;
-    
+.flexRowContent--row-link-5 :global(.vtex-store-link-0-x-link) {
+    text-decoration: underline;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 0px;
+    color: #8C8F90;
+    padding-left: 20px;
+    margin-left: 1.5rem;
+    text-transform: capitalize;
 }
-.flexRow--card-news-sale{
-    margin-left: -100px;
+
+
+@media (min-width: 1024px) {
+
+    .flexRow--row-1-desktop-children {
+        max-width: 1252px;
+        height: 32px;
+
+    }
+
+    .flexCol--1-desktop-col {
+        display: flex;
+        height: 32px;
+    }
+
+    .flexCol--2-desktop-col {
+        height: 32px;
+    }
+
+    .flexRowContent--2-desktop-col-row {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        height: 32px;
+    }
+
+    .flexCol--1-desktop-col-children {
+        display: flex;
+        height: 32px;
+    }
+
+    .flexRow--menu-desktop :global(.vtex-store-components-3-x-container) {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .flexColChild--1-desktop-col-children {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .flexCol--2-desktop-col-row {
+        height: 32px;
+    }
+
+    .flexRow--row-5-desktop {
+        display: flex;
+        width: 100%;
+        background-color: #EEEEEE;
+    }
+
+    .flexRowContent--main-header {
+        max-width: 1252px;
+
+    }
+
+    .flexCol--3-main-header {
+        display: flex;
+        justify-content: right;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .flexCol--2-main-header {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .flexColChild--col-logo :global(.vtex-store-components-3-x-logoContainer) {
+        padding-left: 0;
+    }
+
+    .flexRow--main-header {
+        display: flex;
+        justify-content: center;
+    }
+
+    .flexRowContent--main-header {
+        justify-content: center;
+        padding-left: 0;
+        padding-right: 0;
+        background-color: #EEEEEE;
+    }
+
+    .flexRowContent--main-header :global(.vtex-styleguide-9-x-input) {
+        border: 1px solid #EEEEEE;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border: 0;
+    }
+
+    .flexRowContent--main-header :global(.vtex-input-prefix__group) {
+        border-radius: 0;
+        border: 0;
+    }
+
+    .flexRowContent--main-header :global(.vtex-store-link-0-x-link) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .flexRowContent--main-header :global(.vtex-store-link-0-x-label) {
+        font-size: 14px;
+        font-weight: bold;
+        color: #25282A;
+        text-decoration: underline;
+        letter-spacing: 0px;
+    }
+
+    .flexRow--menu-desktop {
+        height: 41px;
+        background-color: #EEEEEE;
+        border-top: 1px solid #A2A2A219;
+    }
+
+    .flexRowContent--menu-link {
+        background-color: #EEEEEE;
+        padding: 0;
+    }
+
+    .flexRow--menu-link {
+        display: flex;
+        justify-content: center;
+        max-width: 1252px;
+        height: 40px;
+
+    }
+
+    ::placeholder {
+        font-size: 12px;
+    }
+
+    .flexColChild--3-main-header :global(.vtex-minicart-2-x-openIconContainer) {
+        padding-right: 0;
+    }
 }

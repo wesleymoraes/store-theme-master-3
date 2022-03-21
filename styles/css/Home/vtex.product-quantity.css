@@ -1,0 +1,57 @@
+.quantitySelectorTitle--quantity-button {
+    display: none;
+}
+
+.quantitySelectorContainer--quantity-button {
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #E6E6E6;
+    border-radius: 7px;
+    padding: 3px;
+}
+
+.quantitySelectorStepper--quantity-button :global(.vtex-numeric-stepper__input) {
+    font-size: 17px;
+    color: #989898;
+    width: 55px;
+    border: 0;
+    background-color: transparent;
+}
+
+.quantitySelectorStepper--quantity-button :global(.vtex-numeric-stepper__plus-button) {
+    color: #989898;
+    font-size: 25px;
+    width: 15px !important;
+    border: 0;
+    background-color: transparent;
+}
+
+.quantitySelectorStepper--quantity-button :global(.vtex-numeric-stepper__minus-button) {
+    color: #989898;
+    font-size: 25px;
+    width: 15px !important;
+    border: 0;
+    background-color: transparent;
+}
+
+@media (min-width:1024px) {
+    .quantitySelectorContainer--quantity-button {
+        width: 80%;
+        align-items: center;
+    }
+
+    .summaryContainer--quantity-button {
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+@media (max-width:375px) {
+    .quantitySelectorStepper--quantity-button :global(.vtex-numeric-stepper__input) {
+        font-size: 13px;
+        width: 40px;
+       
+    }
+}

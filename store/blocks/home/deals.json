@@ -1,23 +1,9 @@
-{ 
-  "flex-layout.row#barra-deals": {
-  "children":["flex-layout.row#deals"]
-},
-  "flex-layout.row#deals": {
-    "children": [
-      "flex-layout.col#deals1",
-      "flex-layout.col#deals2",
-      "flex-layout.col#deals3",
-      "flex-layout.col#deals4"
-    ],
-    "props": {
-      "blockClass": "deals"
-    }
-  },
-
-  "flex-layout.col#deals1": {
-    "props": {
-      "blockClass":"all-deals"
-      
+{
+  
+  "flex-layout.row#deals1": {
+    "props":{
+      "blockClass":"deals-1",
+      "preventHorizontalStretch":true
     },
     "children": [
       "image#deal1",
@@ -26,22 +12,20 @@
   },
   "image#deal1": {
     "props": {
-      "blockClass":"deal-1-img",
       "src": "https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/desktop/box___65d806e224223663fb66f77ab982cae4.png",
-      
       "maxHeight": "30px"
     }
   },
   "rich-text#deal1": {
     "props": {
-      "text": "**FRETE GRÁTIS** ACIMA DE R$299",
-      "blockClass": "deals-1"
+      "text": "**Frete Grátis** acima de R$299",
+      "blockClass": "text-deals"
     }
   },
-  "flex-layout.col#deals2": {
-    "props": {
-      "blockClass":"all-deals"
-      
+  "flex-layout.row#deals2": {
+    "props":{
+      "blockClass":"deals-1",
+      "preventHorizontalStretch":true
     },
     "children": [
       "image#deal2",
@@ -50,21 +34,20 @@
   },
   "image#deal2": {
     "props": {
-      "blockClass":"deal-2-img",
-      "src": "https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/desktop/exchange___a87354332bb2f428bff1e18a2ee77b0b.png",
+      "src": "https://cdn.discordapp.com/attachments/947865016953110529/948012661281550394/exchange.png",
       "maxHeight": "30px"
     }
   },
   "rich-text#deal2": {
     "props": {
-      "text": "**PRIMEIRA TROCA** GRÁTIS",
-      "blockClass": "deals-2"
+      "text": "**Primeira troca** grátis",
+      "blockClass": "text-deals"
     }
   },
-  "flex-layout.col#deals3": {
-    "props": {
-      "blockClass":"all-deals"
-      
+  "flex-layout.row#deals3": {
+    "props":{
+      "blockClass":"deals-1",
+      "preventHorizontalStretch":true
     },
     "children": [
       "image#deal3",
@@ -73,21 +56,20 @@
   },
   "image#deal3": {
     "props": {
-      "blockClass":"deal-3-img",
-      "src": "https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/desktop/credit-card___da1c0c2a3c24d8824d8a756e83f2c780.png",
+      "src": "https://cdn.discordapp.com/attachments/947865016953110529/948013562423570472/credit-card.png",
       "maxHeight": "30px"
     }
   },
   "rich-text#deal3": {
     "props": {
-      "text": "**ATÉ 12X SEM JUROS** NOS CARTÕES",
-      "blockClass": "deals-3"
+      "text": "**Até 12x sem juros** nos cartões",
+      "blockClass": "text-deals"
     }
   },
-  "flex-layout.col#deals4": {
-    "props": {
-      "blockClass":"all-deals"
-      
+  "flex-layout.row#deals4": {
+    "props":{
+      "blockClass":"deals-1",
+      "preventHorizontalStretch":true
     },
     "children": [
       "image#deal4",
@@ -96,15 +78,14 @@
   },
   "image#deal4": {
     "props": {
-      "blockClass":"deal-4-img",
       "src": "https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/desktop/shopping___eb04277bb43b9b619034d4c7336056d0.png",
       "maxHeight": "30px"
     }
   },
   "rich-text#deal4": {
     "props": {
-      "text": "**encontre um** parceiro vollo",
-      "blockClass": "deals-4"
+      "text": "**Encontre um** parceiro vollo",
+      "blockClass": "text-deals"
     }
   }
 }

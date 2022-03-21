@@ -52,6 +52,7 @@
       "colSizing": "auto",
       "colGap": 7
     },
+  
     "children": [
       "stack-layout#summaryListDesktop",
       "flex-layout.col#summaryDetailsListDesktop"
@@ -116,7 +117,7 @@
 
   "add-to-cart-button#buyNow": {
     "props": {
-      "text": "COMPRAR",
+      "text": "BUY NOW",
       "isOneClickBuy": true,
       "onClickEventPropagation": "enabled",
       "blockClass": "buyNow"
@@ -131,6 +132,7 @@
   "stack-layout#summaryListDesktop": {
     "children": [
       "product-summary-image#summaryListDesktop",
+      "vtex.product-highlights@2.x:product-highlights#collection",
       "vtex.product-highlights@2.x:product-highlights#collection",
       "modal-trigger#quickview" // Check quickview.jsonc
     ]

@@ -1,0 +1,59 @@
+.searchNotFoundOops--not-found {
+    font-size: 0;
+    margin-bottom: 16px;
+    margin-top: 40px;
+}
+
+.searchNotFoundOops--not-found::after {
+    content:"OPS!";
+    font-size: 56px;
+    font-weight: bold;
+    color: #EEEEEE;
+}
+
+.searchNotFoundInfo--not-found {
+    align-items: flex-start;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.searchNotFound--not-found :last-child{
+    color: #441AFA;
+    font-size: 16px;
+    font-weight: bold;
+}
+.searchNotFound--not-found :nth-child(2n) :last-child{
+    color: #B1B3B3;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.searchNotFoundWhatToDoDotsContainer--not-found {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.searchNotFoundWhatToDoDots--not-found::before {
+    content:"-"
+} 
+
+.searchNotFoundWhatToDoDots--not-found {
+    margin-bottom: 10px;
+}
+
+.searchNotFoundWhatDoIDo--not-found {
+    font-size: 12px;
+    font-weight: normal;
+    color: #2E2E2E;
+    margin-top: 20px;
+    margin-bottom: 16px;
+}
+
+@media (min-width:1024px) {
+    .searchNotFoundOops--not-found {
+        margin-top: 0;
+    }
+}
+
+

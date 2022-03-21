@@ -1,0 +1,398 @@
+/* GRIDS MOBILE */
+
+.flexRow--product-availability :global(.vtex-store-components-3-x-container) {
+    padding: 0;
+ }
+ 
+ .flexRow--row-breadcrumb-pdp :global(.vtex-store-components-3-x-container) {
+    padding: 0;
+ }
+ 
+ .flexRow--product-main :global(.vtex-store-components-3-x-container) {
+     padding: 0;
+ }
+ .flexRow--row-breadcrumb-pdp {
+     padding: 0px 20px;
+ }
+ 
+ .flexRow--product-availability {
+     padding: 0px 20px;
+ }
+ 
+ .flexRow--product-main {
+     padding: 0px 20px;
+ }
+/* **************************************************************************  */
+
+.flexRowContent--row-breadcrumb-pdp :global(.vtex-breadcrumb-1-x-arrow) {
+    font-size: 12px;
+    color: #B1B3B3;
+}
+
+.flexRowContent--row-breadcrumb-pdp :global(.vtex-breadcrumb-1-x-arrow) :last-child {
+    font-size: 12px;
+    color: #B1B3B3;
+}
+
+.flexRowContent--row-breadcrumb-pdp :global(.vtex-breadcrumb-1-x-term) {
+    font-size: 12px;
+    color: #B1B3B3;
+    opacity: 1;
+}
+
+.flexRowContent--row-breadcrumb-pdp :global(.vtex-breadcrumb-1-x-homeIcon) {
+    width: 16px;
+    height: 16px;
+    color: #B1B3B3;
+
+}
+
+.flexRowContent--product-name-pdp :global(.vtex-store-components-3-x-productBrand) {
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0px;
+    color: #25282A;
+    text-transform: uppercase;
+}
+
+.flexRowContent--row-list-price-savings :global(.vtex-product-price-1-x-listPrice) {
+    text-decoration: line-through;
+    font-size: 12px;
+    font-weight: normal;
+    color: #25282A;
+
+}
+
+.flexRowContent--row-list-price-savings :global(.vtex-product-price-1-x-savings) {
+    font-size: 12px;
+    font-weight: normal;
+    color: #25282A;
+    margin-left: 5px;
+}
+
+.flexRowContent--product-name-pdp {
+    margin-bottom: 0;
+}
+
+.flexRowContent--row-selling-price :global(.vtex-product-price-1-x-currencyContainer) {
+    color: #441AFA;
+    font-size: 24px;
+}
+
+.flexColChild--right-col-pdp :global(.vtex-product-price-1-x-installments) {
+    font-size: 14px;
+    color: #25282A;
+}
+
+.flexColChild--right-col-pdp :global(.vtex-product-price-1-x-installmentsNumber) {
+    font-weight: bold;
+}
+
+.flexColChild--right-col-pdp :global(.vtex-product-price-1-x-installmentsNumber)::after {
+    font-weight: bold;
+    content: "x";
+}
+
+.flexColChild--right-col-pdp :global(.vtex-product-price-1-x-installmentValue) {
+    font-weight: bold;
+}
+
+.flexColChild--right-col-pdp :global(.vtex-product-quantity-1-x-quantitySelectorContainer) {
+    flex-direction: row;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.flexColChild--right-col-pdp :global(.vtex-product-quantity-1-x-quantitySelectorTitle) {
+    margin-bottom: 0;
+    margin-right: 15px;
+    color: #25282A;
+    font-size: 12px;
+}
+
+.flexColChild--right-col-pdp :global(.vtex-product-quantity-1-x-quantitySelectorTitle)::after {
+    content: ":";
+}
+
+.flexColChild--right-col-pdp :global(.vtex-numeric-stepper__input) {
+    border: 0;
+    width: 100%;
+    color: #707070;
+    font-size: 14px;
+}
+
+.flexColChild--right-col-pdp :global(.vtex-numeric-stepper__plus-button) {
+    border: 0;
+    width: 100% !important;
+}
+
+.flexColChild--right-col-pdp :global(.vtex-numeric-stepper__plus-button-container) {
+    width: 30%;
+}
+
+.flexColChild--right-col-pdp :global(.vtex-numeric-stepper__minus-button-container) {
+    width: 30%;
+}
+
+.flexColChild--right-col-pdp :global(.vtex-numeric-stepper__minus-button) {
+    border: 0;
+    background-color: #fff;
+    width: 100% !important;
+}
+
+.flexColChild--right-col-pdp :global(.vtex-numeric-stepper-container) {
+    border: 1px solid #EEEEEE;
+    border-radius: 3px;
+    width: 115px;
+}
+
+.flexColChild--right-col-pdp :global(.vtex-numeric-stepper__plus-button__text) {
+    font-size: 16px;
+    color: #25282A;
+}
+
+.flexColChild--right-col-pdp :global(.vtex-numeric-stepper__minus-button__text) {
+    font-size: 16px;
+    color: #25282A;
+}
+
+.flexRowContent--row-buy-button :global(.vtex-button) {
+    background-color: #441AFA;
+    height: 48px;
+    letter-spacing: 1.6px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 0;
+    border: 0;
+}
+
+.flexColChild--right-col-pdp :global(.vtex-input__label) {
+    font-size: 0;
+    font-weight: bold;
+    color: #25282A;
+    letter-spacing: 1.2px;
+
+}
+
+.flexColChild--right-col-pdp :global(.vtex-input__label)::after {
+    content: "FRETE E PRAZO DE ENTREGA:";
+    font-size: 12px;
+
+}
+
+.flexColChild--right-col-pdp :global(.vtex-input-prefix__group) {
+    height: 48px;
+    border: 1px solid #EEEEEE;
+    border-radius: 3px;
+
+}
+
+.flexColChild--right-col-pdp :global(.vtex__icon-external-link) {
+    display: none;
+
+}
+
+.flexColChild--right-col-pdp :global(.vtex-address-form__postalCode-forgottenURL) :first-child {
+    color: #25282A;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.flexColChild--right-col-pdp :global(.vtex-store-components-3-x-shippingContainer) :global(.vtex-button) {
+    height: 48px;
+    background-color: #25282A;
+    letter-spacing: 1.2px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    border: 0;
+    border-radius: 0;
+}
+
+.flexColChild--right-col-pdp :global(.vtex-store-components-3-x-skuSelectorItem--selected) {
+    border: 2px solid #B1B3B3;
+    border-radius: 3px;
+}
+
+.flexColChild--right-col-pdp :global(.vtex-store-components-3-x-skuSelectorItem--selected) :global(.vtex-store-components-3-x-skuSelectorInternalBox) {
+    border: 0;
+    border-radius: 0;
+}
+
+.flexColChild--right-col-pdp :global(.vtex-store-components-3-x-skuSelectorName) {
+    letter-spacing: 0px;
+    color: #25282A;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.flexColChild--right-col-pdp :global(.vtex-store-components-3-x-skuSelectorSelectorImageValue) {
+    letter-spacing: 0px;
+    color: #25282A;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.flexColChild--right-col-pdp :global(.vtex-store-components-3-x-skuSelectorName)::after {
+    content: ":";
+}
+
+.flexColChild--right-col-pdp :global(.vtex-store-components-3-x-skuSelectorNameSeparator) {
+    display: none;
+}
+
+.flexColChild--right-col-pdp :global(.vtex-store-components-3-x-skuSelectorInternalBox) {
+    border: 1px solid #EEEEEE;
+    border-radius: 3px;
+}
+
+.flexColChild--right-col-pdp :global(.vtex-store-components-3-x-frameAround) {
+    border: 0;
+    border-radius: 0;
+}
+
+.flexColChild--right-col-pdp :global(.vtex-store-components-3-x-skuSelectorItem--selected) {
+    border: 2px solid #B1B3B3;
+    border-radius: 3px;
+}
+
+.flexRow--row-description {
+    background-color: #F9F9F9;
+}
+
+.flexRowContent--row-description {
+    margin-bottom: 0;
+    background-color: #fff;
+}
+
+.flexRowContent--row-description :global(.vtex-store-components-3-x-productDescriptionContainer) {
+
+    padding-bottom: 2rem;
+    padding-top: 40px;
+    background-color: #F9F9F9;
+}
+
+.flexRowContent--row-description :global(.vtex-store-components-3-x-productDescriptionTitle) {
+    letter-spacing: 1.6px;
+    color: #441AFA;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.flexRowContent--row-description :global(.vtex-store-components-3-x-productDescriptionText) {
+    letter-spacing: 0px;
+    text-align: left;
+    color: #25282A;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.flexRow--productSpecificationGroup-pdp {
+    background-color: #F9F9F9;
+}
+
+.flexRowContent--productSpecificationGroupName-pdp {
+    margin-bottom: 18px;
+}
+
+.flexRowContent--productSpecificationGroupName-pdp :global(.vtex-product-specifications-1-x-groupName) {
+    letter-spacing: 1.6px;
+    color: #441AFA;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.flexColChild--productSpecificationName-pdp :global(.vtex-product-specifications-1-x-specificationName) {
+    letter-spacing: 0px;
+    color: #25282A;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.flexColChild--productSpecificationValue-pdp :global(.vtex-product-specifications-1-x-specificationValue) {
+    letter-spacing: 0px;
+    color: #25282A;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.flexRowContent--productSpecification {
+    margin-bottom: 40px;
+}
+
+.flexRowContent--message-availability :global(.vtex-store-components-3-x-title) {
+    letter-spacing: 1.6px;
+    color: #441AFA;
+    font-size: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.flexRowContent--message-availability :global(.vtex-store-components-3-x-title)::before {
+    content: "Produto Indisponível";
+    font-size: 16px;
+    
+}
+
+.flexRowContent--message-availability :global(.vtex-store-components-3-x-subscribeLabel) {
+    letter-spacing: 0px;
+    color: #25282A;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+.flexRowContent--message-availability :global(.vtex-store-components-3-x-subscribeLabel)::after {
+    content: ".";
+}
+
+.flexRowContent--message-availability :global(.vtex-styleguide-9-x-input)::placeholder {
+    letter-spacing: 0px;
+    color: #B1B3B3;
+    font-size: 12px;
+}
+
+.flexRowContent--message-availability :global(.vtex-input-prefix__group) {
+    border: 1px solid #EEEEEE;
+    border-radius: 0;
+}
+
+.flexRowContent--message-availability :global(.vtex-store-components-3-x-submit) {
+    display: flex;
+    justify-content: center;
+    max-width: 414px;
+}
+
+.flexRowContent--message-availability :global(.vtex-button) {
+    height: 48px;
+    width: 100%;
+    background-color: #25282A;
+    letter-spacing: 1.2px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    border: 0;
+    border-radius: 0;
+    margin-top: 24px;
+}
+
+.flexRowContent--message-availability :global(.vtex-button__label) {
+    font-size: 0;
+}
+
+.flexRowContent--message-availability :global(.vtex-button__label)::after {
+    content: "AVISE-ME QUANDO DISPONÍVEL";
+    font-size: 12px;
+}
+
+.flexRowContent--message-availability {
+    margin-top: 40px;
+}
+
+
