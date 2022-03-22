@@ -1,62 +1,42 @@
-.newsletterForm--news-letter-form-footer :global(.vtex-styleguide-9-x-input) {
-    border: solid 1px #B1B3B3;
-    border-radius: 0;
-    font-size: 14px;
-    color: #25282A;
-    background-color: #EEEEEE;
-
-}
-
-.newsletterForm--news-letter-form-footer :global(.vtex-styleguide-9-x-input)::placeholder {
-    font-size: 14px;
-    color: #25282A;
-
-}
-
-.newsletterForm--news-letter-form-footer :global(.vtex-input-prefix__group) {
-    height: 48px;
-    border-radius: 0;
-    border: 0;
-    margin-bottom: 10px;
-}
-
-.newsletterForm--news-letter-form-footer :global(.vtex-store-newsletter-1-x-formSubmitContainer) {
+.newsletterForm--newsLetterForm{
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+
+}
+.emailInputContainer{
+    width: 250px;
+}
+.nameInputContainer{
+    width: 250px;
+
+}
+.nameInputContainer--Input-name :global(.vtex-input-prefix__group){
+    color: black;
+}
+.newsletterForm--newsLetterForm{
+    margin-top: 21px;
 }
 
-.newsletterForm--news-letter-form-footer :global(.vtex-button) {
-    background: transparent;
-    border: 0;
+.formSubmitContainer--button-cadastre-se :global(.vtex-button){
+    background-color: transparent;
+    border: none;
+    text-align: left;
+    font: normal normal bold 15px/30px arial;
+    letter-spacing: 1.2px;
     color: #441AFA;
     text-transform: uppercase;
-    font-size: 20px;
-    font-weight: bold;
-    letter-spacing: 2px;
+    opacity: 1;
 }
-
-@media (min-width:1024px) {
-    .newsletterForm--news-letter-form-footer {
-        display: flex;
-        align-items: baseline;
-    }
-
-    .newsletterForm--news-letter-form-footer :global(.vtex-store-newsletter-1-x-nameInputContainer) {
-        width: 40%;
-        margin-right: 10px;
-    }
-
-    .newsletterForm--news-letter-form-footer :global(.vtex-store-newsletter-1-x-emailInputContainer) {
-        width: 40%;
-    }
-
-    .newsletterForm--news-letter-form-footer :global(.vtex-button) {
-        font-size: 15px;
-    }
-
-    .newsletterForm--news-letter-form-footer :global(.vtex-input-prefix__group) {
-        height: 40px;
-        margin-bottom: 0px;
-    }
-
+.nameInputContainer--Input-name :global(.vtex-styleguide-9-x-hideDecorators){
+    background-color: transparent;
+    border-radius: 0;
+    border: 1px solid;
+    border-color: black;
+}
+.emailInputContainer :global(.vtex-styleguide-9-x-hideDecorators){
+    background-color: transparent;
+    border-radius: 0;
+    border: 1px solid;
+    border-color: black;
+    color: black;
 }

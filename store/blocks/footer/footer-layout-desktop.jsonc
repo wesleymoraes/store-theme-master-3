@@ -1,0 +1,97 @@
+{
+"footer-layout.desktop": {
+    "children": [
+      "flex-layout.row#newsletter-footer-desktop",
+      "flex-layout.row#footer-menu-desktop"
+      //"flex-layout.row#footer-desktop",
+      //"flex-layout.row#footer-desktop"
+    ]
+  },
+  "flex-layout.row#newsletter-footer-desktop":{
+      "props": {
+          "blockClass": "Row-footer"
+       
+      },
+      "children":["flex-layout.row#wrappernewsletter-footer"]
+
+  },
+  "flex-layout.row#wrappernewsletter-footer":{
+      "props": {
+        "blockClass": "newsletter-footer-desktop"
+      },
+  "children": ["flex-layout.col#imagem","flex-layout.row#newsletter-text","flex-layout.col#newsletterform"]
+    },
+  "flex-layout.col#imagem": {
+      "props": {
+        "blockClass":["Footer-image"],
+          "verticalAlign": "middle",
+          "horizontalAlign": "left",
+          "width":"15%"
+           },
+           "children": ["image#footer"]
+        },
+          "image#footer": {
+            "props": {
+              "src": "https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/desktop/logo-avanti___5983b91626769c86c1800507f89bd1c6.png",
+              "maxHeight": 118
+            }
+
+     },
+     "flex-layout.row#newsletter-text":{
+        "props": {
+            "blockClass": "newsletter-text"
+        },
+         "children": ["rich-text#footer-newsletter","rich-text#content-footer"]
+
+     },
+
+     "rich-text#footer-newsletter":{
+         "props":{
+             "blockClass":["titleNewsLetter"],
+             "text": "NEWSLETTER"
+
+         }
+     },
+    
+    "rich-text#content-footer":{
+        "props":{
+            "blockClass":["contentNewsLetter"],
+            "text": "Receba promoções e descontos especiais em primeira mão."
+
+        }
+    },
+    "flex-layout.col#newsletterform":{
+        "props": {
+            "width":"60%"
+        },
+        "children": ["newsletter-form"]
+    },
+    "newsletter-form": {
+        "props": {
+            "blockClass":["newsLetterForm"]
+            
+        },
+        "children": [
+          "newsletter-input-name",
+          "newsletter-input-email",
+          "newsletter-submit"
+        ]
+      },
+      "newsletter-input-name":{
+          "props": {
+              "placeholderText": "Nome",
+              "blockClass":["Input-name"]
+          }
+      },
+
+      "newsletter-submit":{
+          "props": {
+              "blockClass":"button-cadastre-se",
+              "submitButtonLabel": "Cadastre-se"
+          }
+      }
+
+    }
+
+      
+

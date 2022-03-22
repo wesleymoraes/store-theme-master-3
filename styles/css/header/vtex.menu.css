@@ -143,12 +143,12 @@
 
 .menuItem--menu-items-desktop--isOpen :global(.vtex-menu-2-x-styledLinkIcon--menu-items-desktop) {
     transform: rotate(180deg);
-    transition: 0.5s;
+    transition: 1.0s;
 
 }
 
 .menuItem--menu-items-desktop--isClosed :global(.vtex-menu-2-x-styledLinkIcon--menu-items-desktop) {
-    transition: 0.5s;
+    transition: 1.0s;
 
 }
 
@@ -159,12 +159,12 @@
 
 .menuItem--sub-item-1--isOpen :global(.vtex-menu-2-x-styledLinkIcon--sub-item-1) {
     transform: rotate(180deg);
-    transition: 0.5s;
+    transition: 1.0s;
 }
 
 .menuItem--sub-item-1--isClosed :global(.vtex-menu-2-x-styledLinkIcon--sub-item-1) {
     transform: rotate(0deg);
-    transition: 0.5s;
+    transition: 1.0s;
 }
 
 .menuItem--sub-item-1--isOpen :global(.vtex-menu-2-x-styledLinkContainer--sub-item-1) :first-child {

@@ -1,0 +1,41 @@
+{
+    "flex-layout.row#footer-menu-desktop":{
+        "props": {
+            "blockClass": "footer-menu"
+        },
+    "children": ["flex-layout.row#footermenuWrapper"
+       ]   
+},
+"flex-layout.row#footermenuWrapper": {
+    "props": {
+        "blockClass": "Footer-menu-wrapper",
+        "width":"70%"
+    },
+    "children": [
+        "flex-layout.col#institucional",
+        "flex-layout.col#precisaDeAjuda",
+        "flex-layout.col#faleconosco",
+        "flex-layout.col#sociais"
+    ]
+},
+"flex-layout.col#sociais": {
+  "props": {
+      "blockClass":["Sociais"],
+      "width":"30%"
+    
+  },
+  "children": ["image#facebook","image#instagram"]
+},
+"image#facebook": {
+  "props": {
+    "src": "https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/mobile/facebook___c99e0ff3fd3a55d1b2d1e6b5cf814618.png"
+    
+  }
+},
+"image#instagram": {
+    "props": {
+      "src": "https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/mobile/instagram___8fbd3b482ccc74b52e7f680d8391040d.png"
+      
+    }
+  }
+}

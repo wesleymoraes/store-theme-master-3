@@ -11,7 +11,7 @@
             "flex-layout.row#main-home-desktop-4",
             "rich-text#vitrine-1",
             "flex-layout.row#shelf-desktop",
-            "flex-layout.row#image-freight",
+            "flex-layout.row#image-frete",
             "rich-text#vitrine-2",
             "flex-layout.row#shelf-desktop"
             
@@ -197,7 +197,7 @@
            
         }
     },
-    "flex-layout.row#image-freight":{
+    "flex-layout.row#image-frete":{
         "props":{
             "blockClass":"image-freight"
         },
