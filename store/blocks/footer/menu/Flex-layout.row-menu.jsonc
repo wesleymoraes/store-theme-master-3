@@ -9,7 +9,7 @@
 "flex-layout.row#footermenuWrapper": {
     "props": {
         "blockClass": "Footer-menu-wrapper",
-        "width":"70%"
+        "width":"100%"
     },
     "children": [
         "flex-layout.col#institucional",
@@ -21,18 +21,33 @@
 "flex-layout.col#sociais": {
   "props": {
       "blockClass":["Sociais"],
-      "width":"30%"
+      "width":"20%"
     
   },
-  "children": ["image#facebook","image#instagram"]
+  "children": ["flex-layout.col#image-facebook","flex-layout.col#image-instagram"]
 },
-"image#facebook": {
+
+"flex-layout.col#image-facebook": {
+  "props": {
+    "blockClass":["footer-image-facebook"]
+  },
+  "children": ["image#footer-facebook"]
+},
+
+"image#footer-facebook": {
   "props": {
     "src": "https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/mobile/facebook___c99e0ff3fd3a55d1b2d1e6b5cf814618.png"
     
   }
 },
-"image#instagram": {
+
+"flex-layout.col#image-instagram": {
+  "props": {
+    "blockClass":["footer-image-instagram"]
+  },
+        "children": ["image#footer-instagram"]
+  },
+  "image#footer-instagram": {
     "props": {
       "src": "https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/mobile/instagram___8fbd3b482ccc74b52e7f680d8391040d.png"
       

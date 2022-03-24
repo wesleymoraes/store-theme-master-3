@@ -1,5 +1,8 @@
 {
 "flex-layout.col#institucional":{
+    "props": {
+        "width":"20%"
+    },
     "children": ["rich-text#institucional", "menu-item#aMarca","menu-item#SobreNós","menu-item#SejaUmRepresentante",
         "menu-item#SejaUmRevendedor","menu-item#VendasCorporativas","menu-item#Catálogo"]
 },

@@ -2,8 +2,8 @@
 "footer-layout.desktop": {
     "children": [
       "flex-layout.row#newsletter-footer-desktop",
-      "flex-layout.row#footer-menu-desktop"
-      //"flex-layout.row#footer-desktop",
+      "flex-layout.row#footer-menu-desktop",
+      "flex-layout.row#footer-desktop"
       //"flex-layout.row#footer-desktop"
     ]
   },

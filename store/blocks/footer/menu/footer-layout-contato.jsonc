@@ -1,5 +1,8 @@
 {
     "flex-layout.col#faleconosco":{
+        "props": {
+            "width":"20%"
+        },
     "children": ["rich-text#FaleConosco", "menu-item#contato1","menu-item#contato2","menu-item#email",
         "menu-item#SejaUmRevendedor","menu-item#centralDeAtendimento"]
 },
