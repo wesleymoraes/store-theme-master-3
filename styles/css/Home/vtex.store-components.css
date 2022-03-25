@@ -106,3 +106,15 @@
 .imageElement--img-footer-facebook {
     justify-content: right;
 }
+.imageElement--imagens-pagamentos{
+margin: 10px;
+}
+.imageElement--vtexcertificado{
+    padding-right: 30px;
+}
+.imageElement--imageavanti{
+    padding-left: 436px;
+}
+.imageElement--imagevtex{
+    padding-left: 242px;
+}

@@ -1,0 +1,110 @@
+{
+    "flex-layout.row#footer-desktop":{
+        "props": {
+            "blockClass": "pagamentos"
+        },
+        "children": ["flex-layout.row#pagamentos","flex-layout.row#pagamentos2"]
+    },
+
+    "flex-layout.row#pagamentos":{
+        "props": {
+            "blockClass": "RowPagamentos"
+        },
+        "children": ["flex-layout.col#mastercard","flex-layout.col#visa","flex-layout.col#american", "flex-layout.col#diners","flex-layout.col#elo","flex-layout.col#boleto"]
+    },
+   
+    "flex-layout.col#mastercard": {
+        "children": ["image#mastercard"]
+    },
+
+"image#mastercard": {
+  "props": {
+    "blockClass":["imagens-pagamentos"],
+    "src": "https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/mobile/mastercard___d831faf42a4206970f67eaf4ed2f00aa.png"
+    
+  }
+},
+"flex-layout.col#visa": {
+    "children": ["image#visa"]
+},
+"image#visa": {
+    "props": {
+        "blockClass":["imagens-pagamentos"],
+      "src": "https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/mobile/symbols___9e75d49061aa073d54086c952d79a002.png"
+      
+    }
+  },
+  "flex-layout.col#american": {
+      "children": ["image#american"]
+  },
+  "image#american": {
+    "props": {
+        "blockClass":["imagens-pagamentos"],
+      "src": "https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/mobile/american___113fec93c547ca54e2c119ee108e6e73.png"
+      
+    }
+  },
+  "flex-layout.col#diners": {
+      "children": ["image#diners"]
+  },
+  "image#diners": {
+    "props": {
+        "blockClass":["imagens-pagamentos"],
+      "src": "https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/mobile/symbol___c6e6d4fcbf63bb0195122fc9f31399fd.png"
+      
+    }
+  },
+  "flex-layout.col#elo": {
+      "children": ["image#elo"]
+  },
+  "image#elo": {
+    "props": {
+        "blockClass":["imagens-pagamentos"],
+      "src": "https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/mobile/elo-servicos-s-a-seeklogo___3c32f508f625e92ac23a399c19a311c3.png"
+      
+    }
+  },
+  "flex-layout.col#boleto": {
+      "children": ["image#boleto"]
+  },
+  "image#boleto": {
+    "props": {
+        "blockClass":["imagens-pagamentos"],
+      "src": "https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/mobile/boleto_preto___0bb254b561001d11552c059ea31218b9.png"
+      
+    }
+  }, 
+  "flex-layout.row#pagamentos2": {
+    "children": ["flex-layout.col#vtexcertificado","flex-layout.col#certificado"],
+    "props": {
+        "preventHorizontalStretch": true,
+        "blockClass": "row-pagamentos2"
+      
+    }
+  },
+  "flex-layout.col#vtexcertificado": {
+      "props": {
+          "blockClass":["vtexcertificado"]
+      },
+      "children": ["image#vtexcertificado"]
+  },
+  "image#vtexcertificado": {
+    "props": {
+        "blockClass":["vtexcertificado"],
+      "src": "https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/mobile/Imagem-1___5abe316fac9804dc799f85eccde84a0f.png"
+      
+    }
+  },
+  "flex-layout.col#certificado": {
+      "props": {
+          "blockClass":["certificado"]
+      },
+      "children": ["image#certificado"]
+  },
+  "image#certificado": {
+    "props": {
+      "src": "https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/mobile/g29___ef8637a6274cc361f630afe89e374e8e.png"
+      
+    }
+  }
+}

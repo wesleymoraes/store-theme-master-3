@@ -1,0 +1,54 @@
+{
+    "flex-layout.row#endfooter": {
+        "props": {
+            "blockClass": "endfooter"
+        },
+        "children": ["flex-layout.row#endfooterwrapper"]
+    },
+    "flex-layout.row#endfooterwrapper":{
+        "props": {
+            "blockClass": "endfooterwrapper"
+        },
+        "children": ["flex-layout.col#textendfooter","flex-layout.row#imagensendfooter"]
+    },
+    "flex-layout.col#textendfooter": {
+      "children": ["rich-text"],
+      "props": {
+          "blockClass":["Endfooter"]
+        
+      }
+    },
+    "rich-text": {
+        "props": {
+            "blockClass":["Copyright"],
+            "text": "© Copyright 2021 Avanti LTDA - Todos direitos reservados.<br> Rodovia Jose Carlos Daux, 500 Techno Towers - Torre 2 - sala 209 - João Paulo, Florianópolis - SC, 88030-000"
+        }
+
+    },
+    "flex-layout.row#imagensendfooter": {
+        "props": {
+            "blockClass": "imagesendfooter"
+        },
+        "children": ["flex-layout.col#imageavanti","flex-layout.col#imagevtex" ]
+    },
+    "flex-layout.col#imageavanti":{
+        "children": ["image#avanti"]
+    },
+    "image#avanti": {
+      "props": {
+          "blockClass":["imageavanti"],
+        "src": "https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/mobile/avanti___fde77143ba624c5f26245796755ee484.png"
+        
+      }
+    },
+    "flex-layout.col#imagevtex":{
+        "children": ["image#vtex"]
+    },
+    "image#vtex": {
+      "props": {
+          "blockClass":["imagevtex"],
+        "src": "https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/mobile/Imagem-16___e36219d56c7c311e9b3f18e4e6caf737.png"
+        
+      }
+    }
+}

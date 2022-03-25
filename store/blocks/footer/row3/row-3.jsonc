@@ -1,6 +1,0 @@
-{
-    "flex-layout.row#footer-desktop":{
-        "children": ["flex-layout.col#pagamentos"]
-    }
-   
-}

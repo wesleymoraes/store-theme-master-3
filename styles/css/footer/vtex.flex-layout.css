@@ -29,18 +29,18 @@
     font: normal normal normal 12px/17px arial;
     letter-spacing: 1px;
     color: #25282A;
-    opacity: 1;
     margin: auto;
-    padding: 0%;
+    max-width: 1252px;
+    margin: 0 auto;
+    justify-content: center;
 }
 .flexRowContent--footer-menu{
     max-width: 1252px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: auto;
-    padding: 0%;
     font-size: 1rem;
+}
+.flexRowContent--Row-footer{
+    max-width: 1252px;
+    margin: 0 auto;
 }
 .flexCol--Sociais{
     display: flex;
@@ -52,6 +52,40 @@
 .flexRowContent--Footer-menu-wrapper :global(.vtex-menu-2-x-styledLinkContainer){
     margin: 0.01rem;
     line-height: 25.5px;
-
+}
+.flexRow--pagamentos{
+    background-color: #eeeeee;
 }
 
+.flexRowContent--pagamentos{
+    margin-top: 2px;
+    max-width: 1284px;
+    margin: 0 auto;
+    border-top: 1px solid #8C8F90;
+}
+.flexRowContent--RowPagamentos{
+    justify-content: start;
+    align-items: start;
+}
+.flexRowContent--row-pagamentos2{
+    margin-top: 2px;
+    display: flex;
+    justify-content: flex-end;
+}
+.flexColChild--vtexcertificado{
+    display: flex;
+    justify-content: flex-end;
+}
+.flexRowContent--endfooterwrapper{
+    max-width: 1252px;
+    margin: 0 auto;
+    margin-top: 3px;
+}
+.flexRowContent--imagesendfooter{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.flexRow--endfooter{
+    height: 30px;
+}
