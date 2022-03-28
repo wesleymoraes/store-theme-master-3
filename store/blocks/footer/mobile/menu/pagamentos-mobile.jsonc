@@ -1,0 +1,98 @@
+{
+"flex-layout.row#Footer-Sociais-Mobile": {
+  "children": ["flex-layout.row#facebook-mobile", "flex-layout.row#instagram-mobile"],
+  "props": {
+      "blockClass": "SociaisMobile"
+
+        }
+    },
+    "flex-layout.row#facebook-mobile": {
+        "children": ["image#facebook-mobile"]
+    }, 
+    "image#facebook-mobile": {
+        "props": {
+          "src": "https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/mobile/facebook___c99e0ff3fd3a55d1b2d1e6b5cf814618.png"
+          
+        }
+      },
+      "flex-layout.row#instagram-mobile": {
+          "children": ["image#instagram-mobile"]
+      },
+    "image#instagram-mobile": {
+      "props": {
+        "src": "https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/mobile/instagram___8fbd3b482ccc74b52e7f680d8391040d.png"
+        
+      }
+    },
+    "flex-layout.row#Footer-metodos-mobile": {
+      "children": ["flex-layout.col#MetodosDePagamentos"],
+      "props": {
+        
+      }
+    },
+    "flex-layout.col#MetodosDePagamentos": {
+        "children": ["flex-layout.col#mastercard","flex-layout.col#visa","flex-layout.col#american", "flex-layout.col#diners","flex-layout.col#elo","flex-layout.col#boleto"]
+
+    },
+    "flex-layout.col#mastercard": {
+        "children": ["image#mastercard"]
+    },
+
+"image#mastercard": {
+  "props": {
+    "blockClass":["imagens-pagamentos"],
+    "src": "https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/mobile/mastercard___d831faf42a4206970f67eaf4ed2f00aa.png"
+    
+  }
+},
+"flex-layout.col#visa": {
+    "children": ["image#visa"]
+},
+"image#visa": {
+    "props": {
+        "blockClass":["imagens-pagamentos"],
+      "src": "https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/mobile/symbols___9e75d49061aa073d54086c952d79a002.png"
+      
+    }
+  },
+  "flex-layout.col#american": {
+      "children": ["image#american"]
+  },
+  "image#american": {
+    "props": {
+        "blockClass":["imagens-pagamentos"],
+      "src": "https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/mobile/american___113fec93c547ca54e2c119ee108e6e73.png"
+      
+    }
+  },
+  "flex-layout.col#diners": {
+      "children": ["image#diners"]
+  },
+  "image#diners": {
+    "props": {
+        "blockClass":["imagens-pagamentos"],
+      "src": "https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/mobile/symbol___c6e6d4fcbf63bb0195122fc9f31399fd.png"
+      
+    }
+  },
+  "flex-layout.col#elo": {
+      "children": ["image#elo"]
+  },
+  "image#elo": {
+    "props": {
+        "blockClass":["imagens-pagamentos"],
+      "src": "https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/mobile/elo-servicos-s-a-seeklogo___3c32f508f625e92ac23a399c19a311c3.png"
+      
+    }
+  },
+  "flex-layout.col#boleto": {
+      "children": ["image#boleto"]
+  },
+  "image#boleto": {
+    "props": {
+        "blockClass":["imagens-pagamentos"],
+      "src": "https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/mobile/boleto_preto___0bb254b561001d11552c059ea31218b9.png"
+      
+    }
+  }
+}

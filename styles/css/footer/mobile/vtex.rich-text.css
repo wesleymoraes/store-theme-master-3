@@ -1,0 +1,14 @@
+.wrapper--titlenewsletter-mobile{
+    font-size: 20px;
+    font-weight: bold;
+    color: #441AFA;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+.wrapper--descricaonewsletter{
+    font-size: 16px;
+    font-weight: normal;
+    color: #25282A;
+    letter-spacing: 2px;
+}

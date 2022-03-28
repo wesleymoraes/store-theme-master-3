@@ -1,0 +1,428 @@
+{
+    "footer-layout.mobile": {
+    "children": ["flex-layout.row#footer-mobile",
+                "flex-layout.row#Footer-Menu-mobile",
+                "flex-layout.row#Footer-Sociais-Mobile",
+                "flex-layout.row#Footer-metodos-mobile"
+
+    
+    ]
+  },
+  "flex-layout.row#footer-mobile":{
+    "props": {
+      "blockClass": "Row-footer-mobile"
+    },
+    "children": [
+      "flex-layout.row#imagenewsletter-mobile","rich-text#titlenewsletter",
+      "rich-text#descricaonewsletter","flex-layout.row#newsletterform"
+    ]  
+  },
+  "flex-layout.row#imagenewsletter-mobile": {
+    "children": ["image#newsletter-mobile"]
+  },
+  "image#newsletter-mobile": {
+    "props": {
+      "blockClass":["ImageNewsLetterMobile"],
+      "src": "https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/desktop/logo-avanti___5983b91626769c86c1800507f89bd1c6.png"
+      
+    }
+  },
+
+  "rich-text#titlenewsletter": {
+    "props": {
+      "blockClass":["titlenewsletter-mobile"],
+      "text": "Newsletter"
+    }
+
+  },
+  "rich-text#descricaonewsletter": {
+    "props": {
+      "blockClass":["descricaonewsletter"],
+     "text": "Receba promoções e descontos especiais em primeira mão."
+    }
+  },
+  "flex-layout.row#newsletterform": {
+    "children": ["newsletter-form"]
+  },
+  "newsletter-form": {
+    "props": {
+      "blockClass":["newsletterformmobile"]
+    },
+    "children":[
+      "newsletter-input-name",
+      "newsletter-input-email",
+      "newsletter-submit"
+    ]
+  },
+  "newsletter-submit": {
+    "props": {
+      "blockClass":["ButtonCadastrarNewsLetter"],
+      "submitButtonLabel": "Cadastrar"
+    }
+  },
+  "flex-layout.row#Footer-Menu-mobile":{
+    "props": {
+      "blockClass": "FooterMenuAccordion"
+    },
+    "children": ["menu-item#institucional","menu-item#PrecisaDeAjuda","menu-item#FaleConosco"]
+  },
+
+
+
+  "menu-item#institucional": {
+    "title":"institucional",
+    "props": {
+        "blockClass": "menu-items-desktop",
+        "id": "institucional",
+        "type": "custom",
+        "highlight": false,
+        "iconProps": {
+            "id": "nav-caret--down",
+            "size": 12,
+            "activeClassName": "black"
+        },
+        "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "institucional",
+            "text": "Institucional",
+            "iconPosition": "right"
+        }
+      },
+      "blocks": [
+        "vtex.menu@2.x:submenu.accordion#submenuinstitucional"
+    ]
+    },
+    "vtex.menu@2.x:submenu.accordion#submenuinstitucional":{
+      "props": {
+          "blockClass": "SubMenuAccordion"
+      },
+      "children": [
+          "menu-item#a-marca",
+          "menu-item#SobreNos",
+          "menu-item#SejaUmRepresentante",
+          "menu-item#SejaUmRevendedor",
+          "menu-item#VendasCorporativas",
+          "menu-item#Catalogos"
+         ]
+      },
+    "menu-item#a-marca":{
+      "props": {
+          "blockClass": "subcategory-mobiile-1",
+          "id": "category-1-mobile",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "Subcategoria 1",
+              "text": "A Marca"
+          
+          }
+        }
+      },
+      "menu-item#SobreNos":{
+        "props": {
+            "blockClass": "subcategory-mobiile-1",
+            "id": "category-1-mobile",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Subcategoria 1",
+                "text": "SobreNós"
+            
+            }
+          }
+        },
+        "menu-item#SejaUmRepresentante":{
+          "props": {
+              "blockClass": "subcategory-mobiile-1",
+              "id": "category-1-mobile",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+                  "type": "internal",
+                  "href": "#",
+                  "noFollow": false,
+                  "tagTitle": "Subcategoria 1",
+                  "text": "Seja Um Representante"
+              
+              }
+            }
+          },
+          "menu-item#SejaUmRevendedor":{
+            "props": {
+                "blockClass": "subcategory-mobiile-1",
+                "id": "category-1-mobile",
+                "type": "custom",
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "href": "#",
+                    "noFollow": false,
+                    "tagTitle": "Subcategoria 1",
+                    "text": "Seja Um Revendedor"
+                
+                }
+              }
+            },
+            "menu-item#VendasCorporativas":{
+              "props": {
+                  "blockClass": "subcategory-mobiile-1",
+                  "id": "category-1-mobile",
+                  "type": "custom",
+                  "highlight": false,
+                  "itemProps": {
+                      "type": "internal",
+                      "href": "#",
+                      "noFollow": false,
+                      "tagTitle": "Subcategoria 1",
+                      "text": "Vendas Corporativas"
+                  
+                  }
+                }
+              },
+              "menu-item#Catalogos":{
+                "props": {
+                    "blockClass": "subcategory-mobiile-1",
+                    "id": "category-1-mobile",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#",
+                        "noFollow": false,
+                        "tagTitle": "Subcategoria 1",
+                        "text": "Catalogos"
+                    
+                    }
+                  }
+                },
+
+
+
+      "menu-item#PrecisaDeAjuda": {
+        "title":"PrecisaDeAjuda",
+        "props": {
+            "blockClass": "menu-items-desktop",
+            "id": "institucional",
+            "type": "custom",
+            "highlight": false,
+            "iconProps": {
+                "id": "nav-caret--down",
+                "size": 12,
+                "activeClassName": "black"
+            },
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "institucional",
+                "text": "Precisa de Ajuda",
+                "iconPosition": "right"
+            }
+          },
+          "blocks": [
+            "vtex.menu@2.x:submenu.accordion#SubMenurecisaDeAjuda"]
+        },
+        "vtex.menu@2.x:submenu.accordion#SubMenurecisaDeAjuda":{
+          "props": {
+              "blockClass": "SubMenuAccordion"
+          },
+
+
+          "children": [
+              "menu-item#FormasDePagamentos",
+              "menu-item#FreteePrazo",
+              "menu-item#PoliticaDePrivacidade",
+              "menu-item#Garantia",
+              "menu-item#TermosECondicoesDeUso"
+             ]
+          },
+        "menu-item#FormasDePagamentos":{
+          "props": {
+              "blockClass": "subcategory-mobiile-1",
+              "id": "category-1-mobile",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+                  "type": "internal",
+                  "href": "#",
+                  "noFollow": false,
+                  "tagTitle": "Subcategoria 1",
+                  "text": "Formas De Pagamento"
+              
+              }
+            }
+          },
+          "menu-item#FreteePrazo":{
+            "props": {
+                "blockClass": "subcategory-mobiile-1",
+                "id": "category-1-mobile",
+                "type": "custom",
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "href": "#",
+                    "noFollow": false,
+                    "tagTitle": "Subcategoria 1",
+                    "text": "Frete e Prazo de Entrega"
+                
+                }
+              }
+            },
+            "menu-item#PoliticaDePrivacidade":{
+              "props": {
+                  "blockClass": "subcategory-mobiile-1",
+                  "id": "category-1-mobile",
+                  "type": "custom",
+                  "highlight": false,
+                  "itemProps": {
+                      "type": "internal",
+                      "href": "#",
+                      "noFollow": false,
+                      "tagTitle": "Subcategoria 1",
+                      "text": "Politica de Privacidade"
+                  
+                  }
+                }
+              },
+              "menu-item#Garantia":{
+                "props": {
+                    "blockClass": "subcategory-mobiile-1",
+                    "id": "category-1-mobile",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#",
+                        "noFollow": false,
+                        "tagTitle": "Subcategoria 1",
+                        "text": "Garantia"
+                    
+                    }
+                  }
+                },
+                "menu-item#TermosECondicoesDeUso":{
+                  "props": {
+                      "blockClass": "subcategory-mobiile-1",
+                      "id": "category-1-mobile",
+                      "type": "custom",
+                      "highlight": false,
+                      "itemProps": {
+                          "type": "internal",
+                          "href": "#",
+                          "noFollow": false,
+                          "tagTitle": "Subcategoria 1",
+                          "text": "Termos e Condições de Uso"
+                      
+                      }
+                    }
+                  },
+                  "menu-item#FaleConosco": {
+                    "title":"FaleConosco",
+                    "props": {
+                        "blockClass": "menu-items-desktop",
+                        "id": "institucional",
+                        "type": "custom",
+                        "highlight": false,
+                        "iconProps": {
+                            "id": "nav-caret--down",
+                            "size": 12,
+                            "activeClassName": "black"
+                        },
+                        "itemProps": {
+                            "type": "internal",
+                            "href": "#",
+                            "noFollow": false,
+                            "tagTitle": "FaleConosco",
+                            "text": "Fale Conosco",
+                            "iconPosition": "right"
+                        }
+                      },
+                      "blocks": [
+                        "vtex.menu@2.x:submenu.accordion#SubMenuFaleConosco"]
+                    },
+                    "vtex.menu@2.x:submenu.accordion#SubMenuFaleConosco":{
+                      "props": {
+                          "blockClass": "SubMenuAccordion"
+                      },
+                      "children": [
+                          "menu-item#NumCel",
+                          "menu-item#Numfixo",
+                          "menu-item#Email",
+                          "menu-item#CentralDeAtendimento"
+                          
+                        ]
+                      },
+                      "menu-item#NumCel":{
+                        "props": {
+                            "blockClass": "subcategory-mobiile-1",
+                            "id": "category-1-mobile",
+                            "type": "custom",
+                            "highlight": false,
+                            "itemProps": {
+                                "type": "internal",
+                                "href": "#",
+                                "noFollow": false,
+                                "tagTitle": "Subcategoria 1",
+                                "text": "(XX) XXXX XXXX"
+                            
+                            }
+                          }
+                        },
+                        "menu-item#Numfixo":{
+                          "props": {
+                              "blockClass": "subcategory-mobiile-1",
+                              "id": "category-1-mobile",
+                              "type": "custom",
+                              "highlight": false,
+                              "itemProps": {
+                                  "type": "internal",
+                                  "href": "#",
+                                  "noFollow": false,
+                                  "tagTitle": "Subcategoria 1",
+                                  "text": "(XX) XXXX XXXX"
+                              
+                              }
+                            }
+                          },
+                          "menu-item#Email":{
+                            "props": {
+                                "blockClass": "subcategory-mobiile-1",
+                                "id": "category-1-mobile",
+                                "type": "custom",
+                                "highlight": false,
+                                "itemProps": {
+                                    "type": "internal",
+                                    "href": "#",
+                                    "noFollow": false,
+                                    "tagTitle": "Subcategoria 1",
+                                    "text": "sac@avanti.com.br"
+                                
+                                }
+                              }
+                            },
+                            "menu-item#CentralDeAtendimento":{
+                              "props": {
+                                  "blockClass": "subcategory-mobiile-1",
+                                  "id": "category-1-mobile",
+                                  "type": "custom",
+                                  "highlight": false,
+                                  "itemProps": {
+                                      "type": "internal",
+                                      "href": "#",
+                                      "noFollow": false,
+                                      "tagTitle": "Subcategoria 1",
+                                      "text": "Central de Atendimento"
+                                  
+                                  }
+                                }
+                              }
+                            }
+                  

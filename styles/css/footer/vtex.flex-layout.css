@@ -64,8 +64,9 @@
     border-top: 1px solid #8C8F90;
 }
 .flexRowContent--RowPagamentos{
-    justify-content: start;
-    align-items: start;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
 }
 .flexRowContent--row-pagamentos2{
     margin-top: 2px;
@@ -88,4 +89,8 @@
 }
 .flexRow--endfooter{
     height: 30px;
+}
+
+.flexRowContent--newsletter-footer-desktop :global(.vtex-styleguide-9-x-noAppearance)::placeholder{
+    color: #25282A;
 }
