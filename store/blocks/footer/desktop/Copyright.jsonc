@@ -25,11 +25,12 @@
         }
 
     },
+    /** Row Imagens **/
     "flex-layout.row#imagensendfooter": {
         "props": {
             "blockClass": "imagesendfooter"
         },
-        "children": ["flex-layout.col#imageavanti","flex-layout.col#imagevtex" ]
+        "children": ["image#avanti","image#vtex"     ]
     },
     "flex-layout.col#imageavanti":{
         "children": ["image#avanti"]

@@ -1,4 +1,7 @@
 .newsletterForm--newsLetterForm{
+    margin-top: 21px;
+}
+.newsletterForm--newsLetterForm{
     display: flex;
     flex-direction: row;
 
@@ -13,11 +16,9 @@
 .nameInputContainer--Input-name :global(.vtex-input-prefix__group){
     color: black;
 }
-.newsletterForm--newsLetterForm{
-    margin-top: 21px;
-}
 
-.formSubmitContainer--button-cadastre-se :global(.vtex-button){
+
+.formSubmitContainer--button-cadastre-se :global(.vtex-button__label){
     background-color: transparent;
     border: none;
     text-align: left;

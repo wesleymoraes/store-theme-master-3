@@ -1,0 +1,196 @@
+{
+    "flex-layout.row#footer-menu-desktop":{
+        "props": {
+            "blockClass": "footer-menu"
+        },
+    "children": ["flex-layout.row#footermenuWrapper"
+       ]   
+},
+"flex-layout.row#footermenuWrapper": {
+    "props": {
+        "blockClass": "Footer-menu-wrapper",
+        "width":"100%"
+    },
+    "children": [
+        "flex-layout.col#institucional",
+        "flex-layout.col#precisaDeAjuda",
+        "flex-layout.col#faleconosco",
+        "flex-layout.col#sociais"
+    ]
+},
+"flex-layout.col#institucional":{
+    "props": {
+        "width":"20%"
+    },
+    "children": ["rich-text#institucional", "menu-item#aMarca","menu-item#SobreNós","menu-item#SejaUmRepresentante",
+        "menu-item#SejaUmRevendedor","menu-item#VendasCorporativas","menu-item#Catálogo"]
+},
+"rich-text#institucional": {
+    "props": {
+        "blockClass":["Titlefooter"],
+        "text": "Institucional"
+
+    }
+},
+"menu-item#aMarca":{
+    "props": {
+        "type": "custom",
+        "text": "A Marca"
+    }
+
+},
+"menu-item#SobreNós":{
+    "props": {
+        "type": "custom",
+        "text": "Sobre Nós"
+    }
+},
+"menu-item#SejaUmRepresentante":{
+    "props": {
+        "type": "custom",
+        "text": "Seja um Representante"
+    }
+},
+"menu-item#SejaUmRevendedor":{
+    "props": {
+        "type": "custom",
+        "text": "Seja um Revendedor"
+    }
+},
+"menu-item#VendasCorporativas":{
+    "props": {
+        "type": "custom",
+        "text": "Vendas Corporativas"
+    }
+},
+"menu-item#Catálogo":{
+    "props": {
+        "type": "custom",
+        "text": "Catálogo"
+       
+    }
+},
+
+"flex-layout.col#precisaDeAjuda":{
+    "props": {
+        "width":"20%"
+    },
+    "children": ["rich-text#precisaDeAjuda", "menu-item#formasDePagamento","menu-item#freteePrazo",
+        "menu-item#politicaDePrivacidade","menu-item#garantia","menu-item#termos"]
+},
+"rich-text#precisaDeAjuda": {
+    "props": {
+        "blockClass":["Titlefooter"],
+        "text": "Precisa de Ajuda"
+
+    }
+},
+"menu-item#formasDePagamento":{
+    "props": {
+        "type": "custom",
+        "text": "Formas De Pagamento"
+    }
+},
+"menu-item#freteePrazo":{
+    "props": {
+        "type": "custom",
+        "text": "Frete e Prazo de Entrega"
+    }
+
+},
+
+"menu-item#politicaDePrivacidade":{
+    "props": {
+        "type": "custom",
+        "text": "Politica de Privacidade"
+    }
+},
+"menu-item#garantia":{
+    "props": {
+        "type": "custom",
+        "text": "Garantia"
+    }
+},
+"menu-item#termos":{
+    "props": {
+        "type": "custom",
+        "text": "Termos"
+    }
+},
+
+"flex-layout.col#faleconosco":{
+    "props": {
+        "width":"20%"
+    },
+"children": ["rich-text#FaleConosco", "menu-item#contato1","menu-item#contato2","menu-item#email",
+    "menu-item#SejaUmRevendedor","menu-item#centralDeAtendimento"]
+},
+"rich-text#FaleConosco": {
+"props": {
+    "blockClass":["Titlefooter"],
+    "text": "Fale Conosco"
+
+}
+},
+"menu-item#contato1":{
+"props": {
+    "type": "custom",
+    "text": "(XX) XXXX XXXX"
+}
+
+},
+"menu-item#contato2":{
+"props": {
+    "type": "custom",
+    "text": "(XX) XXXX XXXX"
+}
+},
+"menu-item#email":{
+"props": {
+    "type": "custom",
+    "text": "sac@avanti.com.br"
+}
+},
+"menu-item#centralDeAtendimento":{
+"props": {
+    "type": "custom",
+    "text": "Central De Atendimento"
+}
+},
+"flex-layout.col#sociais": {
+    "props": {
+        "blockClass":["Sociais"],
+        "width":"20%"
+      
+    },
+    "children": ["flex-layout.col#image-facebook","flex-layout.col#image-instagram"]
+  },
+  
+  "flex-layout.col#image-facebook": {
+    "props": {
+      "blockClass":["footer-image-facebook"]
+    },
+    "children": ["image#footer-facebook"]
+  },
+  
+  "image#footer-facebook": {
+    "props": {
+      "src": "https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/mobile/facebook___c99e0ff3fd3a55d1b2d1e6b5cf814618.png"
+      
+    }
+  },
+  
+  "flex-layout.col#image-instagram": {
+    "props": {
+      "blockClass":["footer-image-instagram"]
+    },
+          "children": ["image#footer-instagram"]
+    },
+    "image#footer-instagram": {
+      "props": {
+        "src": "https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/mobile/instagram___8fbd3b482ccc74b52e7f680d8391040d.png"
+        
+      }
+    }
+
+}

@@ -1,22 +1,37 @@
-.nameInputContainer--Input-name{
-    width: 300px;
-}
-.emailInputContainer{
-    width: 300px;
-}
-.formSubmitContainer--ButtonCadastrarNewsLetter{
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-}
 
-.formSubmitContainer--ButtonCadastrarNewsLetter :global(.vtex-button){
-    background: transparent;
-    border: 0;
-    color: #441AFA;
-    text-transform: uppercase;
-    font-size: 20px;
-    font-weight: bold;
-    letter-spacing: 2px;
-}
+  
+@media (max-width: 600px)
+{
+    .nameInputContainer--NewsletterInputName{
+        width: 330px;
+  
+    }
+    .emailInputContainer{
+        width: 330px;
+     
+    }
+  
+    .formSubmitContainer--ButtonsubmitNewsLetterMobile :global(.vtex-button){
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+        margin: 0 auto;
+        background-color: transparent;
+        border: none;
+        text-align: left;
+        font: normal normal bold 20px/35px arial;
+        letter-spacing: 1.2px;
+        color: #441AFA;
+        text-transform: uppercase;
+        opacity: 1;
+    } 
+    .nameInputContainer--NewsletterInputName :global(.vtex-styleguide-9-x-input){
 
+        background-color: transparent;
+        border-radius: 0;
+        border: 1px solid black;
+        color: black;   
+    
+    }
+    
+}

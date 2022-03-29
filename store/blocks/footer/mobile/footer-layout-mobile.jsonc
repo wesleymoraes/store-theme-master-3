@@ -3,7 +3,10 @@
     "children": ["flex-layout.row#footer-mobile",
                 "flex-layout.row#Footer-Menu-mobile",
                 "flex-layout.row#Footer-Sociais-Mobile",
-                "flex-layout.row#Footer-metodos-mobile"
+                "flex-layout.row#Footer-metodos-mobile",
+                "flex-layout.row#Footer-certificados-mobile",
+                "flex-layout.row#Footer-text-mobile",
+                "flex-layout.row#Footer-imagens-vtex"
 
     
     ]
@@ -30,14 +33,14 @@
 
   "rich-text#titlenewsletter": {
     "props": {
-      "blockClass":["titlenewsletter-mobile"],
+      "blockClass":["titlenewslettermobile"],
       "text": "Newsletter"
     }
 
   },
   "rich-text#descricaonewsletter": {
     "props": {
-      "blockClass":["descricaonewsletter"],
+      "blockClass":["descricaonewslettermobile"],
      "text": "Receba promoções e descontos especiais em primeira mão."
     }
   },
@@ -46,7 +49,7 @@
   },
   "newsletter-form": {
     "props": {
-      "blockClass":["newsletterformmobile"]
+      "blockClass":["newslettermobile"]
     },
     "children":[
       "newsletter-input-name",
@@ -54,9 +57,14 @@
       "newsletter-submit"
     ]
   },
+  "newsletter-input-name": {
+    "props": {
+      "blockClass":["NewsletterInputName"]
+    }
+  },
   "newsletter-submit": {
     "props": {
-      "blockClass":["ButtonCadastrarNewsLetter"],
+      "blockClass":["ButtonsubmitNewsLetterMobile"],
       "submitButtonLabel": "Cadastrar"
     }
   },
@@ -109,7 +117,7 @@
       },
     "menu-item#a-marca":{
       "props": {
-          "blockClass": "subcategory-mobiile-1",
+          "blockClass": "subcategory-mobile-1",
           "id": "category-1-mobile",
           "type": "custom",
           "highlight": false,
@@ -125,7 +133,7 @@
       },
       "menu-item#SobreNos":{
         "props": {
-            "blockClass": "subcategory-mobiile-1",
+            "blockClass": "subcategory-mobile-1",
             "id": "category-1-mobile",
             "type": "custom",
             "highlight": false,
@@ -141,7 +149,7 @@
         },
         "menu-item#SejaUmRepresentante":{
           "props": {
-              "blockClass": "subcategory-mobiile-1",
+              "blockClass": "subcategory-mobile-1",
               "id": "category-1-mobile",
               "type": "custom",
               "highlight": false,
@@ -157,7 +165,7 @@
           },
           "menu-item#SejaUmRevendedor":{
             "props": {
-                "blockClass": "subcategory-mobiile-1",
+                "blockClass": "subcategory-mobile-1",
                 "id": "category-1-mobile",
                 "type": "custom",
                 "highlight": false,
@@ -173,7 +181,7 @@
             },
             "menu-item#VendasCorporativas":{
               "props": {
-                  "blockClass": "subcategory-mobiile-1",
+                  "blockClass": "subcategory-mobile-1",
                   "id": "category-1-mobile",
                   "type": "custom",
                   "highlight": false,
@@ -189,7 +197,7 @@
               },
               "menu-item#Catalogos":{
                 "props": {
-                    "blockClass": "subcategory-mobiile-1",
+                    "blockClass": "subcategory-mobile-1",
                     "id": "category-1-mobile",
                     "type": "custom",
                     "highlight": false,
@@ -246,7 +254,7 @@
           },
         "menu-item#FormasDePagamentos":{
           "props": {
-              "blockClass": "subcategory-mobiile-1",
+              "blockClass": "subcategory-mobile-1",
               "id": "category-1-mobile",
               "type": "custom",
               "highlight": false,
@@ -262,7 +270,7 @@
           },
           "menu-item#FreteePrazo":{
             "props": {
-                "blockClass": "subcategory-mobiile-1",
+                "blockClass": "subcategory-mobile-1",
                 "id": "category-1-mobile",
                 "type": "custom",
                 "highlight": false,
@@ -278,7 +286,7 @@
             },
             "menu-item#PoliticaDePrivacidade":{
               "props": {
-                  "blockClass": "subcategory-mobiile-1",
+                  "blockClass": "subcategory-mobile-1",
                   "id": "category-1-mobile",
                   "type": "custom",
                   "highlight": false,
@@ -294,7 +302,7 @@
               },
               "menu-item#Garantia":{
                 "props": {
-                    "blockClass": "subcategory-mobiile-1",
+                    "blockClass": "subcategory-mobile-1",
                     "id": "category-1-mobile",
                     "type": "custom",
                     "highlight": false,
@@ -310,7 +318,7 @@
                 },
                 "menu-item#TermosECondicoesDeUso":{
                   "props": {
-                      "blockClass": "subcategory-mobiile-1",
+                      "blockClass": "subcategory-mobile-1",
                       "id": "category-1-mobile",
                       "type": "custom",
                       "highlight": false,
@@ -362,7 +370,7 @@
                       },
                       "menu-item#NumCel":{
                         "props": {
-                            "blockClass": "subcategory-mobiile-1",
+                            "blockClass": "subcategory-mobile-1",
                             "id": "category-1-mobile",
                             "type": "custom",
                             "highlight": false,
@@ -378,7 +386,7 @@
                         },
                         "menu-item#Numfixo":{
                           "props": {
-                              "blockClass": "subcategory-mobiile-1",
+                              "blockClass": "subcategory-mobile-1",
                               "id": "category-1-mobile",
                               "type": "custom",
                               "highlight": false,
@@ -394,7 +402,7 @@
                           },
                           "menu-item#Email":{
                             "props": {
-                                "blockClass": "subcategory-mobiile-1",
+                                "blockClass": "subcategory-mobile-1",
                                 "id": "category-1-mobile",
                                 "type": "custom",
                                 "highlight": false,
@@ -410,7 +418,7 @@
                             },
                             "menu-item#CentralDeAtendimento":{
                               "props": {
-                                  "blockClass": "subcategory-mobiile-1",
+                                  "blockClass": "subcategory-mobile-1",
                                   "id": "category-1-mobile",
                                   "type": "custom",
                                   "highlight": false,

@@ -5,7 +5,6 @@
       "flex-layout.row#footer-menu-desktop",
       "flex-layout.row#footer-desktop",
       "flex-layout.row#endfooter"
-      //"flex-layout.row#footer-desktop"
     ]
   },
   "flex-layout.row#newsletter-footer-desktop":{
@@ -87,7 +86,7 @@
 
       "newsletter-submit":{
           "props": {
-              "blockClass":"button-cadastre-se",
+              "blockClass":"buttonsubmit",
               "submitButtonLabel": "Cadastre-se"
           }
       }

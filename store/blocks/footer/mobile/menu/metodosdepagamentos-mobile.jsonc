@@ -1,0 +1,159 @@
+{
+"flex-layout.row#Footer-Sociais-Mobile": {
+  "children": ["flex-layout.col#facebook-mobile", "flex-layout.col#instagram-mobile"],
+  "props": {
+      "blockClass": "SociaisMobile"
+
+        }
+    },
+    "flex-layout.col#facebook-mobile": {
+        "children": ["image#facebook-mobile"]
+    }, 
+    "image#facebook-mobile": {
+        "props": {
+          "blockClass":["imagefacebookmobile"],
+          "src": "https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/mobile/facebook___c99e0ff3fd3a55d1b2d1e6b5cf814618.png"
+          
+        }
+      },
+      "flex-layout.col#instagram-mobile": {
+          "children": ["image#instagram-mobile"]
+      },
+    "image#instagram-mobile": {
+      "props": {
+        "src": "https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/mobile/instagram___8fbd3b482ccc74b52e7f680d8391040d.png"
+        
+      }
+    },
+    "flex-layout.row#Footer-metodos-mobile": {
+      "props": {
+        "blockClass": "row-footer-metodosdepagamentos"
+      },
+      "children": ["flex-layout.row#MetodosDePagamentos"]
+    },
+
+    "flex-layout.row#MetodosDePagamentos": {
+      "props": {
+        "blockClass":["MetodosDePagamentosImagens"]
+      },
+        "children": ["flex-layout.col#mastercardmobile","flex-layout.col#visamobile","flex-layout.col#americanmobile", "flex-layout.col#dinersmobile","flex-layout.col#elomobile","flex-layout.col#boletomobile"]
+
+    },
+    "flex-layout.col#mastercardmobile": {
+        "children": ["image#mastercardmobile"]
+    },
+
+"image#mastercardmobile": {
+  "props": {
+    "blockClass":["imagens-pagamentos"],
+    "src": "https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/mobile/mastercard___d831faf42a4206970f67eaf4ed2f00aa.png"
+    
+  }
+},
+"flex-layout.col#visamobile": {
+    "children": ["image#visamobile"]
+},
+"image#visamobile": {
+    "props": {
+        "blockClass":["imagens-pagamentos"],
+      "src": "https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/mobile/symbols___9e75d49061aa073d54086c952d79a002.png"
+      
+    }
+  },
+  "flex-layout.col#americanmobile": {
+      "children": ["image#americanmobile"]
+  },
+  "image#americanmobile": {
+    "props": {
+        "blockClass":["imagens-pagamentos"],
+      "src": "https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/mobile/american___113fec93c547ca54e2c119ee108e6e73.png"
+      
+    }
+  },
+  "flex-layout.col#dinersmobile": {
+      "children": ["image#dinersmobile"]
+  },
+  "image#dinersmobile": {
+    "props": {
+        "blockClass":["imagens-pagamentos"],
+      "src": "https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/mobile/symbol___c6e6d4fcbf63bb0195122fc9f31399fd.png"
+      
+    }
+  },
+  "flex-layout.col#elomobile": {
+      "children": ["image#elomobile"]
+  },
+  "image#elomobile": {
+    "props": {
+        "blockClass":["imagens-pagamentos"],
+      "src": "https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/mobile/elo-servicos-s-a-seeklogo___3c32f508f625e92ac23a399c19a311c3.png"
+      
+    }
+  },
+  "flex-layout.col#boletomobile": {
+      "children": ["image#boletomobile"]
+  },
+  "image#boletomobile": {
+    "props": {
+        "blockClass":["imagens-pagamentos"],
+      "src": "https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/mobile/boleto_preto___0bb254b561001d11552c059ea31218b9.png"
+      
+    }
+  },
+  "flex-layout.row#Footer-certificados-mobile":{
+    "children": ["flex-layout.row#wrapper-footer-certificados-mobile"]
+  },
+  "flex-layout.row#wrapper-footer-certificados-mobile": {
+    "props": {
+      "blockClass": "wrapper-footer-certificados-mobile"
+      
+    },
+    "children": ["flex-layout.col#vtexcertificadomobile","flex-layout.col#letsencryptmobile"]
+   
+  },
+  "flex-layout.col#vtexcertificadomobile": {
+    "children": ["image#vtexcertificadomobile"]
+
+  },
+  "image#vtexcertificadomobile": {
+    "props": {
+      "src": "https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/mobile/Imagem-1___5abe316fac9804dc799f85eccde84a0f.png"
+    }
+  },
+  "flex-layout.col#letsencryptmobile": {
+    "children": ["image#letsencryptmobile"]
+
+  },
+  "image#letsencryptmobile": {
+    "props": {
+      "src": "https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/mobile/g29___ef8637a6274cc361f630afe89e374e8e.png"
+      
+    }
+  },
+  "flex-layout.row#Footer-text-mobile":{
+    "children": ["rich-text#textfootermobile"]
+  },
+  "rich-text#textfootermobile": {
+    "props": {
+      "text": "© Copyright 2021 Avanti LTDA - Todos direitos reservados. Rodovia Jose Carlos Daux, 500 Techno Towers - Torre 2 - sala 209 - João Paulo, Florianópolis - SC, 88030-000"
+    }
+  },
+  "flex-layout.row#Footer-imagens-vtex":{
+    "props": {
+      "blockClass": "FooterImagensVtex"
+    },
+    "children": ["image#avantimobile","image#vtexmobile"]
+  },
+  "image#avantimobile": {
+    "props": {
+      "src": "https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/mobile/avanti___fde77143ba624c5f26245796755ee484.png"
+      
+    }
+  },
+  "image#vtexmobile": {
+    "props": {
+      "src": "https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/mobile/Imagem-16___e36219d56c7c311e9b3f18e4e6caf737.png"
+      
+    }
+  }
+}
