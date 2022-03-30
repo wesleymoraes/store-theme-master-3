@@ -19,7 +19,7 @@
       "props": {
         "blockClass": "newsletter-footer-desktop"
       },
-  "children": ["flex-layout.col#imagem","flex-layout.row#newsletter-text","flex-layout.col#newsletterform"]
+  "children": ["flex-layout.col#imagem","flex-layout.row#newsletter-text","flex-layout.col#newsletterformdesktop"]
     },
   "flex-layout.col#imagem": {
       "props": {
@@ -32,6 +32,7 @@
         },
           "image#footer": {
             "props": {
+              "blockClass":["imagemlogoavantimobile"],
               "src": "https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/desktop/logo-avanti___5983b91626769c86c1800507f89bd1c6.png",
               "maxHeight": 118
             }
@@ -60,7 +61,7 @@
 
         }
     },
-    "flex-layout.col#newsletterform":{
+    "flex-layout.col#newsletterformdesktop":{
         "props": {
             "width":"60%"
         },
@@ -68,7 +69,7 @@
     },
     "newsletter-form": {
         "props": {
-            "blockClass":["newsLetterForm"]
+            "blockClass":["newsLetterFormdesktop"]
             
         },
         "children": [
@@ -82,6 +83,11 @@
               "placeholderText": "Nome",
               "blockClass":["Input-name"]
           }
+      },
+      "newsletter-input-email": {
+        "props": {
+          "blockClass":["Input-email"]
+        }
       },
 
       "newsletter-submit":{

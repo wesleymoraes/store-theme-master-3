@@ -6,7 +6,7 @@
                 "flex-layout.row#Footer-metodos-mobile",
                 "flex-layout.row#Footer-certificados-mobile",
                 "flex-layout.row#Footer-text-mobile",
-                "flex-layout.row#Footer-imagens-vtex"
+                "flex-layout.row#Footer-imagens-vtex" 
 
     
     ]
@@ -17,7 +17,7 @@
     },
     "children": [
       "flex-layout.row#imagenewsletter-mobile","rich-text#titlenewsletter",
-      "rich-text#descricaonewsletter","flex-layout.row#newsletterform"
+      "rich-text#descricaonewsletter","flex-layout.col#newsletterform"
     ]  
   },
   "flex-layout.row#imagenewsletter-mobile": {
@@ -44,10 +44,10 @@
      "text": "Receba promoções e descontos especiais em primeira mão."
     }
   },
-  "flex-layout.row#newsletterform": {
-    "children": ["newsletter-form"]
+  "flex-layout.col#newsletterform": {
+    "children": ["newsletter-form#mobile"]
   },
-  "newsletter-form": {
+  "newsletter-form#mobile": {
     "props": {
       "blockClass":["newslettermobile"]
     },
@@ -80,7 +80,7 @@
   "menu-item#institucional": {
     "title":"institucional",
     "props": {
-        "blockClass": "menu-items-desktop",
+        "blockClass": "menu-items-footer",
         "id": "institucional",
         "type": "custom",
         "highlight": false,
@@ -217,7 +217,7 @@
       "menu-item#PrecisaDeAjuda": {
         "title":"PrecisaDeAjuda",
         "props": {
-            "blockClass": "menu-items-desktop",
+            "blockClass": "menu-items-footer",
             "id": "institucional",
             "type": "custom",
             "highlight": false,
@@ -231,7 +231,7 @@
                 "href": "#",
                 "noFollow": false,
                 "tagTitle": "institucional",
-                "text": "Precisa de Ajuda",
+                "text": "Precisa de Ajuda?",
                 "iconPosition": "right"
             }
           },
@@ -335,7 +335,7 @@
                   "menu-item#FaleConosco": {
                     "title":"FaleConosco",
                     "props": {
-                        "blockClass": "menu-items-desktop",
+                        "blockClass": "menu-items-footer",
                         "id": "institucional",
                         "type": "custom",
                         "highlight": false,

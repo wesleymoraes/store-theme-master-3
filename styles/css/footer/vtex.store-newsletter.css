@@ -1,11 +1,17 @@
-.newsletterForm--newsLetterForm{
-    margin-top: 21px;
-}
-.newsletterForm--newsLetterForm{
+@media (max-width: 640px) {
+    .flexRowContent--newsletter-footer-desktop {
+      background-color: #eee;
+      padding: 30px 45px;
+    }
+  }
+  
+  .newsletterForm--newsLetterFormdesktop{
+      margin-top: 55px;
     display: flex;
     flex-direction: row;
 
 }
+
 .emailInputContainer{
     width: 250px;
 }
@@ -18,8 +24,9 @@
 }
 
 
-.formSubmitContainer--button-cadastre-se :global(.vtex-button__label){
+.formSubmitContainer--ButtonsubmitNewsLetterMobile  :global(.vtex-button__label){
     background-color: transparent;
+    margin-top: -18px;
     border: none;
     text-align: left;
     font: normal normal bold 15px/30px arial;
@@ -28,7 +35,9 @@
     text-transform: uppercase;
     opacity: 1;
 }
-.nameInputContainer--Input-name :global(.vtex-styleguide-9-x-hideDecorators){
+
+
+.nameInputContainer--NewsletterInputName :global(.vtex-styleguide-9-x-hideDecorators){
     background-color: transparent;
     border-radius: 0;
     border: 1px solid;
@@ -39,5 +48,4 @@
     border-radius: 0;
     border: 1px solid;
     border-color: black;
-    color: black;
 }

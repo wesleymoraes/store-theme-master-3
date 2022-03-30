@@ -333,7 +333,7 @@
           "itemsPerRow": 1
         }
       ],
-      "ListSummary": "product-summary.shelf#listLayout",
+      //"ListSummary": "product-summary.shelf#listLayout",
       "GridSummary": "product-summary.shelf"
     }
   },

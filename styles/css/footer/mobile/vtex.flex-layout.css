@@ -1,9 +1,10 @@
 .flexRow--Row-footer-mobile{
     background-color: #EEEEEE;
-    margin-top: 80px;
+    margin-top: 100px;
 
 }
 .flexRow--FooterMenuAccordion{
+   padding-top: 30px;
     background-color: #EEEEEE;
 }
 .flexRow--SociaisMobile{
@@ -27,4 +28,26 @@
     margin-top: 30px;
     width: 300px;
 
+}
+.flexRow--mainrowcertificados{
+    background-color: #EEEEEE;
+}
+.flexRow--wrapper-footer-certificados-mobile{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.flexRowContent--wrapper-footer-certificados-mobile{
+display: flex;
+flex-direction: unset;
+width: 200px;
+justify-content: center;
+}
+
+.flexCol--FooterImagensVtex{ 
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }

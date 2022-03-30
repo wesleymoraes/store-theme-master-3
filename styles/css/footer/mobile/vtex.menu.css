@@ -1,5 +1,25 @@
 .submenuAccordion--SubMenuAccordion{
+    display: flex;
 flex-direction: column;
 margin-top: 20px;
+margin-bottom: 20px;
 
+}
+.accordionIcon--menu-items-footer--isOpen{
+    display: none;
+}
+.accordionIcon--menu-items-footer--isClosed{
+    display: none;
+}
+.styledLinkContent--subcategory-mobile-1{
+    margin-bottom: 10px;
+}
+.styledLinkContent--menu-items-footer{
+    display: flex;
+    margin-bottom: 20px;
+    text-align: left;
+    font: normal normal bold 20px/27px arial;
+    letter-spacing: 0px;
+    color: #25282A;
+    opacity: 1;
 }

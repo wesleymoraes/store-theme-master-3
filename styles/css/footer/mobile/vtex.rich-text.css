@@ -1,6 +1,7 @@
 .container--titlenewslettermobile{
-    margin: 0 auto;
-    font-size: 20px;
+    padding-top: 20px;
+    padding-left:27px;
+    font-family:normal normal normal 20px/27px arial;
     font-weight: bold;
     color: #441AFA;
     letter-spacing: 2px;
@@ -9,9 +10,16 @@
 }
 
 .container--descricaonewslettermobile{
+    width: 290px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
     margin: 0 auto;
     font-size: 16px;
     font-weight: normal;
     color: #25282A;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
+}
+.wrapper--textcopymobile{
+    font-family: normal normal normal 09px/10px Arial, Helvetica, sans-serif;
 }
