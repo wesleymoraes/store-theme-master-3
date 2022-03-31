@@ -1,16 +1,28 @@
 {
     "store.product": {
       "children": [
-        "flex-layout.row#product-breadcrumb",
-        "flex-layout.row#product-main",
+        "flex-layout.row#product-MainBreadcrump",
+        "flex-layout.row#1product-main",
         "shelf.relatedProducts"
       ]
+    },
+    "flex-layout.row#product-MainBreadcrump": {
+      "props": {
+        "blockClass": "breadcrump"
+      },
+      "children": ["flex-layout.row#product-breadcrumb"]
     },
     "flex-layout.row#product-breadcrumb": {
       "props": {
         "marginTop": 4
       },
       "children": ["breadcrumb"]
+    },
+    "flex-layout.row#1product-main": {
+      "props": {
+        "blockClass": "ProductMain"
+      },
+      "children": ["flex-layout.row#product-main"]
     },
     "flex-layout.row#product-main": {
       "props": {
@@ -37,23 +49,45 @@
     },
     "flex-layout.col#right-col": {
       "props": {
+        "blockClass":["right"],
         "preventVerticalStretch": true,
         "rowGap": 0
       },
       "children": [
-        //"product-name",
-        "product-rating-summary",
-        "product-price#product-details",
+        "flex-layout.row#product-name",
+        "product-identifier.product",
+        "flex-layout.row#product-price",
+        "product-price-savings",
+        "product-selling-price",
+        "product-installments#summary",
         "product-separator",
         "product-quantity",
-        "product-identifier.product",
-        "sku-selector",
         "flex-layout.row#buy-button",
         "availability-subscriber",
-        "shipping-simulator",
-        "share#default"
+        "shipping-simulator"
       ]
     },
+    "flex-layout.row#product-name": {
+      "props": {
+          "blockClass": "product-name-pdp",
+          "marginBottom": 3
+      },
+      "children": [
+          "vtex.store-components:product-name"
+      ]
+  },
+  "flex-layout.row#listprice": {
+    "children": ["product-list-price#summary"],
+    "props": {
+      
+    }
+  },
+  "flex-layout.row#product-price": {
+    "props": {
+      "blockClass":["ColProductPrice"]
+    },
+    "children": ["product-list-price","product-rating-summary"]
+  },
     "product-price#product-details": {
       "props": {
         "showInstallments": true,
@@ -66,16 +100,5 @@
         "marginBottom": 7
       },
       "children": ["buy-button"]
-    },
-  
-    "share#default": {
-      "props": {
-        "social": {
-          "Facebook": true,
-          "WhatsApp": true,
-          "Twitter": false,
-          "Pinterest": true
-        }
-      }
     }
   }

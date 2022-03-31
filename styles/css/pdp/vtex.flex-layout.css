@@ -4,10 +4,47 @@
     align-items: center;
     margin: 0 auto;
 }
-.flexRow--PageProductMain{
+.flexRowContent--ProductMain{
     max-width: 1252px;
     justify-content: center;
     align-items: center;
     margin: 0 auto; 
 
+}
+.flexRowContent--product-name-pdp :global(.vtex-store-components-3-x-productBrand) {
+text-align: left;
+font: normal normal bold 20px/22px arial;
+letter-spacing: 0px;
+color: #25282A;
+text-transform: uppercase;
+opacity: 1;
+}
+.flexCol--right-col :global(.vtex-product-identifier-0-x-product-identifier){
+text-align: left;
+font: normal normal normal 13px/15px arial;
+letter-spacing: 0px;
+color: #B1B3B3;
+opacity: 1;
+}
+
+.flexCol--right-col :global(.vtex-product-price-1-x-installments){
+text-align: left;
+font: normal normal normal 12px/17px arial;
+letter-spacing: 0px;
+color: #25282A;
+opacity: 1;
+}
+.flexCol--right-col :global(.vtex-store-components-3-x-price_sellingPriceContainer){
+margin-top: 20px;
+text-align: left;
+text-decoration: line-through;
+font: normal normal normal 12px/18px arial;
+letter-spacing: 0px;
+color: #25282A;
+opacity: 1;
+
+}
+
+.flexCol--right-col :global(.vtex-store-components-3-x-price_sellingPriceLabel){
+display: none!important;
 }
