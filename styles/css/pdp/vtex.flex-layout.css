@@ -98,6 +98,7 @@ border-radius: 3px;
 opacity: 1;
 }
 .flexRow--BuyButtonPdp :global(.vtex-button){
+margin-left: -50px;
 max-width: 350px;
 width: 100%;
 max-height: 350px;
