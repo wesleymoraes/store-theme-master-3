@@ -62,6 +62,11 @@
       "blockClass":["NewsletterInputName"]
     }
   },
+  "newsletter-input-email": {
+    "props": {
+      "placeholderText": "E-mail"
+    }
+  },
   "newsletter-submit": {
     "props": {
       "blockClass":["ButtonsubmitNewsLetterMobile"],

@@ -3,7 +3,8 @@
       "children": [
         "flex-layout.row#product-MainBreadcrump",
         "flex-layout.row#1product-main",
-        "shelf.relatedProducts"
+        "shelf.relatedProducts",
+        "flex-layout.row#maindescricaopdp"
       ]
     },
     "flex-layout.row#product-MainBreadcrump": {
@@ -57,14 +58,11 @@
         "flex-layout.row#product-name",
         "product-identifier.product",
         "flex-layout.row#product-price",
-        "product-price-savings",
-        "product-selling-price",
+        "flex-layout.row#product-selling-price",
         "product-installments#summary",
-        "product-separator",
-        "product-quantity",
+        "flex-layout.row#product-quantity",
         "flex-layout.row#buy-button",
-        "availability-subscriber",
-        "shipping-simulator"
+        "flex-layout.row#shipping-simulator"
       ]
     },
     "flex-layout.row#product-name": {
@@ -84,10 +82,28 @@
   },
   "flex-layout.row#product-price": {
     "props": {
-      "blockClass":["ColProductPrice"]
+      "blockClass":["RowProductPrice"]
     },
-    "children": ["product-list-price","product-rating-summary"]
+    "children": ["product-list-price","product-price-savings"]
   },
+  "flex-layout.row#product-selling-price": {
+    "props": {
+      "blockClass": "sellingproductpricepdp"
+    },
+    "children": ["product-selling-price"]
+  },
+  "flex-layout.row#product-quantity":{
+    "props": {
+    "blockClass": "ProductQuantity"
+  },
+  "children": ["product-quantity"]
+  },
+
+ "product-quantity": {
+   "props": {
+     "size": "small"
+   }
+ },
     "product-price#product-details": {
       "props": {
         "showInstallments": true,
@@ -96,9 +112,37 @@
     },
     "flex-layout.row#buy-button": {
       "props": {
+        "blockClass": "BuyButtonPdp",
         "marginTop": 4,
         "marginBottom": 7
       },
-      "children": ["buy-button"]
-    }
-  }
+      "children": [ "add-to-cart-button"]
+        },
+        "add-to-cart-button": {
+          "props": {
+            "text": "Comprar",
+            "isOneClickBuy": true,
+            "onClickEventPropagation": "enabled",
+            "blockClass": "buyNow"
+          }
+        },
+        "flex-layout.row#shipping-simulator": {
+          "props": {
+            "blockClass": "ShiipingSimulator"
+          },
+          "children": ["shipping-simulator"]
+        },
+        "shipping-simulator": {
+          "props": {
+            "skuID": "342"
+          }
+        },
+        "flex-layout.row#maindescricaopdp": {
+          "props": {
+            "blockClass": "maindescricaopdp"
+          },
+          "children": [
+            "vtex.store-components:product-name"
+          ]
+        }
+      }

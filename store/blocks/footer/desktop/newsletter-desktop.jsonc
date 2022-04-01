@@ -86,6 +86,7 @@
       },
       "newsletter-input-email": {
         "props": {
+          "placeholderText":"E-mail",
           "blockClass":["Input-email"]
         }
       },

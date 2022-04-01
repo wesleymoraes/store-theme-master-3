@@ -2,7 +2,8 @@
     display: none;
 }
 
-.quantitySelectorContainer--quantity-button {
+
+.quantitySelectorStepper :global(.vtex-numeric-stepper-container){
     margin-bottom: 0;
     display: flex;
     justify-content: center;
@@ -10,7 +11,6 @@
     border-radius: 7px;
     padding: 3px;
 }
-
 .quantitySelectorStepper--quantity-button :global(.vtex-numeric-stepper__input) {
     font-size: 17px;
     color: #989898;
