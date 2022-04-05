@@ -1,0 +1,33 @@
+.wrapper--prazodeentrega{
+    text-transform: uppercase;
+    text-align: left;
+font: normal normal bold 13px/17px arial;
+letter-spacing: 1.2px;
+color: #25282A;
+text-transform: uppercase;
+opacity: 1; 
+}
+.container--QuemComprouComprouTambem{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    font: normal normal bold 16px/22px arial;
+    letter-spacing: 1.6px;
+    color: #25282A;
+    opacity: 1;
+}
+.container--QuemViuViuTambem{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-transform: uppercase;
+    text-align: center;
+    font: normal normal bold 16px/22px arial;
+    letter-spacing: 1.6px;
+    color: #25282A;
+    opacity: 1;
+}

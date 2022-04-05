@@ -4,7 +4,13 @@
         "flex-layout.row#product-MainBreadcrump",
         "flex-layout.row#1product-main",
         "shelf.relatedProducts",
-        "flex-layout.row#maindescricaopdp"
+        "flex-layout.row#descricaopdp",
+        "flex-layout.row#specification-group",
+        "rich-text#quemcomprou",
+        "flex-layout.row#shelf-desktop",
+        "rich-text#quemviu",
+        "flex-layout.row#shelf-desktop"
+
       ]
     },
     "flex-layout.row#product-MainBreadcrump": {
@@ -62,6 +68,7 @@
         "product-installments#summary",
         "flex-layout.row#product-quantity",
         "flex-layout.row#buy-button",
+        "flex-layout.row#freteeprazodeentrega",
         "flex-layout.row#shipping-simulator"
       ]
     },
@@ -126,6 +133,18 @@
             "blockClass": "buyNow"
           }
         },
+
+        "flex-layout.row#freteeprazodeentrega": {
+          "children": [
+            "rich-text#prazodeentrega"
+          ]
+        },
+        "rich-text#prazodeentrega": {
+          "props": {
+            "blockClass":["prazodeentrega"],
+            "text": "Frete e prazo de entrega"
+          }
+        },
         "flex-layout.row#shipping-simulator": {
           "props": {
             "blockClass": "ShiipingSimulator"
@@ -135,14 +154,116 @@
         "shipping-simulator": {
           "props": {
             "skuID": "342"
+            
           }
         },
+        "flex-layout.row#descricaopdp": {
+          "props":{
+            "blockClass": "descricaopdp"
+          },
+          "children":["flex-layout.row#maindescricaopdp"]
+
+        },
+        
         "flex-layout.row#maindescricaopdp": {
           "props": {
             "blockClass": "maindescricaopdp"
           },
           "children": [
-            "vtex.store-components:product-name"
+            "product-description"
           ]
+        },
+        
+
+        "product-description": {
+          "props": {
+            "showTitle": true,
+            "title": ""
+          }
+        },
+        "flex-layout.row#specification-group": {
+          "props": {
+            "blockClass": "specification-group"
+          },
+          "children": ["product-specification-group#table"]
+        },
+        "product-specification-group#table":{
+          "children": ["flex-layout.row#spec-group"]
+        },
+        "flex-layout.row#spec-group": {
+          "props": {
+            "blockClass": "productSpecificationGroup"
+          },
+          "children": ["flex-layout.col#spec-group"]
+        },
+        "flex-layout.col#spec-group": {
+          "children": ["flex-layout.row#spec-group-name", "product-specification"]
+        },"flex-layout.row#spec-group-name": {
+          "props": {
+            "blockClass": "productSpecificationGroupName"
+          },
+          "children": ["product-specification-text#group"]
+        },
+        "product-specification": {
+          "props":{
+            "blockClass":["product-specification"]
+          },
+          "children": ["flex-layout.row#spec-item"]
+        },
+        "flex-layout.row#spec-item": {
+          "props": {
+            "blockClass": "productSpecification"
+          },
+          "children": ["flex-layout.col#spec-name", "flex-layout.col#spec-value"]
+        },
+        "flex-layout.col#spec-name": {
+          "props": {
+            "blockClass": "productSpecificationName",
+            "width": {
+              "mobile": "50%",
+              "desktop": "25%"
+            }
+          },
+          "children": ["product-specification-text#specification"]
+        },
+        "flex-layout.col#spec-value": {
+          "props": {
+            "blockClass": "productSpecificationValue"
+          },
+          "children": ["product-specification-values"]
+        },
+        "product-specification-values": {
+          "children": ["product-specification-text#value"]
+        },
+        "product-specification-text#group": {
+          "props": {
+            "message": "{groupName}"
+          }
+        },
+        "product-specification-text#specification": {
+          "props": {
+            "message": "{specificationName}"
+          }
+        },
+        "product-specification-text#value": {
+          "props": {
+            "message": "{specificationValue}"
+          }
+        },
+        "rich-text#quemcomprou":{
+          "props": {
+            "blockClass":["QuemComprouComprouTambem"],
+            "text": "Quem Comprou, comprou também"
+          }
+
+        },
+    
+        "rich-text#quemviu":{
+          "props": {
+            "blockClass":["QuemViuViuTambem"],
+            "text": "Quem viu, viu também"
+          }
+
         }
+
       }
