@@ -190,17 +190,27 @@ opacity: 1;
     justify-content: center;
 }
 .flexRow--specification-group{
-    justify-content: center;
     margin-top: -190px;
 }
 .flexRowContent--specification-group{
-    padding-left: 135px;
+    padding-left: 120px;
     max-width: 1252px;
     justify-content: center;
     align-items: center;
 }
 .flexRow--productSpecificationGroupName{
     background-color: transparent!important;
+}
+.flexRow--productSpecificationGroup:not(:first-child) {
+    margin-top: 0px!important;
+}
+.flexRow--productSpecificationGroupName :global(.vtex-product-specifications-1-x-groupName){
+    text-align: left;
+    font: normal normal bold 16px/22px arial;
+    letter-spacing: 1.6px;
+    color: #441AFA;
+    text-transform: uppercase;
+    opacity: 1;
 }
 
 .flexRowContent--ShiipingSimulator :global(.vtex-button){
@@ -237,4 +247,96 @@ opacity: 1;
     display: flex;
     justify-content: center;
     max-width: 1252px;
+}
+.flexRowContent--rowpdpfooterfixed{
+    align-items: center;
+}
+.flexRow--pdpfooterfixed{
+    height: 80px;
+    background-color: #EEEEEE;
+}
+.flexRowContent--pdpfooterfixed{
+    max-width: 1252px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+.flexCol--footerfixed1{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+}
+.flexCol--footerfixed2{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+}
+.flexRow--rowpdpfooterfixed :global(.vtex-store-components-3-x-productBrand--quickview){
+    padding-left: 15px;
+    text-align: left;
+font: normal normal bold 12px/17px arial;
+letter-spacing: 0px;
+color: #25282A;
+text-transform: uppercase;
+opacity: 1;
+}
+
+.flexRow--rowpdpfooterfixed :global(.vtex-product-price-1-x-sellingPriceValue){
+    font-size: 1.75rem;
+    text-align: left;
+font: normal normal bold 20px/18px arial;
+letter-spacing: 0px;
+color: #441AFA;
+opacity: 1;
+}
+.flexRow--rowpdpfooterfixed :global(.vtex-product-price-1-x-installments){
+  margin-top: 40px;
+    padding-right: 15px;
+    padding-left:15px ;
+    text-align: left;
+font: normal normal normal 14px/18px arial;
+letter-spacing: 0px;
+color: #25282A;
+}
+.flexRow--rowpdpfooterfixed :global(.vtex-button__label){
+    border-radius: 0px!important;
+    border: none!important;
+    width: 245px;
+height: 48px;
+background: #441AFA 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.flexRow--rowpdpfooterfixed :global(.vtex-store-components-3-x-productImagesGallerySlide){
+    padding-top: 10px; 
+    display: flex;
+    justify-content: flex-start;
+    width: 50px!important;
+}
+
+.flexRow--rowpdpfooterfixed :global(.vtex-product-price-1-x-installmentsNumber), :global(.vtex-product-price-1-x-installmentsNumber--summary-1--4){
+    width: 24px;
+height: 19px;
+    text-align: left;
+font: normal normal bold 14px/18px arial;
+letter-spacing: 0px;
+color: #25282A;
+}
+.flexRow--pdpfooterfixed :global(.vtex-product-identifier-0-x-product-identifier__label){
+    font-size: 0;
+}
+.flexColChild--footerfixed2 :global(.vtex-product-price-1-x-installmentsNumber)::after {
+    content: "";
+    font-weight: 700;
+}
+
+.flexCol--footerfixed2 :global(.vtex-product-price-1-x-installmentValue), :global(.vtex-product-price-1-x-installmentValue--summary-1){
+    width: 24px;
+    height: 19px;
+        text-align: left;
+    font: normal normal bold 14px/18px arial;
+    letter-spacing: 0px;
+    color: #25282A;
+
 }

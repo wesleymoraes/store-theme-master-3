@@ -6,10 +6,12 @@
         "shelf.relatedProducts",
         "flex-layout.row#descricaopdp",
         "flex-layout.row#specification-group",
+        "sticky-layout#pdpfooterfixed",
         "rich-text#quemcomprou",
         "flex-layout.row#shelf-desktop",
         "rich-text#quemviu",
         "flex-layout.row#shelf-desktop"
+      
 
       ]
     },
@@ -99,6 +101,7 @@
     },
     "children": ["product-selling-price"]
   },
+
   "flex-layout.row#product-quantity":{
     "props": {
     "blockClass": "ProductQuantity"
@@ -197,6 +200,9 @@
           "children": ["flex-layout.col#spec-group"]
         },
         "flex-layout.col#spec-group": {
+          "props": {
+            "blockClass":["Specification"]
+          },
           "children": ["flex-layout.row#spec-group-name", "product-specification"]
         },"flex-layout.row#spec-group-name": {
           "props": {
@@ -263,7 +269,55 @@
             "blockClass":["QuemViuViuTambem"],
             "text": "Quem viu, viu também"
           }
+         
+        },
+        "sticky-layout#pdpfooterfixed": {
+          "props": {
+            "position": "bottom"
+          },
+          "children": ["flex-layout.row#pdpfooterfixed"]
+        },
 
+        "flex-layout.row#pdpfooterfixed":{
+          "props": {
+          "blockClass": "pdpfooterfixed"},
+          "children": ["flex-layout.row#rowpdpfooterfixed"]  
+        },
+        "flex-layout.row#rowpdpfooterfixed": {
+          "props": {
+            "blockClass": "rowpdpfooterfixed"
+          },
+          "children": ["flex-layout.col#footerfixed1","flex-layout.col#footerfixed2"]
+        },
+            "flex-layout.col#footerfixed1":{
+              "props": {
+                "blockClass":["footerfixed1"]
+              },
+              "children": ["flex-layout.row#productimagepdpfooter", "flex-layout.row#nameproductpdp"]
+            },
+            "flex-layout.col#footerfixed2":{
+              "props": {
+                "blockClass":["footerfixed2"]
+              },
+              "children": ["flex-layout.col#valueproductpdp","flex-layout.col#installments","flex-layout.col#buttonbuy"]
+            },
+           "flex-layout.row#productimagepdpfooter":{
+          "props": {
+            "blockClass":["productimagepdpfooter"]
+          },
+          "children": ["product-images"]
+        },
+        "flex-layout.row#nameproductpdp": {
+          "children": ["vtex.store-components:product-name"]
+        },
+        "flex-layout.col#valueproductpdp":{
+          "children": ["product-selling-price"]
+        },
+        "flex-layout.col#installments":{
+         "children":["product-installments#summary"]
+        },
+        "flex-layout.col#buttonbuy":{
+          "children": ["add-to-cart-button"]
         }
 
       }
