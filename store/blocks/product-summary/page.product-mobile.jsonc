@@ -1,0 +1,232 @@
+{
+    "responsive-layout.mobile": {
+        "props": {
+            "blockClass": [
+                "ResponsiveLayoutPdpMobile"
+                
+            ]
+        },
+        "children": [
+            "flex-layout.row#ProductMainBreadcrumpMobile",
+            "flex-layout.row#ProductMainMobile"
+        ]
+    },
+    "flex-layout.row#ProductMainBreadcrumpMobile": {
+        "props": {
+            "blockClass": "ProductMainBreadcrumpMobile"
+        },
+        "children": [
+            "flex-layout.row#ProductBreadcrumpMobile"
+        ]
+    },
+    "flex-layout.row#ProductBreadcrumpMobile": {
+        "props": {
+            "marginTop": 4
+        },
+        "children": [
+            "breadcrumb"
+        ]
+    },
+    "flex-layout.row#ProductMainMobile": {
+        "props": {
+            "blockClass": "ProductMainMobile"
+        },
+        "children": [
+            "flex-layout.row#WrapperProductMainMobile"
+        ]
+    },
+    "flex-layout.row#WrapperProductMainMobile": {
+        "props": {
+            "colGap": 7,
+            "rowGap": 7,
+            "marginTop": 4,
+            "marginBottom": 7,
+            "paddingTop": 7,
+            "paddingBottom": 7
+        },
+        "children": [
+            "flex-layout.col#ProductImageMobile",
+            "flex-layout.col#RightColMobile"
+        ]
+    },
+    "flex-layout.col#ProductImageMobile": {
+        "props": {
+            "width": "60%",
+            "rowGap": 0
+        },
+        "children": [
+            "product-images"
+        ]
+    },
+    "product-images": {
+        "props": {
+            "displayThumbnailsArrows": true
+        }
+    },
+    "flex-layout.col#RightColMobile": {
+        "props": {
+            "blockClass": [
+                "RightMobile"
+            ],
+            "preventVerticalStretch": true,
+            "rowGap": 0
+        },
+        "children": [
+            "flex-layout.row#ProductNameMobile",
+            "product-identifier.product",
+            "flex-layout.row#ListPriceMobile",
+            "flex-layout.row#ProductSellingPriceMobile",
+            "product-installments#summary",
+            "flex-layout.row#SkuSelectorMobile",
+            "flex-layout.row#ProductQuantityMobile",
+            "flex-layout.row#BuyButtonMobile",
+            "flex-layout.row#FreteEPrazoDeEntregaMobile",
+            "flex-layout.row#ShippingSimulatorMobile",
+            "flex-layout.row#specificationmobile",
+            "rich-text#QuemComprou",
+            "flex-layout.row#shelf",
+            "rich-text#QuemViu",
+            "flex-layout.row#shelf"
+        ]
+    },
+    "flex-layout.row#ProductNameMobile": {
+        "props": {
+            "blockClass": "ProductNameMobile",
+            "marginBottom": 3
+        },
+        "children": [
+            "vtex.store-components:product-name"
+        ]
+    },
+    "flex-layout.row#ListPriceMobile": {
+        "children": [
+            "product-list-price#summary"
+        ],
+        "props": {}
+    },
+    "product-list-price#summary": {
+        "props": {
+            "blockClass": [
+                "ListPriceMobile"
+            ]
+        }
+    },
+    "flex-layout.row#ProductSellingPriceMobile": {
+        "props": {
+            "blockClass": "ProductSellingPriceMobile"
+        },
+        "children": [
+            "product-selling-price"
+        ]
+    },
+    "product-selling-price": {
+        "props": {
+            "blockClass": [
+                "ProductSellingPriceMobile"
+            ]
+        }
+    },
+    "flex-layout.row#SkuSelectorMobile": {
+        "props": {
+            "blockClass": [
+                "SkuSelectorMobile"
+            ]
+        },
+        "children": [
+            "sku-selector"
+        ]
+    },
+    "sku-selector": {
+        "props": {
+            "visibility": "always"
+        }
+    },
+    "flex-layout.row#ProductQuantityMobile": {
+        "props": {
+            "blockClass": "ProductQuantityMobile"
+        },
+        "children": [
+            "product-quantity"
+        ]
+    },
+    "product-quantity": {
+        "props": {
+            "size": "small"
+        }
+    },
+    "product-price#ProductDetailsMobile": {
+        "props": {
+            "showInstallments": true,
+            "showSavings": true
+        }
+    },
+    "flex-layout.row#BuyButtonMobile": {
+        "props": {
+            "blockClass": "BuyButtonMobile",
+            "marginTop": 4,
+            "marginBottom": 7
+        },
+        "children": [
+            "add-to-cart-button"
+        ]
+    },
+    "add-to-cart-button": {
+        "props": {
+            "text": "Comprar",
+            "isOneClickBuy": true,
+            "onClickEventPropagation": "enabled",
+            "blockClass": "buyNow"
+        }
+    },
+    "flex-layout.row#FreteEPrazoDeEntregaMobile": {
+        "children": [
+            "rich-text#PrazoDeEntrega"
+        ]
+    },
+    "rich-text#PrazoDeEntrega": {
+        "props": {
+            "blockClass": [
+                "PrazoDeEntregaMobile"
+            ],
+            "text": "Frete e prazo de entrega"
+        }
+    },
+    "flex-layout.row#ShippingSimulatorMobile": {
+        "props": {
+            "blockClass": "ShippingSimulatorMobile"
+        },
+        "children": [
+            "shipping-simulator"
+        ]
+    },
+    "shipping-simulator": {
+        "props": {
+            "skuID": "342"
+        }
+    },
+    "flex-layout.row#specificationmobile":{
+        "children": ["flex-layout.row#specification-group-mobile"]
+    },
+    "flex-layout.row#specification-group-mobile":{
+        "props": {
+            "blockClass": "SpecificationGroupMobile"
+        }
+
+    },
+    "rich-text#QuemComprou": {
+        "props": {
+            "blockClass": [
+                "QuemComprouComprouTambem"
+            ],
+            "text": "Quem Comprou, comprou também"
+        }
+    },
+    "rich-text#QuemViu": {
+        "props": {
+            "blockClass": [
+                "QuemViuViuTambem"
+            ],
+            "text": "Quem viu, viu também"
+        }
+    }
+}

@@ -1,3 +1,6 @@
+
+    
+
 .flexRowContent--breadcrump{
     max-width: 1252px;
     justify-content: center;
@@ -66,9 +69,7 @@ opacity: 1;
     padding-top: 7px;
     padding-right: 15px;
 }
-.vtex-product-quantity-1-x-quantitySelectorStepper{
-    border-radius: 0px;
-}
+
 .flexRowContent--ProductQuantity :global(.vtex-numeric-stepper__input) {
     border-radius: 0px;
     font-size: 17px;
@@ -338,5 +339,15 @@ color: #25282A;
     font: normal normal bold 14px/18px arial;
     letter-spacing: 0px;
     color: #25282A;
+
+}
+.flexRowContent--ShiipingSimulator :global(.vtex-address-form-4-x-input){
+    content:"cep" ;
+    font-size: medium;
+}
+.flexRowContent--productimagepdpfooter{
+    width: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 
 }

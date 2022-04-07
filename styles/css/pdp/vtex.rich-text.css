@@ -1,3 +1,4 @@
+
 .wrapper--prazodeentrega{
     text-transform: uppercase;
     text-align: left;
@@ -29,5 +30,13 @@ opacity: 1;
     font: normal normal bold 16px/22px arial;
     letter-spacing: 1.6px;
     color: #25282A;
+    opacity: 1;
+}
+.wrapper--PrazoDeEntregaMobile{
+    text-align: left;
+    font: normal normal bold 12px/17px arial;
+    letter-spacing: 1.2px;
+    color: #25282A;
+    text-transform: uppercase;
     opacity: 1;
 }

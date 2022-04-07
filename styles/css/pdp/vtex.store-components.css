@@ -1,3 +1,8 @@
-.flexRowContent--skuselector :global(.vtex-store-components-3-x-frameAround){
-    display: none;
+ 
+.flexRowContent--skuselector :global(.vtex-store-components-3-x-skuSelectorTextContainer){
+    text-align: left;
+font: normal normal normal 14px/19px arial;
+letter-spacing: 0px;
+color: #25282A;
+opacity: 1;
 }

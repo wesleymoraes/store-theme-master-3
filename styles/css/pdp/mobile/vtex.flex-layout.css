@@ -1,0 +1,139 @@
+.flexRowContent--ProductMainBreadcrumpMobile :global(.vtex-breadcrumb-1-x-container){
+font: normal normal normal 12px/17px arial;
+letter-spacing: 0px;
+color: #B1B3B3;
+opacity: 1;
+}
+.flexRowContent--ProductMainBreadcrumpMobile :global(.vtex-breadcrumb-1-x-term){
+    text-align: left;
+font: normal normal normal 12px/17px arial;
+letter-spacing: 0px;
+color: #B1B3B3;
+opacity: 1;
+}
+.flexRow--ProductNameMobile :global(.vtex-store-components-3-x-productNameContainer){
+    text-align: left;
+font: normal normal bold 16px/22px arial;
+letter-spacing: 0px;
+color: #25282A;
+text-transform: uppercase;
+opacity: 1;
+}
+
+.flexColChild--RightMobile :global(.vtex-product-identifier-0-x-product-identifier){
+    text-align: left;
+font: normal normal normal 11px/15px arial;
+letter-spacing: 0px;
+color: #B1B3B3;
+opacity: 1;
+}
+.flexColChild--RightMobile :global(.vtex-product-price-1-x-listPrice){
+    text-align: left;
+text-decoration: line-through;
+font: normal normal normal 12px/18px arial;
+letter-spacing: 0px;
+color: #25282A;
+opacity: 1;
+}
+.flexColChild--RightMobile :global(.vtex-product-price-1-x-sellingPriceValue){
+text-align: left;
+font: normal normal bold 24px/18px arial;
+letter-spacing: 0px;
+color: #441AFA;
+opacity: 1;
+
+}
+.flexRowContent--ProductQuantityMobile :global(.vtex-product-quantity-1-x-quantitySelectorContainer){
+    flex-direction: row;
+    align-items: center;
+}
+.flexRow--BuyButtonMobile :global(.vtex-button){
+    padding-left: -20px;
+    border: 0;
+    border-radius: 0;
+    width: 372px;
+    height: 48px;
+background: #441AFA 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.flexRowContent--ShippingSimulatorMobile :global(.vtex__icon-external-link){
+    display: none;
+
+}
+.flexRowContent--ShippingSimulatorMobile :global(.vtex-address-form__postalCode-forgottenURL) :first-child{
+    text-align: left;
+text-decoration: underline;
+font: normal normal 600 12px/18px arial;
+letter-spacing: 0px;
+color: #25282A;
+opacity: 1;
+}
+.flexRow--ShippingSimulatorMobile :global(.vtex-button){
+    color: white;
+width: 372px;
+height: 48px;
+background: #25282A 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+
+.flexRow--ShippingSimulatorMobile :global(.vtex-input-prefix__group){
+    width: 372px;
+height: 40px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #EEEEEE;
+border-radius: 3px;
+opacity: 1;
+}
+.flexRowContent--ProductQuantityMobile :global(.vtex-button){
+    display: flex;
+    justify-content: center;
+    width: 372px;
+height: 48px;
+color: white;
+background: #25282A 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.flexRowContent--ProductQuantityMobile  :global(.vtex-numeric-stepper-container){
+    width: 114px;
+height: 40px;
+    border: 1px solid #E6E6E6;
+    border-radius: 0;
+}
+.flexRowContent--ProductQuantityMobile  :global(.vtex-product-quantity-1-x-quantitySelectorContainer){
+    flex-direction: row;
+    align-items: center;
+    margin-top: 30px;
+}
+.flexRowContent--ProductQuantityMobile :global(.vtex-product-quantity-1-x-quantitySelectorTitle){
+    color: #000000;
+    padding-top: 7px;
+    padding-right: 15px;
+}
+
+.flexRowContent--ProductQuantityMobile :global(.vtex-numeric-stepper__input) {
+    border-radius: 0px;
+    font-size: 17px;
+    color: #989898;
+    width: 55px;
+    border: 0;
+    background-color: transparent;
+}
+
+.flexRowContent--ProductQuantityMobile  :global(.vtex-numeric-stepper__plus-button) {
+    color: #000000;
+    font-size: 25px;
+    width: 15px !important;
+    border: 0;
+    background-color: transparent;
+}
+
+.flexRowContent--ProductQuantityMobile :global(.vtex-numeric-stepper__minus-button) {
+    color: #000000;
+    font-size: 25px;
+    width: 15px !important;
+    border: 0;
+    background-color: transparent;
+}
+.flexRowContent--ProductQuantityMobile :global(.vtex-product-quantity-1-x-quantitySelectorStepper){
+    border: 1px;
+}
