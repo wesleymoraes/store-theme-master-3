@@ -68,6 +68,7 @@
         "flex-layout.row#product-price",
         "flex-layout.row#product-selling-price",
         "product-installments#summary",
+        "flex-layout.row#sku-selector",
         "flex-layout.row#product-quantity",
         "flex-layout.row#buy-button",
         "flex-layout.row#freteeprazodeentrega",
@@ -100,6 +101,17 @@
       "blockClass": "sellingproductpricepdp"
     },
     "children": ["product-selling-price"]
+  },
+  "flex-layout.row#sku-selector":{
+    "props": {
+    "blockClass": "skuselector"
+  },
+  "children": ["sku-selector"]
+  },
+  "sku-selector": {
+    "props": {
+      "visibility": "always",
+    }
   },
 
   "flex-layout.row#product-quantity":{
