@@ -1,5 +1,5 @@
 {
-    "responsive-layout.desktop": {
+    "responsive-layout.desktop#home": {
         "children": [
             "flex-layout.row#main-home-desktop",
             "flex-layout.row#main-home-desktop-1",

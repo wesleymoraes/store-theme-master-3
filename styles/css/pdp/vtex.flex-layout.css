@@ -28,7 +28,7 @@ opacity: 1;
     flex-direction: row;
     padding: right 100px;
     margin-bottom: 5px;
-    width: 100%;
+    width: 90%;
 }
 
 .flexRow--RowProductPrice :global(.vtex-product-price-1-x-listPrice){
@@ -191,7 +191,7 @@ opacity: 1;
     justify-content: center;
 }
 .flexRow--specification-group{
-    margin-top: -190px;
+    margin-top: 100px;
 }
 .flexRowContent--specification-group{
     padding-left: 120px;
@@ -239,7 +239,7 @@ opacity: 1;
     color: #000000;
 }
 .flexRow--descricaopdp{
-    height: 403px;
+    height: auto;
     background-color: #EEEEEE ;
     display: flex;
     justify-content: center;

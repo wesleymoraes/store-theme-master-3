@@ -1,5 +1,5 @@
 {
-    "responsive-layout.mobile": {
+    "responsive-layout.mobile#home": {
         "children": [
             "slider-layout#home-slider-banner-mobile",
             "slider-layout#deals-mobile",
