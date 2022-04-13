@@ -1,7 +1,10 @@
 .quantitySelectorTitle--quantity-button {
     display: none;
 }
-
+.summaryContainer{
+    border-radius: 0;
+    padding-top: 13px;
+}
 
 .quantitySelectorStepper :global(.vtex-numeric-stepper-container){
     margin-bottom: 0;

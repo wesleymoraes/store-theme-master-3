@@ -41,3 +41,47 @@
 .flexRowContent--search-notfound-1 :global(.vtex-breadcrumb-1-x-container) {
   padding-top: 17px;
 }
+ 
+ .flexCol--filterColuna :global(.vtex-checkbox__label){
+  text-align: left;
+  font: normal normal normal 13px/18px arial;
+  letter-spacing: 0px;
+  color: #707070;
+  opacity: 1;
+ }  
+ .filter__container--priceRange{
+  color: blue;
+
+}
+.flexCol--filterColuna :global(.vtex-search-result-3-x-filter__container--priceRange){
+  text-align: left;
+font: normal normal normal 11px/15px arial;
+letter-spacing: 0px;
+color: #25282A;
+opacity: 1;
+border-bottom: none;
+}
+.flexRow--rowsearchmobile{
+  margin-top: 10px;
+height: 70px;
+}
+
+.flexCol--orderByMobileCol :global(.vtex-search-result-3-x-orderBy--layout){
+  width: 176px;
+  height: 48px; 
+  opacity: 1;
+}
+.flexColChild--filterMobileCol :global(.vtex-search-result-3-x-filters--layout){
+  width: 176px;
+  height: 48px;
+  border: 2px solid #E9E9E9 !important;
+  opacity: 1;
+}
+.flexColChild--filterMobileCol :global(.vtex-search-result-3-x-filterPopupTitle){
+  text-align: center;
+font: normal normal bold 14px/20px arial;
+letter-spacing: 1.4px;
+color: #25282A;
+text-transform: uppercase;
+opacity: 1;
+}
