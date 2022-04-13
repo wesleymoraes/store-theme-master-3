@@ -1,3 +1,4 @@
+@media (min-width: 1024px) {
 .flexRow--orderByAndSwitcher {
   padding-right: 1.5em;
 }
@@ -84,4 +85,5 @@ letter-spacing: 1.4px;
 color: #25282A;
 text-transform: uppercase;
 opacity: 1;
+}
 }

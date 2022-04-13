@@ -100,11 +100,11 @@
     },
     "flex-layout.row#ListPriceMobile": {
         "children": [
-            "product-list-price#summary"
+            "product-list-price#summary#home"
         ],
         "props": {}
     },
-    "product-list-price#summary": {
+    "product-list-price#summary#home": {
         "props": {
             "blockClass": [
                 "ListPriceMobile"

@@ -231,3 +231,14 @@ opacity: 1;
     background-color: #EEEEEE;
     color: black;
 }
+@media (max-width: 640px) {
+.gallery--grid{
+    width: 100%;
+}
+.accordionFilter{
+    width: 100%;
+}
+.searchResultContainer{
+    width: 100%;
+}
+}

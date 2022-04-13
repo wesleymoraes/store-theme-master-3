@@ -1,0 +1,214 @@
+{
+    "store.custom#about-us": {
+      "blocks": [
+        "flex-layout.row#searchbread",
+        "flex-layout.row#searchbread-about-us",
+        "flex-layout.row#wrapper-about-us"
+      ]
+    },
+    "flex-layout.row#searchbread": {
+      "children": [
+        "breadcrumb.search"
+      ],
+      "props": {
+        "preserveLayoutOnMobile": true,
+        "fullWidth": true
+      }
+    },
+    "breadcrumb": {
+      "props": {
+        "showOnMobile": true
+      }
+    },
+    "flex-layout.row#searchbread-about-us": {
+      "children": [
+        "breadcrumb.search"
+      ],
+      "props": {
+        "preserveLayoutOnMobile": true,
+        "fullWidth": true
+      }
+    },
+    "flex-layout.row#wrapper-about-us": {
+      "props": {
+        "blockClass": "main-about-us"
+      },
+      "children": ["flex-layout.row#about-us"]
+    },
+    "flex-layout.row#about-us": {
+      "props": {
+        "blockClass": "About-us"
+      },
+      "children": [
+        "flex-layout.col#esquerda",
+        "flex-layout.col#direita"]
+    },
+    "flex-layout.col#direita":{
+      "props": {
+        "width":"70%"
+      },
+      "children": ["rich-text#SobreNosTitulo","rich-text#SobreNosConteudo"]
+    },
+    "rich-text#SobreNosTitulo":{
+      "props": {
+        "blockClass":["sbntitulo"],
+        "text": "Sobre Nós"
+      }
+    },
+    "rich-text#SobreNosConteudo": {
+      "props": {
+        "blockClass":["sbnConteudo"],
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fermentum leo vel orci porta non. Commodo elit at imperdiet dui accumsan sit amet. Sem fringilla ut morbi tincidunt augue interdum velit euismod. Quam nulla porttitor massa id neque aliquam vestibulum morbi. Pellentesque habitant morbi tristique senectus. Morbi tristique senectus et netus et. Sed blandit libero volutpat sed. Consequat mauris nunc congue nisi. Nam at lectus urna duis convallis convallis tellus. A condimentum vitae sapien pellentesque habitant morbi tristique. Sit amet consectetur adipiscing elit. Eu turpis egestas pretium aenean pharetra magna ac placerat vestibulum. Tincidunt eget nullam non nisi est sit amet. Ut sem viverra aliquet eget. Dapibus ultrices in iaculis nunc sed augue lacus viverra vitae. Quis eleifend quam adipiscing vitae proin sagittis nisl rhoncus mattis. Consectetur libero id faucibus nisl tincidunt eget nullam non. Cursus turpis massa tincidunt dui ut ornare lectus sit. Tellus at urna condimentum mattis pellentesque id nibh. Facilisis gravida neque convallis a cras semper auctor. Tortor at risus viverra adipiscing at in. Tortor id aliquet lectus proin nibh. Risus in hendrerit gravida rutrum quisque non tellus. Id diam vel quam elementum pulvinar etiam non quam lacus. Netus et malesuada fames ac turpis. Eu nisl nunc mi ipsum faucibus. Felis bibendum ut tristique et egestas quis ipsum suspendisse. Eu augue ut lectus arcu bibendum. Scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique. Non blandit massa enim nec dui nunc mattis. Euismod lacinia at quis risus sed vulputate. Faucibus in ornare quam viverra orci sagittis eu volutpat odio. Non quam lacus suspendisse faucibus interdum posuere lorem ipsum dolor. Arcu felis bibendum ut tristique. Viverra justo nec ultrices dui sapien eget mi proin. Fames ac turpis egestas sed. Enim nunc faucibus a pellentesque sit amet. Vitae congue eu consequat ac felis donec et. Nulla facilisi nullam vehicula ipsum a arcu cursus vitae. Id ornare arcu odio ut sem nulla pharetra. Amet luctus venenatis lectus magna fringilla urna porttitor rhoncus. Risus commodo viverra maecenas accumsan lacus vel. Nisl purus in mollis nunc sed id semper risus in. Lobortis scelerisque fermentum dui faucibus in. Urna nec tincidunt praesent semper feugiat. Cras tincidunt lobortis feugiat vivamus at augue. Amet nulla facilisi morbi tempus iaculis urna id. Vulputate ut pharetra sit amet aliquam id diam maecenas. Sociis natoque penatibus et magnis dis. Ac feugiat sed lectus vestibulum mattis ullamcorper velit. Ullamcorper sit amet risus nullam. In hendrerit gravida rutrum quisque non tellus orci. At risus viverra adipiscing at in. Sit amet cursus sit amet dictum. Tellus at urna condimentum mattis pellentesque id nibh tortor id. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fermentum leo vel orci porta non. Commodo elit at imperdiet dui accumsan sit amet. Sem fringilla ut morbi tincidunt augue interdum velit euismod. Quam nulla porttitor massa id neque aliquam vestibulum morbi. Pellentesque habitant morbi tristique senectus. Morbi tristique senectus et netus et. Sed blandit libero volutpat sed. Consequat mauris nunc congue nisi. Nam at lectus urna duis convallis convallis tellus. A condimentum vitae sapien pellentesque habitant morbi tristique. Sit amet consectetur adipiscing elit. Eu turpis egestas pretium aenean pharetra magna ac placerat vestibulum. Tincidunt eget nullam non nisi est sit amet. Ut sem viverra aliquet eget. Dapibus ultrices in iaculis nunc sed augue lacus viverra vitae. Quis eleifend quam adipiscing vitae proin sagittis nisl rhoncus mattis. Consectetur libero id faucibus nisl tincidunt eget nullam non. Cursus turpis massa tincidunt dui ut ornare lectus sit. Tellus at urna condimentum mattis pellentesque id nibh. Facilisis gravida neque convallis a cras semper auctor. Tortor at risus viverra adipiscing at in. Tortor id aliquet lectus proin nibh. Risus in hendrerit gravida rutrum quisque non tellus. Id diam vel quam elementum pulvinar etiam non quam lacus. Netus et malesuada fames ac turpis. Eu nisl nunc mi ipsum faucibus. Felis bibendum ut tristique et egestas quis ipsum suspendisse. Eu augue ut lectus arcu bibendum. Scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique. Non blandit massa enim nec dui nunc mattis. Euismod lacinia at quis risus sed vulputate. Faucibus in ornare quam viverra orci sagittis eu volutpat odio. Non quam lacus suspendisse faucibus interdum posuere lorem ipsum dolor. Arcu felis bibendum ut tristique. Viverra justo nec ultrices dui sapien eget mi proin. Fames ac turpis egestas sed. Enim nunc faucibus a pellentesque sit amet. Vitae congue eu consequat ac felis donec et. Nulla facilisi nullam vehicula ipsum a arcu cursus vitae. Id ornare arcu odio ut sem nulla pharetra. Amet luctus venenatis lectus magna fringilla urna porttitor rhoncus. Risus commodo viverra maecenas accumsan lacus vel. Nisl purus in mollis nunc sed id semper risus in. Lobortis scelerisque fermentum dui faucibus in. Urna nec tincidunt praesent semper feugiat. Cras tincidunt lobortis feugiat vivamus at augue. Amet nulla facilisi morbi tempus iaculis urna id. Vulputate ut pharetra sit amet aliquam id diam maecenas. Sociis natoque penatibus et magnis dis. Ac feugiat sed lectus vestibulum mattis ullamcorper velit. Ullamcorper sit amet risus nullam. In hendrerit gravida rutrum quisque non tellus orci. At risus viverra adipiscing at in. Sit amet cursus sit amet dictum. Tellus at urna condimentum mattis pellentesque id nibh tortor id."
+      }
+    },
+    "flex-layout.col#esquerda":{
+      "props": {
+        "width":"30%"
+        },
+        "children":[
+          "flex-layout.col#sbnInstitucional",
+          "flex-layout.col#sbnPrecisaDeAjuda"
+        ]
+    },
+    "flex-layout.col#sbnInstitucional":{
+      "props": {
+        "blockClass":["Col-SobreNos-Institucional"]
+      },
+    "children": [
+      "rich-text#SobreNosInstitucional",
+      "link#sbnAmarca",
+      "link#sbnSobreNós",
+      "link#sbnSejaUmRepresentante",
+      "link#sbnSejaUmRevendedor",
+      "link#sbnVendasCorporativas",
+      "link#sbnCatalogo"
+    ]
+  },
+    "rich-text#SobreNosInstitucional":{
+      "props": {
+        "blockClass":["sbncoltitulo"],
+        "text": "Institucional"
+      }
+    },
+    "link#sbnAmarca": {
+      "props": {
+        "blockClass": ["sbnmenulink"],
+        "href": "/home",
+        "label": "A Marca"
+      }
+    },
+    "link#sbnSobreNós": {
+      "props": {
+        "blockClass": ["sbnmenulink"],
+        "href": "/home",
+        "label": "Sobre Nós"
+      }
+    },
+    "link#sbnSejaUmRepresentante": {
+      "props": {
+        "blockClass": ["sbnmenulink"],
+        "href": "/home",
+        "label": "Seja um Representante"
+      }
+    },
+   
+    "link#sbnSejaUmRevendedor": {
+      "props": {
+        "blockClass": ["sbnmenulink"],
+        "href": "/home",
+        "label": "Seja um Revendedor"
+      }
+    },
+    "link#sbnVendasCorporativas": {
+      "props": {
+        "blockClass": ["sbnmenulink"],
+        "href": "/home",
+        "label": "Vendas Corportivas"
+      }
+    },
+    "link#sbnCatalogo":{
+      "props": {
+        "blockClass": ["sbnmenulink"],
+        "href":"/home",
+        "label": "Catálogo"
+      }
+    },
+    "flex-layout.col#sbnPrecisaDeAjuda":{
+      "props": {
+        "blockClass":["sbnColPrecisaDeAjuda"]
+      },
+      "children": [
+        "rich-text#sbnPrecisaDeAjuda",
+        "link#sbnFormasDePagamento",
+        "link#sbnFreteEPrazoDeEntrega",
+        "link#sbnPoliticaDePrivacidade",
+        "link#sbnGarantia",
+        "link#sbnTermosECondicoesDeUso",
+        "link#sbnMapaDoSite",
+        "link#sbnCupomDeDesconto",
+        "link#sbnManuaisDeProdutos"
+      ]
+    },
+    "rich-text#sbnPrecisaDeAjuda": {
+      "props": {
+        "blockClass":["sbncoltitulo"],
+        "text": "Precisa De Ajuda?"
+      }
+    },
+    "link#sbnFormasDePagamento":{
+      "props": {
+        "blockClass": ["sbnmenulink"],
+        "href": "/home",
+        "label": "Formas De Pagamento"
+      }
+    },
+    "link#sbnFreteEPrazoDeEntrega":{
+      "props": {
+        "blockClass": ["sbnmenulink"],
+        "href": "/home",
+        "label": "Frete e Prazo de Entrega"
+      }
+    },
+    "link#sbnPoliticaDePrivacidade":{
+      "props": {
+        "blockClass": ["sbnmenulink"],
+       "href": "/home",
+        "label": "Politica De Privacidade"
+      }
+    },
+    "link#sbnGarantia":{
+      "props": {
+        "blockClass": ["sbnmenulink"],
+       "href": "",
+        "label": "Garantia"
+      }
+    },
+    "link#sbnTermosECondicoesDeUso":{
+      "props": {
+        "blockClass": ["sbnmenulink"],
+       "href": "/home",
+        "label": "Termos e Condições de Uso"
+      }
+    },
+    "link#sbnMapaDoSite":{
+      "props": {
+        "blockClass": ["sbnmenulink"],
+        "href": "/home",
+        "label": "Mapa do Site"
+      }
+    },
+    "link#sbnCupomDeDesconto":{
+      "props": {
+        "blockClass": ["sbnmenulink"],
+        "href": "/home",
+        "label": "Cupom de Desconto"
+      }
+    },
+    "link#sbnManuaisDeProdutos":{
+      "props": {
+        "blockClass": ["sbnmenulink"],
+        "href": "/home",
+        "label": "Manuais de Produtos"
+      }
+    }
+  }

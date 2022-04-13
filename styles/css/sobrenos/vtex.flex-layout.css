@@ -1,0 +1,22 @@
+.flexRow--About-us{
+    display: flex;
+    justify-content: center;
+}
+
+.flexRowContent--About-us{
+    display: flex;
+    justify-content: center;
+margin-top: 76px;
+max-width: 1252px;
+}
+
+.flexCol--Col-SobreNos-Institucional{
+    margin-top: 20px;
+    width: 130px;
+    height: 142px;
+}
+.flexCol--sbnColPrecisaDeAjuda{
+    margin-top: -240px;
+    width: 200px;
+    height: 142px;
+}

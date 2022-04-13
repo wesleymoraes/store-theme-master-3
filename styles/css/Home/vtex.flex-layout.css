@@ -19,7 +19,7 @@
 
 .flexRowContent--quantity-add-cart-button :global(.vtex-button) {
     display: flex;
-    width: 85px;
+    width: 100%;
     background-color: #441AFA;
     color: #fff;
     letter-spacing: 1.2px;
