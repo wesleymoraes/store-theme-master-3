@@ -35,17 +35,35 @@
     text-transform: uppercase;
     opacity: 1;
 }
-
-
-.nameInputContainer--NewsletterInputName :global(.vtex-styleguide-9-x-hideDecorators){
+.nameInputContainer--Input-name{
+    width: 260px;
+    height: 40px;
+    margin: 0 auto;
+}
+.emailInputContainer--Input-email :global(.vtex-input-prefix__group){
+    width: 260px;
+    height: 40px;
+    margin: 0 auto;    
+}
+.nameInputContainer :global(.vtex-input-prefix__group){
     background-color: transparent;
     border-radius: 0;
-    border: 1px solid;
-    border-color: black;
+    border: 1px solid #B1B3B3;
+    
+}
+.emailInputContainer :global(.vtex-input-prefix__group){
+    background-color: transparent;
+    border-radius: 0;
+    border: 1px solid #B1B3B3;
 }
 .emailInputContainer :global(.vtex-styleguide-9-x-hideDecorators){
     background-color: transparent;
-    border-radius: 0;
-    border: 1px solid;
-    border-color: black;
+}
+.nameInputContainer :global(.vtex-styleguide-9-x-hideDecorators){
+    background-color: transparent;
+}
+.formSubmitContainer--buttonsubmit :global(.vtex-button){
+    background-color: transparent;
+    color: #441AFA;
+    border: none;
 }

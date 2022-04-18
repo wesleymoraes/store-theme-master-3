@@ -62,10 +62,10 @@
       "rowGap": 0
     },
     "children": [
-      "product-images"
+      "product-images#pdp"
     ]
   },
-  "product-images": {
+  "product-images#pdp": {
     "props": {
       "displayThumbnailsArrows": true
     }

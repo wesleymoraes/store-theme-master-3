@@ -22,8 +22,8 @@
     "props": {
         "width":"20%"
     },
-    "children": ["rich-text#institucional", "menu-item#aMarca","menu-item#SobreNós","menu-item#SejaUmRepresentante",
-        "menu-item#SejaUmRevendedor","menu-item#VendasCorporativas","menu-item#Catálogo"]
+    "children": ["rich-text#institucional", "menu-item#aMarca","menu-item#SobreNós","menu-item#SejaUmRepresentante-desktop",
+        "menu-item#SejaUmRevendedor-desktop","menu-item#VendasCorporativas-desktop","menu-item#Catálogo"]
 },
 "rich-text#institucional": {
     "props": {
@@ -45,19 +45,19 @@
         "text": "Sobre Nós"
     }
 },
-"menu-item#SejaUmRepresentante":{
+"menu-item#SejaUmRepresentante-desktop":{
     "props": {
         "type": "custom",
         "text": "Seja um Representante"
     }
 },
-"menu-item#SejaUmRevendedor":{
+"menu-item#SejaUmRevendedor-desktop":{
     "props": {
         "type": "custom",
         "text": "Seja um Revendedor"
     }
 },
-"menu-item#VendasCorporativas":{
+"menu-item#VendasCorporativas-desktop":{
     "props": {
         "type": "custom",
         "text": "Vendas Corporativas"

@@ -73,25 +73,25 @@
             
         },
         "children": [
-          "newsletter-input-name",
-          "newsletter-input-email",
-          "newsletter-submit"
+          "newsletter-input-name#desktop",
+          "newsletter-input-email#desktop",
+          "newsletter-submit#desktop"
         ]
       },
-      "newsletter-input-name":{
+      "newsletter-input-name#desktop":{
           "props": {
               "placeholderText": "Nome",
               "blockClass":["Input-name"]
           }
       },
-      "newsletter-input-email": {
+      "newsletter-input-email#desktop": {
         "props": {
           "placeholderText":"E-mail",
           "blockClass":["Input-email"]
         }
       },
 
-      "newsletter-submit":{
+      "newsletter-submit#desktop":{
           "props": {
               "blockClass":"buttonsubmit",
               "submitButtonLabel": "Cadastre-se"

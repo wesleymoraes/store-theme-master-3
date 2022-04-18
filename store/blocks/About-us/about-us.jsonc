@@ -7,16 +7,11 @@
       ]
     },
     "flex-layout.row#searchbread": {
-      "children": [
-        "breadcrumb.search"
-      ],
+      "children": ["breadcrumb#about-us"]
+    },
+    "breadcrumb#about-us": {
       "props": {
         "preserveLayoutOnMobile": true,
-        "fullWidth": true
-      }
-    },
-    "breadcrumb": {
-      "props": {
         "showOnMobile": true
       }
     },

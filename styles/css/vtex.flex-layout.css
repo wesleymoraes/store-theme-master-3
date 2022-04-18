@@ -99,3 +99,7 @@
   margin: 0px auto;
 }
 
+.flexRowContent--faq{
+  max-width: 1252px;
+  margin: auto;
+}

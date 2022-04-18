@@ -1,5 +1,5 @@
 {
-  "add-to-cart-button": {
+  "add-to-cart-button#minicart": {
     "props": {
       "addToCartFeedback": "customEvent",
       "customPixelEventId": "add-to-cart-button"

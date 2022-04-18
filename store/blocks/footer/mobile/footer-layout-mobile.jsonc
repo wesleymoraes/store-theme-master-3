@@ -114,7 +114,7 @@
       "children": [
           "menu-item#a-marca",
           "menu-item#SobreNos",
-          "menu-item#SejaUmRepresentante",
+          "menu-item#SejaUmRepresentante-mobile",
           "menu-item#SejaUmRevendedor",
           "menu-item#VendasCorporativas",
           "menu-item#Catalogos"
@@ -152,7 +152,7 @@
             }
           }
         },
-        "menu-item#SejaUmRepresentante":{
+        "menu-item#SejaUmRepresentante-mobile":{
           "props": {
               "blockClass": "subcategory-mobile-1",
               "id": "category-1-mobile",
