@@ -87,3 +87,8 @@ text-transform: uppercase;
 opacity: 1;
 }
 }
+@media (min-width: 114px) {
+  .flexRow--About-us {
+    padding-right: 1.5em;
+  }
+}

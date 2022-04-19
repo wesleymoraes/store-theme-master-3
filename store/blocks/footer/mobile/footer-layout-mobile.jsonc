@@ -88,7 +88,7 @@
         "blockClass": "menu-items-footer",
         "id": "institucional",
         "type": "custom",
-        "highlight": false,
+        "highlight": false, 
         "iconProps": {
             "id": "nav-caret--down",
             "size": 12,

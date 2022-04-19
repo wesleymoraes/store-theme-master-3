@@ -21,3 +21,24 @@ letter-spacing: 0px;
 color: #8C8F90;
 opacity: 1;
 }
+.wrapper--sbntitulo-mobile{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+height: 33px;
+text-align: left;
+font: normal normal bold 24px/33px arial;
+letter-spacing: 2.4px;
+color: #441AFA;
+text-transform: uppercase;
+opacity: 1;
+}
+.wrapper--sbnConteudo-mobile{
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: left;
+font: normal normal normal 14px/19px arial;
+letter-spacing: 0px;
+color: #8C8F90;
+opacity: 1;
+}

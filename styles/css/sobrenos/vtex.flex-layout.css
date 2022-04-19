@@ -20,3 +20,25 @@ max-width: 1252px;
     width: 200px;
     height: 142px;
 }
+.flexRow--Menu-About-us-Mobile{
+
+    display: flex;
+}
+.flexRowContent--Menu-About-us-Mobile{
+    text-align: left;
+font: normal normal bold 14px/19px arial;
+letter-spacing: 1.4px;
+color: #25282A;
+text-transform: uppercase;
+opacity: 1;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #E9E9E9;
+    opacity: 1;
+    margin-top: 20px;
+    justify-content: center;
+    display: flex;
+}
+.flexRowContent--Menu-About-us-Mobile{
+    width: 372px;
+
+}

@@ -10,7 +10,8 @@
         "blockClass": "contact"
       },
       "children": [
-        "flex-layout.col#contact-us"
+          "flex-layout.col#contact-us"
+
       ]
     },
   
@@ -28,16 +29,17 @@
   
     "form#contact-us": {
       "props": {
-        "entity": "contact",
-        "schema": "site-contact"
+        "entity": "ic4",
+        "schema": "ic4faleconosco"
       },
       "blocks": [
         "form-success#contact-us"
       ],
       "children": [
-        "form-input.text#title",
         "form-input.text#name",
         "form-input.text#email",
+        "form-input.text#phone",
+        "form-input.dropdown#subject",
         "form-input.textarea#message",
         "form-submit#contact"
       ]
@@ -50,7 +52,7 @@
     },
     "rich-text#success-submit": {
       "props": {
-        "text": "Thanks for reaching out! We will come back shortly.",
+        "text": "Obrigado por entrar em contato!",
         "textAlignment": "CENTER",
         "textPosition": "CENTER"
       }
@@ -76,7 +78,16 @@
         "pointer": "#/properties/message"
       }
     },
-  
+    "form-input.text#phone": {
+      "props": {
+        "pointer": "#/properties/telephone"
+      }
+    },
+    "form-input.dropdown#subject": {
+      "props": {
+        "pointer": "#/properties/subject"
+    }
+    },
     "form-submit#contact": {
       "props": {
         "label": "Submit"
