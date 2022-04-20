@@ -1,7 +1,8 @@
 {
   "search-result-layout.desktop": {
     "children": [
-      "flex-layout.row#searchbread#search",
+      "flex-layout.row#searchbread",
+      "flex-layout.row#search-banner",
       "flex-layout.row#searchtitle",
       "flex-layout.row#result"
     ],
@@ -11,11 +12,12 @@
       "defaultGalleryLayout": "grid"
     }
   },
-    "flex-layout.row#searchbread#search": {
+    "flex-layout.row#searchbread": {
       "children": [
         "breadcrumb.search"
       ],
       "props": {
+        "blockClass": "",
         "preserveLayoutOnMobile": true,
         "fullWidth": true
       }
@@ -117,5 +119,24 @@
       "gallery",
       "not-found"
     ]
+  },
+  "flex-layout.row#search-banner":{
+    "props":{
+        "blockClass":"row-search-banner",
+        "fullWidth":true,
+        "preserveLayoutOnMobile": true,
+        "preventHorizontalStretch":true,
+        "preventVerticalStretch":true
+    },
+    "children":[
+        "search-banner#one"
+    ]
+},
+"search-banner#one": {
+    "props": {
+      "area": "one",
+      "blockClass": "banner-departament",
+      "horizontalAlignment": "center"
+    }
   }
 }

@@ -64,13 +64,7 @@ letter-spacing: 0px;
 color: #441AFA;
 text-transform: uppercase;
 }
-.searchResultContainer{
-    max-width: 1252px;
-  
-}
-.filter__container{
-  
-}
+
 .filterMessage{
     text-align: left;
     font: normal normal bold 14px/19px arial;
@@ -241,4 +235,23 @@ opacity: 1;
 .searchResultContainer{
     width: 100%;
 }
+}
+.searchBanner--banner-departament {
+    width: 1920px;
+    height: 370px;
+    display: flex;
+    margin-left: -340px;
+}
+
+
+.searchBanner--banner-departament :first-child {
+    height: 150%;
+    object-fit: fill;
+}
+
+@media (min-width:1024px) {
+    .searchBanner--banner-departament :first-child {
+        height: 150%;
+        object-fit: none;
+    }
 }

@@ -4,13 +4,14 @@
         "flex-layout.row#contact-us"
       ]
     },
-  
+   
     "flex-layout.row#contact-us": {
       "props": {
         "blockClass": "contact"
       },
       "children": [
-          "flex-layout.col#contact-us"
+          "flex-layout.col#contact-us",
+          "flex-layout.col#box-contact"
 
       ]
     },
@@ -23,6 +24,7 @@
     },
     "rich-text#contact-us": {
       "props": {
+        "blockClass":["contact-us"],
         "text": "## Contact Us"
       }
     },
@@ -47,6 +49,7 @@
   
     "form-success#contact-us": {
       "children": [
+        
         "rich-text#success-submit"
       ]
     },
@@ -64,7 +67,7 @@
       }
     },
     "form-input.text#name": {
-      "props": {
+      "props": {      
         "pointer": "#/properties/name"
       }
     },
@@ -90,7 +93,34 @@
     },
     "form-submit#contact": {
       "props": {
-        "label": "Submit"
+        "label": "Enviar"
+      }
+    },
+    "flex-layout.col#box-contact":{
+      "props": {
+        "width":"404",
+        "blockClass":["box-contact"]
+      },
+      "children": ["rich-text#contactfaleconosco","rich-text#contactnumberfixed","rich-text#contactnumberphone","rich-text#contacthorariofuncionamento"]
+    },
+    "rich-text#contactfaleconosco":{
+      "props": {
+        "text": "FALE CONOSCO"
+      }
+    },
+    "rich-text#contactnumberfixed":{
+      "props": {
+        "text": "(XX) XXXX XXXX"
+      }
+    },
+    "rich-text#contactnumberphone":{
+      "props": {
+        "text": "(XX) XXXX XXXX"
+      }
+    },
+    "rich-text#contacthorariofuncionamento":{
+      "props": {
+        "text": "Segunda a Sábado 08h às 20h E-mail: sac@avanti.com.br"
       }
     }
-  }
+    }
