@@ -92,3 +92,23 @@ opacity: 1;
     padding-right: 1.5em;
   }
 }
+
+.flexRowContent--searchbread{
+  max-width: 1252px;
+  margin: 0 auto;
+  margin-top: 0px;
+}
+.flexRowContent--SearchTitle{
+  max-width: 1252px; 
+  margin: 0 auto;
+}
+.flexRow--Searchresult{
+  justify-content: center;
+  display: flex;
+ 
+}
+.flexRowContent--Searchresult{
+    max-width: 1252px;
+    display: flex;
+    justify-content: center;
+}

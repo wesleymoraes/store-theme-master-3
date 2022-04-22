@@ -4,9 +4,16 @@
 .summaryContainer{
     border-radius: 0;
     padding-top: 13px;
-}
+} 
+@media (min-width: 114px){
+    .flexRow--quantity-add-cart-button{
+        width: 100%;
 
+    }
+    
+}
 .quantitySelectorStepper :global(.vtex-numeric-stepper-container){
+    width: 100%;
     margin-bottom: 0;
     display: flex;
     justify-content: center;

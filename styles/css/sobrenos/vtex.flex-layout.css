@@ -96,7 +96,10 @@ opacity: 1;
 
 
 .flexRowContent--row-search-banner :global(.vtex-search-2-x-searchBanner--banner-departament){
-    width: 150% !important;
+    margin-top: -15px;
+   width: 1920px;
+   margin-left: -204px;
+
 }
 .flexRowContent--row-search-banner :global(.vtex-search-2-x-searchBanner--banner-departament) :first-child{
     width: 100%;

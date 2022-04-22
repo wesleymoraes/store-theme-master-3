@@ -1,8 +1,8 @@
 {
   "search-result-layout.desktop": {
     "children": [
-      "flex-layout.row#searchbread",
       "flex-layout.row#search-banner",
+      "flex-layout.row#searchbread",
       "flex-layout.row#searchtitle",
       "flex-layout.row#result"
     ],
@@ -12,17 +12,20 @@
       "defaultGalleryLayout": "grid"
     }
   },
-    "flex-layout.row#searchbread": {
-      "children": [
-        "breadcrumb.search"
-      ],
-      "props": {
-        "blockClass": "",
-        "preserveLayoutOnMobile": true,
-        "fullWidth": true
-      }
-    },
+  "flex-layout.row#searchbread": {
+    "children": [
+      "breadcrumb.search"
+    ],
+    "props": {
+      "blockClass": "searchbread",
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
   "flex-layout.row#searchtitle": {
+    "props": {
+      "blockClass": "SearchTitle"
+    },
     "children": [
       "search-title.v2"
     ]
@@ -33,6 +36,7 @@
       "flex-layout.col#content"
     ],
     "props": {
+      "blockClass": "Searchresult",
       "preventHorizontalStretch": true,
       "fullWidth": true
     }
@@ -120,19 +124,19 @@
       "not-found"
     ]
   },
-  "flex-layout.row#search-banner":{
-    "props":{
-        "blockClass":"row-search-banner",
-        "fullWidth":true,
-        "preserveLayoutOnMobile": true,
-        "preventHorizontalStretch":true,
-        "preventVerticalStretch":true
+  "flex-layout.row#search-banner": {
+    "props": {
+      "blockClass": "row-search-banner",
+      "fullWidth": true,
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true
     },
-    "children":[
-        "search-banner#one"
+    "children": [
+      "search-banner#one"
     ]
-},
-"search-banner#one": {
+  },
+  "search-banner#one": {
     "props": {
       "area": "one",
       "blockClass": "banner-departament",

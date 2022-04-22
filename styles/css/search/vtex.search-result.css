@@ -236,22 +236,10 @@ opacity: 1;
     width: 100%;
 }
 }
-.searchBanner--banner-departament {
+.searchBanner--banner-departament{
     width: 1920px;
+    margin-left: -205px;
     height: 370px;
     display: flex;
-    margin-left: -340px;
-}
-
-
-.searchBanner--banner-departament :first-child {
-    height: 150%;
-    object-fit: fill;
-}
-
-@media (min-width:1024px) {
-    .searchBanner--banner-departament :first-child {
-        height: 150%;
-        object-fit: none;
-    }
+   
 }
