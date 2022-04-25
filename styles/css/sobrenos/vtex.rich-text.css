@@ -8,7 +8,7 @@ opacity: 1;
 }
 .wrapper--sbntitulo{
     text-align: left;
-    font: normal normal bold 24px/33px arial;
+    font: normal normal bold 21.5px/29px arial;
     letter-spacing: 2.4px;
     color: #441AFA;
     text-transform: uppercase;
@@ -49,4 +49,71 @@ letter-spacing: 2.4px;
 color: #441AFA;
 text-transform: uppercase;
 opacity: 1;
+}
+.strong--ContactFaleConosco{
+    margin-top: 0px;
+    margin-left: 31px;
+    text-align: left;
+font: normal normal bold 11px/15px arial;
+letter-spacing: 1.1px;
+color: #25282A;
+text-transform: uppercase;
+opacity: 1;
+}
+.paragraph--ContactFaleConosco{
+    margin-top: 23px;
+}
+.paragraph--ContactNumberPhone{
+    margin-top: 10px;
+text-align: left;
+font: normal normal bold 19px/23px arial;
+letter-spacing: 0px;
+color: #441AFA;
+opacity: 1;
+}
+.wrapper--ContactNumberPhone {
+    margin-top: -15px;
+    margin-left: 31px;
+text-align: left;
+font: normal normal bold 19px/23px arial;
+letter-spacing: 0px;
+color: #441AFA;
+opacity: 1;
+}
+.paragraph--ContactNumberPhoneFixed{
+    margin-top: -15px;
+    margin-left: 31px;
+text-align: left;
+font: normal normal bold 19px/23px arial;
+letter-spacing: 0px;
+color: #441AFA;
+opacity: 1;
+}
+.wrapper--ContactHorarioFuncionamento   {
+    margin-bottom: 33px;
+    margin-top: -18px;
+    margin-left: 31px;
+    text-align: left;
+    font: normal normal normal 11px/15px arial;
+    letter-spacing: 0px;
+    color: #25282A;
+    opacity: 1;
+    text-decoration: none;
+}
+.headingLevel2--contact-us{
+    margin-top: 87px;
+    width: 508px;
+text-align: left;
+font: normal normal bold 21.5px/29px arial;
+letter-spacing: 2.4px;
+color: #441AFA;
+text-transform: uppercase;
+opacity: 1;
+
+}
+.container--text-breadcrumb{
+    max-width: 1252px;
+}
+.paragraph--breadcrumb-icon{
+    color: #B1B3B3;
 }

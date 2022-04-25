@@ -10,3 +10,12 @@ opacity: 1;
 .link--sbnmenulink{
     text-decoration: none;
 }
+.link--contactmenulink{
+    text-decoration: none;
+    text-align: left;
+font: normal normal normal 12px/17px arial;
+letter-spacing: 0px;
+color: #25282A;
+opacity: 1;
+height: 50%;
+}

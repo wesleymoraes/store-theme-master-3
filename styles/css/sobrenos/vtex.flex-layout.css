@@ -1,8 +1,14 @@
 .flexRow--About-us{
     display: flex;
     justify-content: center;
+    max-width: 1252px;
 }
-
+.flexColChild--Col-SobreNos-Institucional{
+    padding-bottom: 4px;
+}
+.flexColChild--sbnColPrecisaDeAjuda{
+    padding-bottom: 4px;
+}
 .flexRowContent--About-us{
     display: flex;
     justify-content: center;
@@ -86,11 +92,12 @@ height: 40px;
 opacity: 1;
 }
 .flexCol--box-contact{
+    margin-left: -170px;
 
-    margin-left: 70px;
-    margin-top: 115px;
+    margin-top: 124px;
     width: 404px;
     height: 208px;
+    background-color: #EEEEEE;
 }
 
 
@@ -104,4 +111,36 @@ opacity: 1;
 .flexRowContent--row-search-banner :global(.vtex-search-2-x-searchBanner--banner-departament) :first-child{
     width: 100%;
 
+}
+.flexRowContent--contact{
+    max-width: 1252px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.flexCol--Contact-About-us-esquerda{
+    margin-top: 57px;
+}
+.flexCol--FormContactUs{
+    width: 404px;
+    margin-left: -349px
+}
+.flexColChild--FormContactUs :global(.vtex-input-prefix__group){
+    width: 404px;
+height: 40px;
+}
+.flexColChild--contactColPrecisaDeAjuda{
+    padding-bottom: 4px;
+}
+.flexCol--contactColPrecisaDeAjuda{
+    height: 50%;
+
+}
+
+.flexRow--contact{
+    margin-top: -60px;
+}
+.flexRow--About-us{
+
+    margin-top: -60px;
 }

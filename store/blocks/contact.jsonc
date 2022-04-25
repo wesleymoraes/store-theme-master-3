@@ -1,6 +1,7 @@
 {
     "store.custom#contact-us": {
       "children": [
+        "flex-layout.row#breadcrumb-inst",
         "flex-layout.row#contact-us"
       ]
     },
@@ -10,13 +11,179 @@
         "blockClass": "contact"
       },
       "children": [
+        "flex-layout.col#Contact-About-us-esquerda",
           "flex-layout.col#contact-us",
           "flex-layout.col#box-contact"
 
       ]
     },
+    "flex-layout.row#breadcrumb-inst": {
+      "props": {
+        "blockClass": ["breadcrumb-row", "grid-1252"]
+      },
+      "children":  ["rich-text#breadcrumb"]
+    },
   
+    "rich-text#breadcrumb":{
+      "props":{
+          "blockClass":["text-breadcrumb","grid1252"],
+          "text":"<span class='vtex-rich-text-0-x-container-breadcrumb'><span class='vtex-rich-text-0-x-paragraph--breadcrumb-icon'>[![home](https://vollo.vtexassets.com/assets/vtex/assets-builder/vollo.store-theme/4.5.47/svgs/home-icon___940494d37c8bcada3b7242a7b1ce3604.svg) ](/)</span><span class='vtex-rich-text-0-x-paragraph--breadcrumb-icon'>![arrow](https://vollo.vtexassets.com/assets/vtex/assets-builder/vollo.store-theme/4.5.47/svgs/arrow-right-gray___f39e9ef7f20ca3e0de53a8454e5facef.svg)</span><span class='vtex-rich-text-0-x-paragraph--breadcrumb-icon'>contact-us</span></span>"
+      }
+  },
+    "flex-layout.col#Contact-About-us-esquerda":{
+      "props": {
+        "blockClass":["Contact-About-us-esquerda"]
+      },
+      "children":[
+        "flex-layout.col#ContactInstitucional",
+        "flex-layout.col#contactPrecisaDeAjuda"
+      ]
+  },
+  "flex-layout.col#ContactInstitucional":{
+    "props": {
+      "blockClass":["Col-SobreNos-Institucional"]
+    },
+  "children": [
+    "rich-text#SobreNosInstitucional",
+    "link#contactAmarca",
+    "link#contactSobreNós",
+    "link#contactSejaUmRepresentante",
+    "link#contactSejaUmRevendedor",
+    "link#contactVendasCorporativas",
+    "link#contactCatalogo"
+  ]
+},
+  "rich-text#contactSobreNosInstitucional":{
+    "props": {
+      "blockClass":["contactcoltitulo"],
+      "text": "Institucional"
+    }
+  },
+  "link#contactAmarca": {
+    "props": {
+      "blockClass": ["contactmenulink"],
+      "href": "https://ic4wesley--avantivtexio.myvtex.com/",
+      "label": "A Marca"
+    }
+  },
+  "link#contactSobreNós": {
+    "props": {
+      "blockClass": ["contactmenulink"],
+      "href": "https://ic4wesley--avantivtexio.myvtex.com/about-us",
+      "label": "Sobre Nós"
+    }
+  },
+  "link#contactSejaUmRepresentante": {
+    "props": {
+      "blockClass": ["contactmenulink"],
+      "href": "https://ic4wesley--avantivtexio.myvtex.com/contact-us",
+      "label": "Seja um Representante"
+    }
+  },
+ 
+  "link#contactSejaUmRevendedor": {
+    "props": {
+      "blockClass": ["contactmenulink"],
+      "href": "/home",
+      "label": "Seja um Revendedor"
+    }
+  },
+  "link#contactVendasCorporativas": {
+    "props": {
+      "blockClass": ["contactmenulink"],
+      "href": "/home",
+      "label": "Vendas Corportivas"
+    }
+  },
+  "link#contactCatalogo":{
+    "props": {
+      "blockClass": ["contactmenulink"],
+      "href":"/home",
+      "label": "Catálogo"
+    }
+  },
+  "flex-layout.col#contactPrecisaDeAjuda":{
+    "props": {
+      "blockClass":["contactColPrecisaDeAjuda"]
+    },
+    "children": [
+      "rich-text#contactPrecisaDeAjuda",
+      "link#contactFormasDePagamento",
+      "link#contactFreteEPrazoDeEntrega",
+      "link#contactPoliticaDePrivacidade",
+      "link#contactGarantia",
+      "link#contactTermosECondicoesDeUso",
+      "link#contactMapaDoSite",
+      "link#contactCupomDeDesconto",
+      "link#contactManuaisDeProdutos"
+    ]
+  },
+  "rich-text#contactPrecisaDeAjuda": {
+    "props": {
+      "blockClass":["sbncoltitulo"],
+      "text": "Precisa De Ajuda?"
+    }
+  },
+  "link#contactFormasDePagamento":{
+    "props": {
+      "blockClass": ["contactmenulink"],
+      "href": "/home",
+      "label": "Formas De Pagamento"
+    }
+  },
+  "link#contactFreteEPrazoDeEntrega":{
+    "props": {
+      "blockClass": ["contactmenulink"],
+      "href": "/home",
+      "label": "Frete e Prazo de Entrega"
+    }
+  },
+  "link#contactPoliticaDePrivacidade":{
+    "props": {
+      "blockClass": ["contactmenulink"],
+     "href": "/home",
+      "label": "Politica De Privacidade"
+    }
+  },
+  "link#contactGarantia":{
+    "props": {
+      "blockClass": ["contactmenulink"],
+     "href": "",
+      "label": "Garantia"
+    }
+  },
+  "link#contactTermosECondicoesDeUso":{
+    "props": {
+      "blockClass": ["contactmenulink"],
+     "href": "/home",
+      "label": "Termos e Condições de Uso"
+    }
+  },
+  "link#contactMapaDoSite":{
+    "props": {
+      "blockClass": ["contactmenulink"],
+      "href": "/home",
+      "label": "Mapa do Site"
+    }
+  },
+  "link#contactCupomDeDesconto":{
+    "props": {
+      "blockClass": ["contactmenulink"],
+      "href": "/home",
+      "label": "Cupom de Desconto"
+    }
+  },
+  "link#contactManuaisDeProdutos":{
+    "props": {
+      "blockClass": ["contactmenulink"],
+      "href": "/home",
+      "label": "Manuais de Produtos"
+    }
+  },
     "flex-layout.col#contact-us": {
+      "props": {
+      "blockClass":["FormContactUs"]
+      },
       "children": [
         "rich-text#contact-us",
         "form#contact-us"
@@ -25,7 +192,7 @@
     "rich-text#contact-us": {
       "props": {
         "blockClass":["contact-us"],
-        "text": "## Contact Us"
+        "text": "## CENTRAL DE ATENDIMENTO"
       }
     },
   
@@ -62,7 +229,7 @@
     },
   
     "form-input.text#title": {
-      "props": {
+      "props": {  
         "pointer": "#/properties/title"
       }
     },
@@ -98,29 +265,32 @@
     },
     "flex-layout.col#box-contact":{
       "props": {
-        "width":"404",
         "blockClass":["box-contact"]
       },
-      "children": ["rich-text#contactfaleconosco","rich-text#contactnumberfixed","rich-text#contactnumberphone","rich-text#contacthorariofuncionamento"]
+      "children": ["rich-text#contactfaleconosco","rich-text#contactnumberphone", "rich-text#contactnumberphonefixed","rich-text#contacthorariofuncionamento"]
     },
     "rich-text#contactfaleconosco":{
       "props": {
-        "text": "FALE CONOSCO"
-      }
-    },
-    "rich-text#contactnumberfixed":{
-      "props": {
-        "text": "(XX) XXXX XXXX"
+        "blockClass":["ContactFaleConosco"],
+        "text": "**FALE CONOSCO**"
       }
     },
     "rich-text#contactnumberphone":{
       "props": {
+        "blockClass":["ContactNumberPhone"],
         "text": "(XX) XXXX XXXX"
+      }
+    },
+    "rich-text#contactnumberphonefixed":{
+      "props": {
+        "blockClass":["ContactNumberPhoneFixed"],
+        "text": "(XX) XXXX XXXX "
       }
     },
     "rich-text#contacthorariofuncionamento":{
       "props": {
-        "text": "Segunda a Sábado 08h às 20h E-mail: sac@avanti.com.br"
+        "blockClass":["ContactHorarioFuncionamento"],
+        "text": "Segunda a Sábado \n 08h às 20h \n E-mail: sac@avanti.com.br"
       }
     }
     }

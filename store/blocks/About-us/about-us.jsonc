@@ -7,10 +7,24 @@
     },
     "responsive-layout.desktop#About-us":{
       "children":[
+        "flex-layout.row#breadcrumb-about-us",
         "flex-layout.row#searchbread",
         "flex-layout.row#searchbread-about-us",
         "flex-layout.row#wrapper-about-us"]
     },
+    "flex-layout.row#breadcrumb-about-us": {
+      "props": {
+        "blockClass": ["breadcrumb-row", "grid-1252"]
+      },
+      "children":  ["rich-text#breadcrumb-about-us"]
+    },
+  
+    "rich-text#breadcrumb-about-us":{
+      "props":{
+          "blockClass":["text-breadcrumb","grid1252"],
+          "text":"<span class='vtex-rich-text-0-x-container-breadcrumb'><span class='vtex-rich-text-0-x-paragraph--breadcrumb-icon'>[![home](https://vollo.vtexassets.com/assets/vtex/assets-builder/vollo.store-theme/4.5.47/svgs/home-icon___940494d37c8bcada3b7242a7b1ce3604.svg) ](/)</span><span class='vtex-rich-text-0-x-paragraph--breadcrumb-icon'>![arrow](https://vollo.vtexassets.com/assets/vtex/assets-builder/vollo.store-theme/4.5.47/svgs/arrow-right-gray___f39e9ef7f20ca3e0de53a8454e5facef.svg)</span><span class='vtex-rich-text-0-x-paragraph--breadcrumb-icon'>About-us</span></span>"
+      }
+  },
 
     "flex-layout.row#searchbread": {
       "children": ["breadcrumb#about-us"]
@@ -63,9 +77,6 @@
       }
     },
     "flex-layout.col#About-us-esquerda":{
-      "props": {
-        "width":"30%"
-        },
         "children":[
           "flex-layout.col#sbnInstitucional",
           "flex-layout.col#sbnPrecisaDeAjuda"
@@ -94,21 +105,21 @@
     "link#sbnAmarca": {
       "props": {
         "blockClass": ["sbnmenulink"],
-        "href": "/home",
+        "href": "https://ic4wesley--avantivtexio.myvtex.com/",
         "label": "A Marca"
       }
     },
     "link#sbnSobreNós": {
       "props": {
         "blockClass": ["sbnmenulink"],
-        "href": "/home",
+        "href": "https://ic4wesley--avantivtexio.myvtex.com/about-us",
         "label": "Sobre Nós"
       }
     },
     "link#sbnSejaUmRepresentante": {
       "props": {
         "blockClass": ["sbnmenulink"],
-        "href": "/home",
+        "href": "https://ic4wesley--avantivtexio.myvtex.com/contact-us",
         "label": "Seja um Representante"
       }
     },
