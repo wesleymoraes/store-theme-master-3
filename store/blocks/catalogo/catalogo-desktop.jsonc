@@ -1,0 +1,98 @@
+{
+"responsive-layout.desktop#catalogo":{
+  
+   "children":[
+    "flex-layout.row#breadcrumb-catalogo",
+    "flex-layout.row#main-catalogo"
+]
+   
+},
+"flex-layout.row#main-catalogo":{
+    "props":{
+        "blockClass":["catalogo-main"]
+        },
+
+    "children": [
+        "flex-layout.col#col-menu-catalogo",
+        "flex-layout.col#col-conteudo-catalogo"
+      
+        ]
+},
+"flex-layout.col#col-menu-catalogo":{
+    "props":{
+        "blockClass":["catalogo-main"]
+        },
+    "children": [
+        "flex-layout.col#ContactInstitucional",
+        "flex-layout.col#contactPrecisaDeAjuda"
+    ]
+
+},
+"flex-layout.col#col-conteudo-catalogo":{
+    "props":{
+        "blockClass":["conteudo-catalogo-main"]
+        },
+    "children": [
+        "flex-layout.row#titulocatalogo",
+        "flex-layout.row#subtitulocatalogo",
+        "flex-layout.row#image-catalogo"  ]
+    
+},
+
+
+
+      
+"flex-layout.row#breadcrumb-catalogo":{
+"props": {
+    "blockClass": ["breadcrumb-row", "grid-1252"]
+  },
+  "children":  ["rich-text#breadcrumb-catalogo"]
+},
+
+"rich-text#breadcrumb-catalogo":{
+  "props":{
+      "blockClass":["text-breadcrumb","grid1252"],
+      "text":"<span class='vtex-rich-text-0-x-container-breadcrumb'><span class='vtex-rich-text-0-x-paragraph--breadcrumb-icon'>[![home](https://vollo.vtexassets.com/assets/vtex/assets-builder/vollo.store-theme/4.5.47/svgs/home-icon___940494d37c8bcada3b7242a7b1ce3604.svg) ](/)</span><span class='vtex-rich-text-0-x-paragraph--breadcrumb-icon'>![arrow](https://vollo.vtexassets.com/assets/vtex/assets-builder/vollo.store-theme/4.5.47/svgs/arrow-right-gray___f39e9ef7f20ca3e0de53a8454e5facef.svg)</span><span class='vtex-rich-text-0-x-paragraph--breadcrumb-icon'>About-us</span></span>"
+    }
+},
+"flex-layout.row#titulocatalogo":{
+    "props":{
+        "blockClass":["catalogo-main"]
+        },
+    "children": ["rich-text#CatalogoDigital"]
+},
+"rich-text#CatalogoDigital":{
+    "props": {
+        "blockClass":["titulo-catalogo"],
+        "text": "CATALOGO DIGITAL"
+    }
+},
+"flex-layout.row#subtitulocatalogo":{
+    "props":{
+        "blockClass":["catalogo-main"]
+        },
+    "children": [
+        "rich-text#subtitulocatalogodigital"
+    ]
+
+},
+"rich-text#subtitulocatalogodigital":{
+    "props": {
+        "blockClass":["subtitulocatalogo"],
+        "text": "A Vollo apresenta sua linha de produtos na forma de catálogo.\n \n Para acessar, clique nas imagens abaixo."
+    }
+},
+"flex-layout.row#image-catalogo": {
+    "props": {
+        "blockClass": "catalogo-image"
+    },
+    "children": ["image#catalogo"]
+},
+"image#catalogo": {
+    "props": {
+     "blockClass":["catalogo-image"],
+      "src": "https://cdn.discordapp.com/attachments/947865016953110529/948057250663104573/people.png"
+      
+    }
+  }
+}

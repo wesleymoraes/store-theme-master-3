@@ -1,0 +1,40 @@
+{
+    "responsive-layout.mobile#catalogo":{
+        "props":{   
+        },
+        "children":[ 
+            "flex-layout.row#About-Us-Menu-mobile",
+            "flex-layout.row#CatalogoConteudoMobile"]
+    },
+    "flex-layout.row#CatalogoConteudoMobile":{
+        "props": {
+            "blockClass": "CatalogoConteudoMobile"
+        },
+        "children": [
+            "rich-text#TituloCatalogoMobile",
+            "rich-text#SubTituloCatalogoMobile",
+            "image#CatalogoMobile"
+        ]
+    },
+    "rich-text#TituloCatalogoMobile":{
+        "props": {
+            "blockClass":["TituloCatalogoMobile"],
+            "text": "CATALOGO DIGITAL"
+        }
+    },
+    "rich-text#SubTituloCatalogoMobile":{
+        "props": {
+            "blockClass":["SubTituloCatalogoMobile"],
+            "text": "A Vollo apresenta sua linha de produtos na forma de catálogo. \n Para acessar, clique nas imagens abaixo."
+        }
+    },
+    "image#CatalogoMobile": {
+      "props": {
+          "blockClass":["ImageCatalogoMobile"],
+        "src": "https://cdn.discordapp.com/attachments/947865016953110529/948057250663104573/people.png"
+        
+      }
+    }
+
+
+}

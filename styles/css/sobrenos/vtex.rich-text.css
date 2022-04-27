@@ -117,3 +117,37 @@ opacity: 1;
 .paragraph--breadcrumb-icon{
     color: #B1B3B3;
 }
+.wrapper--titulo-catalogo{
+    text-align: left;
+font: normal normal bold 24px/33px arial;
+letter-spacing: 2.4px;
+color: #441AFA;
+text-transform: uppercase;
+opacity: 1;
+}
+.wrapper--subtitulocatalogo{
+    text-align: left;
+font: normal normal normal 14px/19px arial;
+letter-spacing: 0px;
+color: #8C8F90;
+opacity: 1;
+}
+.wrapper--TituloCatalogoMobile{
+    margin: auto;
+text-align: left;
+font: normal normal bold 24px/33px arial;
+letter-spacing: 2.4px;
+color: #441AFA;
+text-transform: uppercase;
+opacity: 1;
+}
+.wrapper--SubTituloCatalogoMobile{
+    display: flex;
+    margin: auto;
+    justify-content: flex-start;
+    text-align: left;
+font: normal normal normal 14px/19px arial;
+letter-spacing: 0px;
+color: #8C8F90;
+opacity: 1;
+}   

@@ -144,3 +144,13 @@ height: 40px;
 
     margin-top: -60px;
 }
+.flexRow--catalogo-main{
+    max-width: 1252px;
+    margin: auto;
+}
+.flexCol--conteudo-catalogo-main{
+    margin-left: -599px;
+}
+.flexRowContent--catalogo-image{
+    margin-left: -105px;
+}

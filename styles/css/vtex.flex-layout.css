@@ -106,3 +106,11 @@
 .flexRow--quantity-add-cart-button{
   width: 100%;
 }
+.flexRow--Menu-About-us-Mobile{
+  max-width: 414px;
+  display: flex;
+  justify-content: flex-start;
+}
+.flexRowContent--CatalogoConteudoMobile{
+  max-width: 414px;
+}
