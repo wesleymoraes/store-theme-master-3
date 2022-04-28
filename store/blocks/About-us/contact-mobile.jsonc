@@ -1,0 +1,144 @@
+{
+    "responsive-layout.mobile#contact-us":{
+        "children":[
+            "flex-layout.row#ContactUsMobile"
+        ]
+    },
+    "flex-layout.row#ContactUsMobile":{
+        "props": {
+            "blockClass": "MainContactUsMobile"
+        },
+        "children": [
+            "flex-layout.row#BreadcrumbContactUsMobile",
+            "flex-layout.row#About-Us-Menu-mobile",
+            "flex-layout.row#ConteudoContactMobile",
+            "flex-layout.row#box-contact-mobile"
+        ]
+    },
+    "flex-layout.row#BreadcrumbContactUsMobile": {
+        "props": {
+          "blockClass": ["breadcrumb-row", "grid-1252"]
+        },
+        "children":  ["rich-text#BreadcrumbContactUsMobile"]
+      },
+    
+      "rich-text#BreadcrumbContactUsMobile":{
+        "props":{
+            "blockClass":["text-breadcrumb","grid1252"],
+            "text":"<span class='vtex-rich-text-0-x-container-breadcrumb'><span class='vtex-rich-text-0-x-paragraph--breadcrumb-icon'>[![home](https://vollo.vtexassets.com/assets/vtex/assets-builder/vollo.store-theme/4.5.47/svgs/home-icon___940494d37c8bcada3b7242a7b1ce3604.svg) ](/)</span><span class='vtex-rich-text-0-x-paragraph--breadcrumb-icon'>![arrow](https://vollo.vtexassets.com/assets/vtex/assets-builder/vollo.store-theme/4.5.47/svgs/arrow-right-gray___f39e9ef7f20ca3e0de53a8454e5facef.svg)</span><span class='vtex-rich-text-0-x-paragraph--breadcrumb-icon'>Contact-Us</span></span>"
+        }
+    },
+    "flex-layout.row#ConteudoContactMobile":{
+        "props": {
+            "blockClass": "ConteudoContactMobile"
+        },
+        "children": [
+            "rich-text#contact-us",
+            "form#contact-us-mobile"
+        ]
+    },
+    "rich-text#contact-us": {
+        "props": {
+          "blockClass":["contact-us"],
+          "text": "## CENTRAL DE ATENDIMENTO"
+        }
+      },
+    
+      "form#contact-us-mobile": {
+        "props": {
+          "entity": "ic4",
+          "schema": "ic4faleconosco"
+        },
+        "blocks": [
+          "form-success#contact-us-mobile"
+        ],
+        "children": [
+          "form-input.text#namemobile",
+          "form-input.text#emailmobile",
+          "form-input.text#phonemobile",
+          "form-input.dropdown#subjectmobile",
+          "form-input.textarea#messagemobile",
+          "form-submit#contactmobile"
+        ]
+      },
+    
+      "form-success#contact-us-mobile": {
+        "children": [
+          
+          "rich-text#success-submit"
+        ]
+      },
+      "rich-text#success-submit": {
+        "props": {
+          "text": "Obrigado por entrar em contato!",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER"
+        }
+      },
+    
+      "form-input.text#titlemobile": {
+        "props": {  
+          "pointer": "#/properties/title"
+        }
+      },
+      "form-input.text#namemobile": {
+        "props": {      
+          "pointer": "#/properties/name"
+        }
+      },
+      "form-input.text#emailmobile": {
+        "props": {
+          "pointer": "#/properties/email"
+        }
+      },
+      "form-input.textarea#messagemobile": {
+        "props": {
+          "pointer": "#/properties/message"
+        }
+      },
+      "form-input.text#phonemobile": {
+        "props": {
+          "pointer": "#/properties/telephone"
+        }
+      },
+      "form-input.dropdown#subjectmobile": {
+        "props": {
+          "pointer": "#/properties/subject"
+      }
+      },
+      "form-submit#contactmobile": {
+        "props": {
+          "label": "Enviar"
+        }
+      },
+      "flex-layout.row#box-contact-mobile":{
+        "props": {
+          "blockClass":["box-contact-mobile"]
+        },
+        "children": ["rich-text#contactfaleconoscomobile","rich-text#contactnumberphonemobile", "rich-text#contactnumberphonefixedmobile","rich-text#contacthorariofuncionamentomobile"]
+      },
+      "rich-text#contactfaleconoscomobile":{
+        "props": {
+          "blockClass":["ContactFaleConoscoMobile"],
+          "text": "**FALE CONOSCO**"
+        }
+      },
+      "rich-text#contactnumberphonemobile":{
+        "props": {
+          "blockClass":["ContactNumberPhoneMobile"],
+          "text": "(XX) XXXX XXXX"
+        }
+      },
+      "rich-text#contactnumberphonefixedmobile":{
+        "props": {
+          "blockClass":["ContactNumberPhoneFixedMobile"],
+          "text": "(XX) XXXX XXXX "
+        }
+      },
+      "rich-text#contacthorariofuncionamentomobile":{
+        "props": {
+          "blockClass":["ContactHorarioFuncionamentoMobile"],
+          "text": "Segunda a Sábado \n 08h às 20h \n E-mail: sac@avanti.com.br"
+        }
+      }
+}

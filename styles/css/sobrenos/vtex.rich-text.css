@@ -151,3 +151,37 @@ letter-spacing: 0px;
 color: #8C8F90;
 opacity: 1;
 }   
+.paragraph--ContactFaleConoscoMobile{
+    margin-top: 23px;
+    text-align: left;
+font: normal normal bold 11px/15px arial;
+letter-spacing: 1.1px;
+color: #25282A;
+text-transform: uppercase;
+opacity: 1;
+}
+.paragraph--ContactNumberPhoneMobile{
+    margin-top: 10px;
+    text-align: left;
+font: normal normal bold 20px/27px arial;
+letter-spacing: 0px;
+color: #441AFA;
+opacity: 1;
+}
+.paragraph--ContactNumberPhoneFixedMobile{
+margin-top: 0px;
+text-align: left;
+font: normal normal bold 20px/27px arial;
+letter-spacing: 0px;
+color: #441AFA;
+opacity: 1;
+}
+.paragraph--ContactHorarioFuncionamentoMobile{
+    margin-top: -10px;
+    text-decoration: none;
+    text-align: left;
+font: normal normal normal 11px/15px arial;
+letter-spacing: 0px;
+color: #25282A;
+opacity: 1;
+}

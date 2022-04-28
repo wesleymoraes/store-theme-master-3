@@ -147,7 +147,7 @@ opacity: 1;
   }
 .filterApplyButtonWrapper :global(.vtex-button){
     color: white;
-    width: 145px;
+    width: 100px;
 height: 48px;
 border-radius: 0px;
 border: 1px solid blue;
@@ -157,7 +157,7 @@ opacity: 1;
 .filterClearButtonWrapper :global(.vtex-button){
     border-radius: 0px;
     color: black;
-    width: 145px;
+    width: 100px;
 height: 48px;
 border: 1px solid black;
 background: #fefefe 0% 0% no-repeat padding-box;

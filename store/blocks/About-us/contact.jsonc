@@ -1,10 +1,11 @@
 {
-    "store.custom#contact-us": {
-      "children": [
-        "flex-layout.row#breadcrumb-inst",
-        "flex-layout.row#contact-us"
-      ]
-    },
+  "responsive-layout.desktop#contact-us":{
+    "children":[
+      "flex-layout.row#breadcrumb-inst",
+      "flex-layout.row#contact-us"
+      
+    ]
+  },
    
     "flex-layout.row#contact-us": {
       "props": {
@@ -293,4 +294,4 @@
         "text": "Segunda a Sábado \n 08h às 20h \n E-mail: sac@avanti.com.br"
       }
     }
-    }
+  }

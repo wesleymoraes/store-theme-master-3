@@ -1,0 +1,9 @@
+{
+    "store.custom#contact-us": {
+        "children": [
+            "responsive-layout.desktop#contact-us",
+            "responsive-layout.mobile#contact-us"
+         
+        ]
+      }
+}

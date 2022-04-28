@@ -4,7 +4,8 @@
         },
         "children":[ 
             "flex-layout.row#About-Us-Menu-mobile",
-            "flex-layout.row#CatalogoConteudoMobile"]
+            "flex-layout.row#CatalogoConteudoMobile"
+        ]
     },
     "flex-layout.row#CatalogoConteudoMobile":{
         "props": {
